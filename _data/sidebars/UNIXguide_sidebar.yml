@@ -66,7 +66,7 @@ entries:
       url: /UNIXguide-ssh-with-graphical.html
       output: web, pdf
 
-    - title: passwd: Changing your Password
+    - title: passwd - Changing your Password
       url: /UNIXguide-passwd.html
       output: web, pdf
 
@@ -75,7 +75,7 @@ entries:
       output: web, pdf
 
 # Section 3
-  - title: Folders: cd, mkdir, pwd, and more!
+  - title: Folders - cd, mkdir, pwd, and more!
     output: web, pdf
 
     folderitems:
@@ -178,11 +178,11 @@ entries:
       url: /UNIXguide-watch.html
       output: web, pdf
 
-    - title: Cntrl+C: Abort Abort Abort
+    - title: Cntrl+C - Abort Abort Abort
       url: /UNIXguide-cntrl-c.html
       output: web, pdf
 
-    - title: Cntrl+Z: Background Jobs
+    - title: Cntrl+Z - Background Jobs
       url: /UNIXguide-cntrl-z.html
       output: web, pdf
 
@@ -198,7 +198,7 @@ entries:
       url: /UNIXguide-sleep.html
       output: web, pdf
 
-    - title: crontab: a Scheduling Tool
+    - title: crontab - a Scheduling Tool
       url: /UNIXguide-crontab.html
       output: web, pdf
       ## ADD 6.10.1 and 6.10.2
@@ -224,11 +224,11 @@ entries:
       url: /UNIXguide-commenting-out.html
       output: web, pdf
 
-    - title: less: Safe Viewing
+    - title: less - Safe Viewing
       url: /UNIXguide-less.html
       output: web, pdf
 
-    - title: more: Minimalist Safe Viewing
+    - title: more - Minimalist Safe Viewing
       url: /UNIXguide-more.html
       output: web, pdf
 
@@ -245,7 +245,7 @@ entries:
       url: /UNIXguide-echo.html
       output: web, pdf
 
-    - title: > and >>: redirecting output
+    - title: > and >> - redirecting output
       url: /UNIXguide-redirecting-output.html
       output: web, pdf
 
@@ -303,31 +303,31 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: Cntrl+A: Begin Again
+    - title: Cntrl+A - Begin Again
       url: /UNIXguide-cntrl-a.html
       output: web, pdf
 
-    - title: Cntrl+L: CLEAR!
+    - title: Cntrl+L - CLEAR!
       url: /UNIXguide-cntrl-l.html
       output: web, pdf
 
-    - title: Cntrl+R: History's Pal
+    - title: Cntrl+R - History's Pal
       url: /UNIXguide-cntrl-r.html
       output: web, pdf
 
-    - title: Cntrl+U: Clear the Line!
+    - title: Cntrl+U - Clear the Line!
       url: /UNIXguide-cntrl-u.html
       output: web, pdf
 
-    - title: Tab: the Autofill Key
+    - title: Tab - the Autofill Key
       url: /UNIXguide-tab.html
       output: web, pdf
 
-    - title: |: The Pipe
+    - title: | - The Pipe
       url: /UNIXguide-pipe.html
       output: web, pdf
 
-    - title: *: Wildcards
+    - title: * - Wildcards
       url: /UNIXguide-wildcards.html
       output: web, pdf
 
@@ -376,7 +376,7 @@ entries:
       url: /UNIXguide-ln.html
       output: web, pdf
 
-    - title: Aliases: for Efficiency and Laziness
+    - title: Aliases - for Efficiency and Laziness
       url: /UNIXguide-aliases.html
       output: web, pdf
 
@@ -437,7 +437,7 @@ entries:
       url: /UNIXguide-reboot.html
       output: web, pdf
 
-    - title: su: Switch User
+    - title: su - Switch User
       url: /UNIXguide-su.html
       output: web, pdf
 
