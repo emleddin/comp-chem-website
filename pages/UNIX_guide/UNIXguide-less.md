@@ -1,5 +1,5 @@
 ---
-title: less: Safe Viewing
+title: "less: Safe Viewing"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-less.html
 folder: UNIX_guide

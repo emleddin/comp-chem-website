@@ -1,5 +1,5 @@
 ---
-title: Cntrl+R: History's Pal
+title: "Cntrl+R: History's Pal"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-cntrl-r.html
 folder: UNIX_guide

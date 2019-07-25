@@ -1,5 +1,5 @@
 ---
-title: Cntrl+U: Clear the Line!
+title: "Cntrl+U: Clear the Line!"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-cntrl-u.html
 folder: UNIX_guide

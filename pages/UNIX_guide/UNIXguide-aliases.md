@@ -1,5 +1,5 @@
 ---
-title: Aliases: for Efficiency and Laziness
+title: "Aliases: for Efficiency and Laziness"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-aliases.html
 folder: UNIX_guide

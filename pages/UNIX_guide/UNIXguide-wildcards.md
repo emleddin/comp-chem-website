@@ -1,5 +1,5 @@
 ---
-title: *: Wildcards
+title: "*: Wildcards"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-wildcards.html
 folder: UNIX_guide

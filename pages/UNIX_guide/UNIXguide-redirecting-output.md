@@ -1,5 +1,5 @@
 ---
-title: > and >>: redirecting output
+title: "> and >>: redirecting output"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-redirecting-output.html
 folder: UNIX_guide

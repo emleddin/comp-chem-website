@@ -1,5 +1,5 @@
 ---
-title: Cntrl+L: CLEAR!
+title: "Cntrl+L: CLEAR!"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-cntrl-l.html
 folder: UNIX_guide

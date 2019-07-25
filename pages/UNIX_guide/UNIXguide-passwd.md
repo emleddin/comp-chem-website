@@ -1,5 +1,5 @@
 ---
-title: passwd: Changing your Password
+title: "passwd: Changing your Password"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-passwd.html
 folder: UNIX_guide

@@ -198,7 +198,7 @@ entries:
       url: /UNIXguide-sleep.html
       output: web, pdf
 
-    - title: crontab - a Scheduling Tool
+    - title: "crontab: a Scheduling Tool"
       url: /UNIXguide-crontab.html
       output: web, pdf
       ## ADD 6.10.1 and 6.10.2
@@ -323,7 +323,7 @@ entries:
       url: /UNIXguide-tab.html
       output: web, pdf
 
-    - title: "The Pipe"
+    - title: The Pipe
       url: /UNIXguide-pipe.html
       output: web, pdf
 

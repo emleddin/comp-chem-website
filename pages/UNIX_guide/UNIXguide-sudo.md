@@ -1,5 +1,5 @@
 ---
-title: sudo: Administrator Rights and Installations
+title: "sudo: Administrator Rights and Installations"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-sudo.html
 folder: UNIX_guide

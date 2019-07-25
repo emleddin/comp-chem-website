@@ -1,5 +1,5 @@
 ---
-title: Cntrl+A: Begin Again
+title: "Cntrl+A: Begin Again"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-cntrl-a.html
 folder: UNIX_guide

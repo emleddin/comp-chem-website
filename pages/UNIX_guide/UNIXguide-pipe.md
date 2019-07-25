@@ -1,5 +1,5 @@
 ---
-title: |: the Pipe
+title: The Pipe
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-pipe.html
 folder: UNIX_guide

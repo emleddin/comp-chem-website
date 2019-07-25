@@ -1,5 +1,5 @@
 ---
-title: more: Minimalist Safe Viewing
+title: "more: Minimalist Safe Viewing"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-more.html
 folder: UNIX_guide

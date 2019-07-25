@@ -1,5 +1,5 @@
 ---
-title: Cntrl+Z: Background Jobs
+title: "Cntrl+Z: Background Jobs"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-cntrl-z.html
 folder: UNIX_guide

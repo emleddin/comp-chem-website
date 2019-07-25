@@ -1,5 +1,5 @@
 ---
-title: Cntrl+C: Abort Abort Abort
+title: "Cntrl+C: Abort Abort Abort"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-cntrl-c.html
 folder: UNIX_guide
