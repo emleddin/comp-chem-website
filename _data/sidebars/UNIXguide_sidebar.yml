@@ -1,0 +1,500 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and
+# provides the appropriate formatting.
+## Go 2-deep. Further depth will be hyperlinked with markdown on-page.
+
+entries:
+- title: Sidebar
+  product: UNIX Guide
+  version: 0.1
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+# Section 1
+  - title: Getting Started
+    output: web, pdf
+    folderitems:
+    - title: Introduction
+      url: /UNIXguide-introduction.html
+      output: web
+
+    - title: Command Line
+      url: /UNIXguide-command-line.html
+      output: web
+
+    - title: UNIX and Unix-Like File Systems
+      url: /UNIXguide-UNIX-systems.html
+      output: web, pdf
+
+    - title: Shells (bash and csh)
+      url: /UNIXguide-shells.html
+      output: web, pdf
+
+    - title: Environment Variables
+      url: /UNIXguide-environment-variables.html
+      output: web, pdf
+
+    - title: Housekeeping
+      url: /UNIXguide-housekeeping.html
+      output: web, pdf
+
+    - title: Regular Expressions
+      url: /UNIXguide-regular-expressions.html
+      output: web, pdf
+
+# Section 2
+  - title: Connecting to Computers (ssh and VPN)
+    output: web, pdf
+
+    folderitems:
+    - title: ssh
+      url: /UNIXguide-ssh.html
+      output: web, pdf
+
+    - title: ssh with Graphical Forwarding (X11)
+      url: /UNIXguide-ssh-with-graphical.html
+      output: web, pdf
+
+    - title: passwd: Changing your Password
+      url: /UNIXguide-passwd.html
+      output: web, pdf
+
+    - title: exit
+      url: /UNIXguide-exit.html
+      output: web, pdf
+
+# Section 3
+  - title: Folders: cd, mkdir, pwd, and more!
+    output: web, pdf
+
+    folderitems:
+    - title: cd
+      url: /UNIXguide-cd.html
+      output: web, pdf
+
+    - title: mkdir
+      url: /UNIXguide-mkdir.html
+      output: web, pdf
+
+    - title: ls (and an intro to permissions and flags)
+      url: /UNIXguide-ls.html
+      output: web, pdf
+
+    - title: pwd
+      url: /UNIXguide-pwd.html
+      output: web, pdf
+
+    - title: hostname
+      url: /UNIXguide-hostname.html
+      output: web, pdf
+
+    - title: whoami
+      url: /UNIXguide-whoami.html
+      output: web, pdf
+
+    - title: which
+      url: /UNIXguide-which.html
+      output: web, pdf
+
+# Section 4
+  - title: Copying and Removing Files
+    output: web, pdf
+
+    folderitems:
+    - title: mv
+      url: /UNIXguide-mv.html
+      output: web, pdf
+
+    - title: cp
+      url: /UNIXguide-cp.html
+      output: web, pdf
+
+    - title: scp
+      url: /UNIXguide-scp.html
+      output: web, pdf
+
+    - title: rsync
+      url: /UNIXguide-rsync.html
+      output: web, pdf
+
+    - title: sftp
+      url: /UNIXguide-sftp.html
+      output: web, pdf
+
+    - title: rm
+      url: /UNIXguide-rm.html
+      output: web, pdf
+
+# Section 5
+  - title: Compressing and Expanding Files
+    output: web, pdf
+
+    folderitems:
+    - title: gzip and gunzip
+      url: /UNIXguide-gzip.html
+      output: web, pdf
+
+    - title: bzip2 and bunzip2
+      url: /UNIXguide-bzip2.html
+      output: web, pdf
+
+    - title: zip and unzip
+      url: /UNIXguide-zip.html
+      output: web, pdf
+
+    - title: tar
+      url: /UNIXguide-tar.html
+      output: web, pdf
+
+# Section 6
+  - title: Processes
+    output: web, pdf
+
+    folderitems:
+    - title: top
+      url: /UNIXguide-top.html
+      output: web, pdf
+
+    - title: ps
+      url: /UNIXguide-ps.html
+      output: web, pdf
+
+    - title: kill
+      url: /UNIXguide-kill.html
+      output: web, pdf
+
+    - title: watch
+      url: /UNIXguide-watch.html
+      output: web, pdf
+
+    - title: Cntrl+C: Abort Abort Abort
+      url: /UNIXguide-cntrl-c.html
+      output: web, pdf
+
+    - title: Cntrl+Z: Background Jobs
+      url: /UNIXguide-cntrl-z.html
+      output: web, pdf
+
+    - title: nvidia-smi
+      url: /UNIXguide-nvidia-smi.html
+      output: web, pdf
+
+    - title: du
+      url: /UNIXguide-du.html
+      output: web, pdf
+
+    - title: sleep
+      url: /UNIXguide-sleep.html
+      output: web, pdf
+
+    - title: crontab: a Scheduling Tool
+      url: /UNIXguide-crontab.html
+      output: web, pdf
+      ## ADD 6.10.1 and 6.10.2
+
+# Section 7
+  - title: Creating, Reading, and Editing Files
+    output: web, pdf
+
+    folderitems:
+    - title: vi editor
+      url: /UNIXguide-vi.html
+      output: web, pdf
+
+    - title: Searching Files
+      url: /UNIXguide-searching-files.html
+      output: web, pdf
+
+    - title: Search and Replace All
+      url: /UNIXguide-search-and-replace.html
+      output: web, pdf
+
+    - title: Commenting Out
+      url: /UNIXguide-commenting-out.html
+      output: web, pdf
+
+    - title: less: Safe Viewing
+      url: /UNIXguide-less.html
+      output: web, pdf
+
+    - title: more: Minimalist Safe Viewing
+      url: /UNIXguide-more.html
+      output: web, pdf
+
+    - title: touch
+      url: /UNIXguide-touch.html
+      output: web, pdf
+
+# Section 8
+  - title: Printing and Reorganizing Files
+    output: web, pdf
+
+    folderitems:
+    - title: echo
+      url: /UNIXguide-echo.html
+      output: web, pdf
+
+    - title: > and >>: redirecting output
+      url: /UNIXguide-redirecting-output.html
+      output: web, pdf
+
+    - title: cat (and tac)
+      url: /UNIXguide-cat.html
+      output: web, pdf
+
+    - title: awk
+      url: /UNIXguide-awk.html
+      output: web, pdf
+
+    - title: diff
+      url: /UNIXguide-diff.html
+      output: web, pdf
+
+    - title: grep
+      url: /UNIXguide-grep.html
+      output: web, pdf
+
+    - title: paste
+      url: /UNIXguide-paste.html
+      output: web, pdf
+
+    - title: sort
+      url: /UNIXguide-sort.html
+      output: web, pdf
+
+    - title: split
+      url: /UNIXguide-split.html
+      output: web, pdf
+
+    - title: sed
+      url: /UNIXguide-sed.html
+      output: web, pdf
+
+# Section 9
+  - title: Images
+    output: web, pdf
+
+    folderitems:
+    - title: convert
+      url: /UNIXguide-convert.html
+      output: web, pdf
+
+    - title: eog
+      url: /UNIXguide-eog.html
+      output: web, pdf
+
+    - title: evince
+      url: /UNIXguide-evince.html
+      output: web, pdf
+
+# Section 10
+  - title: Keyboard Shortcuts and Special Characters
+    output: web, pdf
+
+    folderitems:
+    - title: Cntrl+A: Begin Again
+      url: /UNIXguide-cntrl-a.html
+      output: web, pdf
+
+    - title: Cntrl+L: CLEAR!
+      url: /UNIXguide-cntrl-l.html
+      output: web, pdf
+
+    - title: Cntrl+R: History's Pal
+      url: /UNIXguide-cntrl-r.html
+      output: web, pdf
+
+    - title: Cntrl+U: Clear the Line!
+      url: /UNIXguide-cntrl-u.html
+      output: web, pdf
+
+    - title: Tab: the Autofill Key
+      url: /UNIXguide-tab.html
+      output: web, pdf
+
+    - title: |: The Pipe
+      url: /UNIXguide-pipe.html
+      output: web, pdf
+
+    - title: *: Wildcards
+      url: /UNIXguide-wildcards.html
+      output: web, pdf
+
+# Section 11
+  - title: Other Helpful Things
+    output: web, pdf
+
+    folderitems:
+    - title: date, cal, and time
+      url: /UNIXguide-date-cal-time.html
+      output: web, pdf
+
+    - title: head
+      url: /UNIXguide-head.html
+      output: web, pdf
+
+    - title: tail
+      url: /UNIXguide-tail.html
+      output: web, pdf
+
+    - title: file
+      url: /UNIXguide-file.html
+      output: web, pdf
+
+    - title: man Pages
+      url: /UNIXguide-man-pages.html
+      output: web, pdf
+
+    - title: find
+      url: /UNIXguide-find.html
+      output: web, pdf
+
+    - title: locate
+      url: /UNIXguide-locate.html
+      output: web, pdf
+
+    - title: wc
+      url: /UNIXguide-wc.html
+      output: web, pdf
+
+    - title: history
+      url: /UNIXguide-history.html
+      output: web, pdf
+
+    - title: ln
+      url: /UNIXguide-ln.html
+      output: web, pdf
+
+    - title: Aliases: for Efficiency and Laziness
+      url: /UNIXguide-aliases.html
+      output: web, pdf
+
+    - title: Opening Additional Terminals from Terminal
+      url: /UNIXguide-additional-terminals.html
+      output: web, pdf
+
+# Section 12
+  - title: Quick Intro to Computer Admin-ing
+    output: web, pdf
+
+    folderitems:
+    - title: sudo: Administrator Rights and Installations
+      url: /UNIXguide-sudo.html
+      output: web, pdf
+
+    - title: free
+      url: /UNIXguide-free.html
+      output: web, pdf
+
+    - title: ifconfig
+      url: /UNIXguide-ifconfig.html
+      output: web, pdf
+
+    - title: Installing Packages with a Package Manager
+      url: /UNIXguide-package-manager-install.html
+      output: web, pdf
+
+    - title: Fully Removing Packages (and Kernels) with a Package Manager
+      url: /UNIXguide-package-manager-uninstall.html
+      output: web, pdf
+
+    - title: Groups (a supplement to chmod)
+      url: /UNIXguide-groups.html
+      output: web, pdf
+
+    - title: last
+      url: /UNIXguide-last.html
+      output: web, pdf
+
+    - title: lsof
+      url: /UNIXguide-lsof.html
+      output: web, pdf
+
+    - title: mail
+      url: /UNIXguide-mail.html
+      output: web, pdf
+
+    - title: mount
+      url: /UNIXguide-mount.html
+      output: web, pdf
+
+    - title: ping
+      url: /UNIXguide-ping.html
+      output: web, pdf
+
+    - title: reboot
+      url: /UNIXguide-reboot.html
+      output: web, pdf
+
+    - title: su: Switch User
+      url: /UNIXguide-su.html
+      output: web, pdf
+
+    - title: uptime
+      url: /UNIXguide-uptime.html
+      output: web, pdf
+
+    - title: useradd
+      url: /UNIXguide-useradd.html
+      output: web, pdf
+
+    - title: users
+      url: /UNIXguide-users.html
+      output: web, pdf
+
+    - title: w
+      url: /UNIXguide-w.html
+      output: web, pdf
+
+# Section 13
+  - title: Running Jobs
+    output: web, pdf
+
+    folderitems:
+    - title: Running Jobs Locally
+      url: /UNIXguide-local-jobs.html
+      output: web, pdf
+
+    - title: Using PBS Schedulers
+      url: /UNIXguide-PBS.html
+      output: web, pdf
+
+    - title: Using SLURM Schedulers
+      url: /UNIXguide-SLURM.html
+      output: web, pdf
+
+    - title: Using XSEDE's Comet
+      url: UNIXguide-XSEDE-Comet.html
+      output: web, pdf
+
+# Section 14
+  - title: Fun Commands
+    output: web, pdf
+
+    folderitems:
+    - title: finger (and chfn)
+      url: /UNIXguide-finger.html
+      output: web, pdf
+
+    - title: mesg
+      url: /UNIXguide-mesg.html
+      output: web, pdf
+
+    - title: wall
+      url: /UNIXguide-wall.html
+      output: web, pdf
+
+    - title: who and write
+      url: /UNIXguide-who-write.html
+      output: web, pdf

@@ -1,0 +1,35 @@
+## Topnav single links
+## If you want to list an external url, use external_url instead of url.
+## The theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/emleddin
+    - title: News
+      url: /news
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Information
+      folderitems:
+        - title: About Me
+          url: /about-me.html
+        - title: License
+          url: /creative-commons.html
+        - title: Acknowledgements
+          url: /these-people-rock.html
+        - title: Get This Theme
+          external_url: http://jekyllthemes.org/themes/documentation-theme-jekyll/
+    - title: Research Guides
+      folderitems:
+        - title: Introduction to UNIX
+          url: /UNIXguide-introduction-page.html
+        - title: AMBER Guide
+          url: /AMBER-introduction-page.html
+        - title: Simulation Analysis Guide
+          url: /Analysis-introduction-page.html
+        - title: Using R
+          url: /R-introduction-page.html
