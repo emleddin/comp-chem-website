@@ -19,7 +19,7 @@ added to a project.
 It may take a few days between being added on the XSEDE portal to actually
 being allowed to use the resources.
 
-{% include tip.html content="One of the "pro-tips" for using Comet is to shave
+{% include tip.html content="One of the \"pro-tips\" for using Comet is to shave
 a second off of your wallclock time. Think of how many people aren't doing this
 but submitting jobs of the same wallclock time--that thought is how many people
 you're jumping in the queue. Think like a computer!" %}
@@ -32,7 +32,8 @@ What goes in place of `abc123` comes from using the `show_accounts` command on
 Comet.
 You're using this line to pick which allocation is charged system units
 (XSEDE's computer currency) for running the job.
-This was modified from Alice's Comet scripts to incorporate SLURM's environment variables.
+This was modified from Alice's Comet scripts to incorporate SLURM's environment
+variables.
 ```bash
 #!/bin/bash
 

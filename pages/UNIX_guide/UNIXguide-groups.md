@@ -30,7 +30,7 @@ $ sudo desluser mark grads
 
 {% include warning.html content="If you forget to include the group category in
 this command, you will just... delete the user. That's not good! Thus, a safer
-way to do this would be through the "Users and Groups" window of the
+way to do this would be through the \"Users and Groups\" window of the
 [GUI](UNIXguide-UNIX-systems.html#GUI), which allows you to manage groups." %}
 
 {% include links.html %}

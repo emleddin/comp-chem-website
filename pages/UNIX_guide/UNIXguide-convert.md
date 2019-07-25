@@ -19,10 +19,12 @@ For instance, you can resize images through something like this (obviously
 ```bash
 $ convert imagename.jpg -resize 800x600 newimagename.jpg
 ```
+{% raw %}
 Some other options include `-rotate degree_number` and `-crop x{+-}{+-}{%}`.
+{% endraw %}
 
 If you're on a system without ImageMagick, consider
-[downloading it](https://imagemagick.org/script/download.php) to get this
-command.
+[downloading it](https://imagemagick.org/)
+to get this command.
 
 {% include links.html %}

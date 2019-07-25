@@ -5,7 +5,8 @@ permalink: UNIXguide-w.html
 folder: UNIX_guide
 ---
 
-The {\fontfamily{pcr}\selectfont\textbf{w}} command combines the {\fontfamily{pcr}\selectfont\textbf{{\hyperref[sec:uptime]{uptime}}}} and {\fontfamily{pcr}\selectfont\textbf{{\hyperref[sec:who]{who}}}} commands into
+The `w` command combines the [uptime]{UNIXguide-uptime.html} and
+[who](UNIXguide-who-write.html) commands into
 a single letter.
 It also shows what users are currently doing, and where they are logged in from.
 ```bash
