@@ -1,6 +1,6 @@
 ---
 title: Introduction
-sidebar: R_sidebar
+sidebar: Rguide_sidebar
 permalink: Rguide-introduction.html
 folder: R_guide
 ---

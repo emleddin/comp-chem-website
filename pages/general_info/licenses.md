@@ -5,8 +5,7 @@ sidebar: home_sidebar
 permalink: /licenses.html
 ---
 
-## Website Content License (for all content added since being cloned from
-tomjoht/documentation-theme-jekyll)
+## Website Content License (for all content added since being cloned from tomjoht/documentation-theme-jekyll)
 _____________________________________________________________________________
 This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
 International License.
