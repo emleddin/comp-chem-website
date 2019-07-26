@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: AMBER Guide
-  version: 0.0
+  version: 0.1
   folders:
 
   - title:
@@ -22,6 +22,10 @@ entries:
   - title: Introduction
     output: web, pdf
     folderitems:
+
+    - title: Overview
+      url: /AMBERguide-introduction.html
+      output: web
 
   - title: General Defintions
     output: web, pdf
@@ -47,42 +51,94 @@ entries:
       url: /AMBERguide-chimera-overlays.html
       output: web, pdf
 
-    - title: Sample 5
-      url: /AMBERguide_sample5.html
+    - title: "Example CPU Script (Min-Eq)"
+      url: /AMBERguide_CPU-run-script.html
       output: web, pdf
 
-    - title: Sample 6
-      url: /AMBERguide_sample6.html
+    - title: "Example GPU Script (Production)"
+      url: /AMBERguide_GPU-run-script.html
       output: web, pdf
 
-    - title: Sample 7
-      url: /AMBERguide_sample7.html
+    - title: Molecular Dyanmics Workflow
+      url: /AMBERguide_MD-workflow.html
       output: web, pdf
 
-    - title: Sample 8
-      url: /AMBERguide_sample8.html
+  - title: Mdin Files
+    output: web, pdf
+    folderitems:
+
+    - title: Run Programs
+      url: /AMBERguide_run-programs.html
       output: web, pdf
 
-    - title: Sample 9
-      url: /p2_sample9.html
+    - title: Creating Input Files
+      url: /AMBERguide-creating-inputs.html
       output: web, pdf
 
-    - title: Sample 10
-      url: /p2_sample10.html
+    - title: Example Files
+      url: /AMBERguide-example-files.html
       output: web, pdf
 
-    - title: Sample 11
-      url: /p2_sample11.html
+  - title: Non-Standard Residue Parameter Generation
+    output: web, pdf
+    folderitems:
+
+    - title: Uploads to PyRED
+      url: /AMBERguide-PyRED-uploads.html
       output: web, pdf
 
-    - title: Sample 12
-      url: /p2_sample12.html
+    - title: Using <i>antechamber</i> and <i>parmchk</i> for Ligands
+      url: /AMBERguide-antechamber.html
       output: web, pdf
 
-    - title: Sample 13
-      url: /p2_sample13.html
+    - title: AMBER Atom Types
+      url: /AMBERguide-AMBER-atom-types.html
       output: web, pdf
 
-    - title: Sample 14
-      url: /p2_sample14.html
+  - title: System Set-Up Using <i>LEaP</i>
+    output: web, pdf
+    folderitems:
+
+    - title: "tleap: for Command-Line Lovers"
+      url: /AMBERguide_tleap.html
+      output: web, pdf
+
+    - title: "xleap: for GUI Lovers and the Paranoid"
+      url: /AMBERguide_tleap.html
+      output: web, pdf
+
+  - title: PDBs and SNPs
+    output: web, pdf
+    folderitems:
+
+    - title: Amino Acids and DNA and RNA Bases
+      url: /AMBERguide-AAs-DNA-RNA.html
+      output: web, pdf
+
+    - title: Creating SNP Mutations in Chimera
+      url: /AMBERguide-SNPs-in-Chimera.html
+      output: web, pdf
+
+    - title: Creating SNP Mutations in <i>LEaP</i>
+      url: /AMBERguide-SNPs-in-LEaP.html
+      output: web, pdf
+
+  - title: Troubleshooting AMBER
+    output: web, pdf
+    folderitems:
+
+    - title: Library Errors
+      url: /AMBERguide-library-error.html
+      output: web, pdf
+
+    - title: "No $AMBERHOME"
+      url: /AMBERguide-no-AMBERHOME-error.html
+      output: web, pdf
+
+    - title: Atoms Not in Residue Templates
+      url: /AMBERguide-residue-template-error.html
+      output: web, pdf
+
+    - title: Corrupt <i>cpptraj</i> Warning
+      url: /AMBERguide-corrupt-cpptraj-error.html
       output: web, pdf

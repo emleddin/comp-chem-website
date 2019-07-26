@@ -2,7 +2,7 @@
 title: Licenses
 keywords: citation, thanks, people
 sidebar: home_sidebar
-permalink: /creative-commons.html
+permalink: /licenses.html
 ---
 
 ## Website Content License (for all content added since being cloned from

@@ -24,69 +24,158 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /p2_landing_page.html
+      url: /Rguide-introduction.html
       output: web
 
-  - title: Simple Workflow
+  - title: Using R
     output: web, pdf
     folderitems:
 
-    - title: Sample 1
-      url: /p2_sample1.html
+    - title: Getting Help
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 2
-      url: /p2_sample2.html
+    - title: Printing and Setting the Working Directory
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 3
-      url: /p2_sample3.html
+    - title: Using Unix Commands from R
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 4
-      url: /p2_sample4.html
+    - title: Loading a Previous Session
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 5
+    - title: Using External Data, Files, and Scripts
       url: /p2_sample5.html
       output: web, pdf
 
-  - title: Complex Workflow
+    - title: Directing Output to a File
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Installing, Using, and Removing Packages
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Sample Data
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Exiting R
+      url: /Rguide-.html
+      output: web, pdf
+
+  - title: Basic Math
     output: web, pdf
     folderitems:
 
-    - title: Sample 6
-      url: /p2_sample6.html
+    - title: Math in R
+      url: /Rguide-R-math.html
       output: web, pdf
 
-    - title: Sample 7
-      url: /p2_sample7.html
+  - title: Variables and Matrix Algebra
+    output: web, pdf
+    folderitems:
+
+    - title: Vectors
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 8
-      url: /p2_sample8.html
+    - title: Matrices
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 9
-      url: /p2_sample9.html
+    - title: Factors
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 10
-      url: /p2_sample10.html
+  - title: Central Tendency and Other Statistics
+    output: web, pdf
+    folderitems:
+
+    - title: Mean
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 11
-      url: /p2_sample11.html
+    - title: Median
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 12
-      url: /p2_sample12.html
+    - title: Mode
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 13
-      url: /p2_sample13.html
+    - title: Standard Deviation
+      url: /Rguide-.html
       output: web, pdf
 
-    - title: Sample 14
-      url: /p2_sample14.html
+    - title: Inner-Quartile Range
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Stem Plot
+      url: /Rguide-.html
+      output: web, pdf
+
+  - title: Plots
+    output: web, pdf
+    folderitems:
+
+    - title: Barplots
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Scatter Plots
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Histograms
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Boxplots
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Multiple Graphs
+      url: /Rguide-.html
+      output: web, pdf
+
+
+  - title: Hypothesis Testing
+    output: web, pdf
+    folderitems:
+
+    - title: Fisher's Exact Test
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Chi-Square Test
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Logistic Regression
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Conditional Logistic Regression
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: Testing for Gene-Environment Interaction
+      url: /Rguide-.html
+      output: web, pdf
+
+  - title: PLINK Toolset
+    output: web, pdf
+    folderitems:
+
+    - title: PLINK Data Files
+      url: /Rguide-.html
+      output: web, pdf
+
+    - title: PLINK Run Information
+      url: /Rguide-.html
       output: web, pdf

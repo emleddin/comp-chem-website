@@ -1,8 +1,8 @@
 ---
 title: Introduction
-sidebar: AMBER_sidebar
-permalink: AMBERguide-introduction.html
-folder: AMBER_guide
+sidebar: R_sidebar
+permalink: Rguide-introduction.html
+folder: R_guide
 ---
 
 
