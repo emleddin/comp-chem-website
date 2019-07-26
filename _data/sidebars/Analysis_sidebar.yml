@@ -140,7 +140,7 @@ entries:
       url: /Analysisguide-EDA-specific-residues.html
       output: web, pdf
 
-    - title: EDA Results Analysis with R: Difference of Averaged Systems
+    - title: "EDA Results Analysis with R: Difference of Averaged Systems"
       url: /Analysisguide-EDA-differences.html
       output: web, pdf
 
