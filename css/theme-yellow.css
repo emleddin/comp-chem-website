@@ -4,36 +4,32 @@
     font-size:16px;
 }
 
-
+/* h3 is the summary color. */
 h3 {color: #DFDA2D; }
+/* Dark gray hover color */
 h4 {color: #808080; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #248ec2;
+    /* Hover light blue color */
     color: black;
 /* Color: is the one for the nav tab being off */
 }
 
 .nav > li.active > a {
     background-color: #FFF933;
+    /* Standard header color */
 }
 
 .nav > li > a:hover {
-    background-color: #FFF933;
+    /* FFF933*/
+    background-color: #248ec2;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
     background-color: #FFF933;
 }
 
-.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
-    color: black;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
-     color: #9c9c9c;
-/* nav tag when you hover */
-}
 
 .nav li.thirdlevel > a {
     background-color: #6D6B6B !important;
@@ -51,6 +47,19 @@ a[data-toggle="tooltip"] {
 .navbar-inverse {
     background-color: #FFF933;
     border-color: #BFBB26;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
+     color: #9c9c9c;
+/* nav tag when you hover */
+}
+
+a.navbar-brand:hover {
+  color: #f0f0f0;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -73,6 +82,11 @@ a[data-toggle="tooltip"] {
     border-color: #BFBB26;
 }
 
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #BFBB26;
+}
+
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -86,9 +100,9 @@ a[data-toggle="tooltip"] {
     color: #BFBB26 !important;
 }
 
-body.print h1 {color: #BFBB26 !important; font-size:28px;}
-body.print h2 {color: #595959 !important; font-size:24px;}
-body.print h3 {color: #DFDA2D !important; font-size:14px;}
+body.print h1 {color: #BFBB26 !important; font-size:28px !important;}
+body.print h2 {color: #595959 !important; font-size:24px !important;}
+body.print h3 {color: #DFDA2D !important; font-size:14px !important;}
 body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic;}
 
 .anchorjs-link:hover {
@@ -106,8 +120,13 @@ li.sidebarTitle {
     color: #ED1951;
     margin-bottom:10px;
     margin-left: 5px;
+
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: #DFDA2D;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #DFDA2D;
 }
