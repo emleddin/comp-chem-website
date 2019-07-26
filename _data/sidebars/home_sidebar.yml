@@ -13,13 +13,13 @@ entries:
       url: /UNIXguide-introduction.html
       output: web
     - title: AMBER Guide
-      url: /AMBER-introduction.html
+      url: /AMBERguide-introduction.html
       output: web
     - title: Simulation Analysis Guide
-      url: /Analysis-introduction.html
+      url: /Analysisguide-introduction.html
       output: web
     - title: R Guide
-      url: /R-introduciton.html
+      url: /Rguide-introduciton.html
       output: web
 
   - title: Thinking About Grad School?

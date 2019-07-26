@@ -28,8 +28,8 @@ topnav_dropdowns:
         - title: Introduction to UNIX
           url: /UNIXguide-introduction.html
         - title: AMBER Guide
-          url: /AMBER-introduction-page.html
+          url: /AMBERguide-introduction.html
         - title: Simulation Analysis Guide
-          url: /Analysis-introduction-page.html
+          url: /Analysisguide-introduction.html
         - title: Using R
-          url: /R-introduction-page.html
+          url: /Rguide-introduction.html

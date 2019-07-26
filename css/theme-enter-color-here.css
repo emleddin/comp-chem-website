@@ -14,15 +14,15 @@ h4 {color: #808080; }
 }
 
 .nav > li.active > a {
-    background-color: #COLORB;
+    background-color: #TOPCOLOR;
 }
 
 .nav > li > a:hover {
-    background-color: #COLORB;
+    background-color: #TOPCOLOR;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #COLORB;
+    background-color: #TOPCOLOR;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
@@ -35,7 +35,7 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 
 .nav li.thirdlevel > a {
     background-color: #FAFAFA !important;
-    color: #COLORB;
+    color: #TOPCOLOR;
     font-weight: bold;
 }
 
@@ -46,28 +46,28 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #COLORB;
-    border-color: #COLORC;
+    background-color: #TOPCOLOR;
+    border-color: #TOPOUT;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #COLORC;
+    color: #TOPOUT;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #COLORC;
+    background-color: #TOPOUT;
     color: #ffffff;
 }
 
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #COLORB !important;
+    border-color: #TOPCOLOR !important;
 }
 
 .btn-primary {
     color: #ffffff;
-    background-color: #COLORC;
-    border-color: #COLORC;
+    background-color: #TOPOUT;
+    border-color: #TOPOUT;
 }
 
 .btn-primary:hover,
@@ -75,15 +75,15 @@ a[data-toggle="tooltip"] {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #COLORB;
-    border-color: #COLORC;
+    background-color: #TOPCOLOR;
+    border-color: #TOPOUT;
 }
 
 .printTitle {
-    color: #COLORC !important;
+    color: #TOPOUT !important;
 }
 
-body.print h1 {color: #COLORC !important; font-size:28px;}
+body.print h1 {color: #TOPOUT !important; font-size:28px;}
 body.print h2 {color: #595959 !important; font-size:24px;}
 body.print h3 {color: #COLORA !important; font-size:14px;}
 body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic;}
@@ -92,11 +92,11 @@ body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic;}
     color: #COLORD;
 }
 
-div.sidebarTitle {
+div.TOPCOLORTitle {
     color: #COLORA;
 }
 
-li.sidebarTitle {
+li.TOPCOLORTitle {
     margin-top:20px;
     font-weight:normal;
     font-size:130%;

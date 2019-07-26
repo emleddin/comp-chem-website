@@ -1,9 +1,9 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Product2
-  product: Product2
-  version: 1.0
+- title: sidebar
+  product: AMBER Guide
+  version: 0.0
   folders:
 
   - title:
@@ -23,48 +23,44 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Overview
-      url: /p2_landing_page.html
-      output: web
-
-  - title: Simple Workflow
+  - title: General Defintions
     output: web, pdf
     folderitems:
 
-    - title: Sample 1
-      url: /p2_sample1.html
+    - title: Pre-Definitions
+      url: /AMBERguide-pre-definitions.html
       output: web, pdf
 
-    - title: Sample 2
-      url: /p2_sample2.html
+    - title: File Types
+      url: /AMBERguide-filetypes.html
       output: web, pdf
 
-    - title: Sample 3
-      url: /p2_sample3.html
+    - title: System Types
+      url: /AMBERguide-systemtypes.html
       output: web, pdf
 
-    - title: Sample 4
-      url: /p2_sample4.html
+  - title: "Setting Up Systems: An Overview"
+    output: web, pdf
+    folderitems:
+
+    - title: Overlays in Chimera
+      url: /AMBERguide-chimera-overlays.html
       output: web, pdf
 
     - title: Sample 5
-      url: /p2_sample5.html
+      url: /AMBERguide_sample5.html
       output: web, pdf
 
-  - title: Complex Workflow
-    output: web, pdf
-    folderitems:
-
     - title: Sample 6
-      url: /p2_sample6.html
+      url: /AMBERguide_sample6.html
       output: web, pdf
 
     - title: Sample 7
-      url: /p2_sample7.html
+      url: /AMBERguide_sample7.html
       output: web, pdf
 
     - title: Sample 8
-      url: /p2_sample8.html
+      url: /AMBERguide_sample8.html
       output: web, pdf
 
     - title: Sample 9
