@@ -1,5 +1,5 @@
 ---
-title: ln: Symbolic Links
+title: "ln: Symbolic Links"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-ln.html
 folder: UNIX_guide

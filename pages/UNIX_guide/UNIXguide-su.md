@@ -1,5 +1,5 @@
 ---
-title: su: Switch User
+title: "su: Switch User"
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-su.html
 folder: UNIX_guide

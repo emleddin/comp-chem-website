@@ -372,7 +372,7 @@ entries:
       url: /UNIXguide-history.html
       output: web, pdf
 
-    - title: ln
+    - title: "ln: Symbolic Links"
       url: /UNIXguide-ln.html
       output: web, pdf
 
@@ -437,7 +437,7 @@ entries:
       url: /UNIXguide-reboot.html
       output: web, pdf
 
-    - title: su - Switch User
+    - title: "su: Switch User"
       url: /UNIXguide-su.html
       output: web, pdf
 

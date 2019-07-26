@@ -2,7 +2,7 @@
 title: "Welcome to My Computational Chemistry Website"
 keywords: homepage
 tags: [getting_started]
-sidebar:
+sidebar: home_sidebar
 permalink: index.html
 ---
 
@@ -19,13 +19,15 @@ his undergraduate research students. They've evolved a bit since then.
 The [Unix Guide](UNIXguide-introduction.html) gives an overview of UNIX systems
 and basic commands to get someone started with using the command line.
 
-The [AMBER Guide](AMBER-introduction.html) covers wh
+The [AMBER Guide](AMBER-introduction.html) covers how to set-up AMBER
+simulations and a general overview of molecular dynamics simulations.
 
-The [Simulation Analysis Guide](Analysis-introduction.html)
+The [Simulation Analysis Guide](Analysis-introduction.html) addresses how to
+use some of the tools to analyze AMBER trajectories, visualizing data,
+and presenting data in a useful manner through images and videos.
 
-The [R Guide](R-introduciton.html) includes some basics for getting started R
-programming language.
-
+The [R Guide](R-introduciton.html) includes some basics for getting started
+with the R programming language.
 
 ## Resources, Resources, Resources {#resources}
 
@@ -38,6 +40,7 @@ and I've outlined a few here.
 * [UNIX vi Editor Commands](https://www.ccsf.edu/Pub/Fac/vi.html)
 * [Stack Overflow (aka Coding Google)](https://stackoverflow.com/)
 * [Gaussian](https://gaussian.com/techsupport/)
+* [AMBER](http://ambermd.org/Manuals.php)
 * [Software Carpentry (online lessons)](https://software-carpentry.org/lessons/)
 * [MolSSI: Getting Started in Computational Chemistry](https://github.com/MolSSI-Education/getting-started-computational-chemistry)
 * [Mobely Lab: Basic (MD/MC) Simulation Training](https://github.com/MobleyLab/basic_simulation_training/blob/master/paper/basic_training.pdf)
@@ -53,7 +56,6 @@ and I've outlined a few here.
 * [Cramer's *Essentials of Computational Chemistry*](https://www.amazon.com/Essentials-Computational-Chemistry-Theories-Models/dp/0470091827)
 * [Jensen's *Introduction to Computational Chemistry*](https://www.amazon.com/Introduction-Computational-Chemistry-Frank-Jensen/dp/1118825993/ref=pd_lpo_sbs_14_t_1/143-1287804-9636928?_encoding=UTF8&psc=1&refRID=RGHJSXV9BNB83EDSYT73)
 * [Leach's *Molecular Modeling: Principles and Applications*](https://www.amazon.com/Molecular-Modelling-Principles-Applications-2nd/dp/0582382106/ref=pd_lpo_sbs_14_t_2/143-1287804-9636928?_encoding=UTF8&psc=1&refRID=RGHJSXV9BNB83EDSYT73)
-
 
 
 {% include links.html %}
