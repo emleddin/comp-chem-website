@@ -97,7 +97,6 @@ which should not be deleted.
 if (-e /usr/local/etc/csh.cshrc) then
   source /usr/local/etc/csh.cshrc
 endif
-fi #### THIS SHOULDN'T BE HERE!!!!
 ```
 
 After those lines, or a commented line that specifies you can now add

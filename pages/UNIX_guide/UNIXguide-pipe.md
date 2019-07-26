@@ -18,7 +18,7 @@ cat rmsd_all.dat | awk '{print 0.1*$1, $2}' > new_rmsd_protein.dat
 That command prints out the information from the data file, then prints out
 only the two columns I want and places it in a new file.
 
-{% include image.html file="pipe.png" alt="Location of the pipe on the
+{% include image.html file="UNIXguide/pipe.png" alt="Location of the pipe on the
 keyboard. It is the uppercase of the backslash key." caption="Gaze upon the
 pipe (`|`)." %}
 

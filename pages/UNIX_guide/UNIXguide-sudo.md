@@ -33,7 +33,7 @@ on machines with the
 [pip package management system](https://packaging.python.org/tutorials/installing-packages/)
 of Python installed.
 
-{% include image.html file="sudo_comic.png"
+{% include image.html file="UNIXguide/sudo_comic.png"
 url="https://imgs.xkcd.com/comics/incident.png" alt="First panel: robm is not
 in the sudoers file. The incident will be reported. Panel 2: Rob asks 'Hey--who
 does sudo report these incidents to?' Person replies 'You know, I'ver never

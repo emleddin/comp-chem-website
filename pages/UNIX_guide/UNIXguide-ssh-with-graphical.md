@@ -25,7 +25,7 @@ The `-Y` uses a secure connection.
 Otherwise, a `-X` flag can be used if security isn't a major concern.
 To check the X11 forwarding, the commands `xclock` or `xeyes` can be used.
 
-{% include image.html file="xclockeyes.png" alt="xclock and xeyes"
+{% include image.html file="UNIXguide/xclockeyes.png" alt="xclock and xeyes"
 caption="Use of `xclock` (left) and `xeyes` (right) to test X11 forwarding." %}
 
 {% include links.html %}
