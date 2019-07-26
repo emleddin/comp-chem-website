@@ -17,7 +17,7 @@ topnav_dropdowns:
       folderitems:
         - title: About Me
           url: /about-me.html
-        - title: License
+        - title: Licenses
           url: /creative-commons.html
         - title: Acknowledgements
           url: /these-people-rock.html
