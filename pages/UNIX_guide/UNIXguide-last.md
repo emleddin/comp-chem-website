@@ -11,8 +11,8 @@ The kernel version is the central component to the operating system, and is
 essential for memory, process, task, and disk management.
 ```bash
 $ last
-charlie	pts/8				10.144.120.74			Wed Mar 21 09:20	still logged in
-reboot	system boot		4.4.0-116-generi		Thu Mar 15 15:06	still running
+charlie	pts/8		  10.144.120.74		    Wed Mar 21 09:20	still logged in
+reboot	system boot	  4.4.0-116-generi	    Thu Mar 15 15:06	still running
 ```
 
 {% include links.html %}

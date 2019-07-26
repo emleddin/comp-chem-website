@@ -14,7 +14,7 @@ This editor can also be used to create new files.
 In place of the name of a current file, use a new name you would like the file
 to be named.
 To insert text/numbers/commands within the editor, type `i` to bring up
-"insert" mode. 
+"insert" mode.
 To quit `vi`, there are two options.
 The first is to quit with saving.
 For this option, hit escape before typing `:wq`, meaning "write quit."
@@ -50,7 +50,7 @@ administrator has installed the
 [gedit text editor](https://help.gnome.org/users/gedit/stable/index.html.en),
 which can be opened from the command line through `gedit filename`.
 It is a lot easier to navigate for files that need a massive overhaul, but
-there are definitely circumstances where `vi` has uses (*cough supercomputers
-    and jobfiles cough*).
+there are definitely circumstances where `vi` has uses (\* *cough supercomputers
+    and jobfiles cough* \*).
 
 {% include links.html %}
