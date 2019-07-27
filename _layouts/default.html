@@ -75,6 +75,22 @@
 <body>
 {% include topnav.html %}
 
+<!-- Add page_color to front matter! -->
+<!-- Works for local -->
+{% if page.page_color %}
+  {% for stylesheet in page.page_color %}
+  <link rel="stylesheet" href="/css/theme-{{ stylesheet }}.css">
+  {% endfor %}
+{% endif %}
+
+<!-- Should work for Github? -->
+{% if layout.page_color %}
+  {% for stylesheet in layout.page_color %}
+  <link rel="stylesheet" href="/css/theme-{{ stylesheet }}.css">
+  {% endfor %}
+{% endif %}
+<!--  -->
+
 <!-- Page Content -->
 <div class="container">
   <div id="main">
