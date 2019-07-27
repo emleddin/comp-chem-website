@@ -8,7 +8,8 @@ folder: AMBER_guide
 <link rel="stylesheet" href="css/theme-orange.css">
 
 There's a general flow to setting up systems that is outlined in
-the __FIGURE BELOW__. The entire process starts with a crystal structure of the
+the [figure below](AMBERguide-systems-overview.html#set-up).
+The entire process starts with a crystal structure of the
 protein, which is explained more [in the PDB section](AMBERguide-PDBs.html).
 Once you have a PDB file, you then clean it up to remove anything you don't
 need. One pretty easy way to do this is using a grep command to extract any
@@ -36,16 +37,33 @@ obtained
 add to saved files
 * `MASTER`: a dummy "master path" for the file that's useless to us
 
-<!-- FIX ME -->
+### Figure: Setting Up Systems {#set-up}
 {% include image.html file="AMBERguide/amber-system-flow.svg"
-alt="First block is blue and says 'Get PDB structure.' Second block is blue and
-says 'clean the PDB structure'. Under this block, 2U, is red with 'deal with
-non-standard' residues. To the right is red with 'remove REMARK and ANISOU
-lines.' Some magic happens and the last block is 'save the solvated PDB.'
+alt="First block is blue and says 'Get PDB structure.'
+Second block is blue and says 'clean the PDB structure'.
+Under this block, 2U, is red with 'deal with non-standard' residues.
+To the right, 2R is red with 'remove REMARK and ANISOU lines.'
+3U is red with 'deal with non-standard residues.'
+4U is 'set-up using LEaP.'
+4U diverges to 5U, 5R, and 5B.
+5U is blue with 'copy to cluster and use mdin files to minimize, etc.'
+6U is 'check with system visually using VMD and inspect output.'
+Below 2R is 3R in red with 'fill missing loops.'
+3R diverges into 4A and 4B.
+4A is red and says 'Use Modeller.'
+4B is red and says 'Copy from another PDB structure.'
+From 4U, 5R is red and says 'add non-standard prepi/frcmod/lib files (if any).'
+5R connects to 5B, which is blue with 'load in the PDB.'
+To the right of 5B is a line connecting to 6BA. The line says 'Save!' And
+6AB is white and says 'save the vacuum prmtop and inpcrd files.'
+5B also leads to 6B, which is blue and says 'Solvate the system and add ions.'
+6B leads to 6BB, which has a line that says 'Save!' and a white box with
+'Save the solvated prmtop and inpcrd files.'
+Finally, 6B leads to the last block in white which says 'save the solvated PDB.'
 "
 caption="The flow of setting up a system using AMBER. Blocks colored in blue
 are critical, blocks colored in red may be necessary, and blocks colored in
-white are steps where you generate files." %}
+white are steps where you generate files." max-width="600" %}
 <!-- END IMAGE -->
 
 After the first-pass for cleaning the PDB structure, it is important to check
@@ -53,24 +71,29 @@ that the protein is intact. Sometimes, to get a crystal structure, huge chunks
 of protein are skipped over. That means, that instead of having one, smooth,
 connected necklace-like chain, your protein is broken into multiple necklaces
 of varying sizes--and you're responsible for finding the correct clasps to link
-them into one (this is better explained __NEW FIG__). When you open a structure
-in Chimera, areas with missing residues are linked together with dashed lines.
+them into one (this is better explained
+    [in the image](AMBERguide-systems-overview.html#missing-res)).
+When you open a structure in Chimera, areas with missing residues are linked
+together with dashed lines.
 
+
+### Figure: Setting Up Systems {#missing-res}
 <!-- FIX ME -->
 {% include image.html file="AMBERguide/amber-missing-residues.svg"
 alt="Top sequence is blue with G T R Y A G K V V. Bottom sequence is red
 G T R - - - K V V.
 "
 caption="The top block (in blue) is the full, correct protein sequence.
-The bottom block (in red) is missing three residues in the center." %}
+The bottom block (in red) is missing three residues in the center."
+max-width="600" %}
 <!-- END IMAGE -->
 
 So how do you deal with these missing residues? First, it would behoove you to
 see what the experimentalists did to get the crystal structure... which means
-reading the paper. :smiley: They'll probably talk about how those loops or
-residues were skipped, and if they had any experimental add-ins (like an
-    X-residue linker) to tell them where the first part ended and the new part
-    began.
+reading the paper. <small><small>:smiley:</small></small>
+They'll probably talk about how those loops or residues were skipped, and if
+they had any experimental add-ins (like an X-residue linker) to tell them where
+the first part ended and the new part began.
 
 Once you know what they did, you can make decisions to match the structure to
 that. Otherwise, there's 2 common paths moving forward. First, if there's

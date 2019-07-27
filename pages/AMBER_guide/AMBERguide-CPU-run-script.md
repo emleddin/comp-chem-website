@@ -8,12 +8,12 @@ folder: AMBER_guide
 <link rel="stylesheet" href="css/theme-orange.css">
 
 Run scripts, or jobfiles, contain all the necessary information to run a job.
-An example is the `mineq.sh` script (thanks, Alice!). Doubly-commented parts 
-(`\#\#`) are included here for explanation purposes.
+An example is the `mineq.sh` script (thanks, Alice!). Doubly-commented parts
+(`##`) are included here for explanation purposes.
 
 To use this with as little modification as possible, copy your
 `whatever-random-name.inpcrd` as `whatever-random-name_init0.rst`, and then
-modify this script to change the `\#PBS -N` line and change the
+modify this script to change the `#PBS -N` line and change the
 `WT_protein_system_wat` prefix to match `whatever-random-name.prmtop`.
 ```bash
 #!/bin/bash                        ## Tell the script to run in a bash shell
@@ -31,7 +31,7 @@ cd $PBS_O_WORKDIR
 ## Make a nodefile for all of the CPUs to communicate from
 cat $PBS_NODEFILE  > $PWD/PBS_NODEFILE
 ## Load the Amber module
-module load amber/16.7-mvapich2
+module load amber/19-mvapich2
 
 ## Set counters for loop
 e=0

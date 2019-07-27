@@ -39,6 +39,7 @@ exclude:
   - .gitignore
   - vendor
   - tex-image-files/
+  - quick-commands.txt
 # these are the files and directories that jekyll will exclude from the build
 
 feedback_subject_line: Comp Chem Github

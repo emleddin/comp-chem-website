@@ -29,15 +29,15 @@
 
 \begin{tikzpicture}[node distance = 0.5cm, auto]
     % Place nodes
-    \node [bblock] (pdb) {\href{https://emleddin.github.io/comp\_chem\_website/AMBERguide-PDBs.html}{Get PDB structure}};
+    \node [bblock] (pdb) {\href{https://emleddin.github.io/comp-chem-website/AMBERguide-PDBs.html}{Get PDB structure}};
 %    \node [bblock] (pdb) {\href{AMBERguide-PDBs.html}{Get PDB structure}};
     \node [bblock, below of=pdb] (clean) {clean the PDB structure};
     \node [rblock, right of=clean, node distance=15em] (remove) {remove REMARK and ANISOU lines};
     \node [rblock, below of=remove] (loops) {fill missing loops};
     \node [rblock, above right of=loops, node distance=20em] (model1) {Use Modeller};
     \node [rblock, right of=loops, node distance=15em] (model2) {Copy from another PDB structure};
-    \node [rblock, below of=clean] (nonstand) {\href{https://emleddin.github.io/comp\_chem\_website/AMBERguide-non-standards.html}{deal with nonstandard residues}};
-    \node [bblock, below of=nonstand] (AMBER) {\href{https://emleddin.github.io/comp\_chem\_website/AMBERguide-LEAP.html}{set-up using \emph{LEaP}}};
+    \node [rblock, below of=clean] (nonstand) {\href{https://emleddin.github.io/comp-chem-website/AMBERguide-non-standards.html}{deal with nonstandard residues}};
+    \node [bblock, below of=nonstand] (AMBER) {\href{https://emleddin.github.io/comp-chem-website/AMBERguide-LEAP.html}{set-up using \emph{LEaP}}};
 %    \node [rblock, below of=clean] (nonstand) {\href{AMBERguide-non-standards.html}{deal with nonstandard residues}};
 %    \node [bblock, below of=nonstand] (AMBER) {\href{AMBERguide-LEAP.html}{set-up using \emph{LEaP}}};
     \node [rblock, right of=AMBER, node distance=15em] (addnon) {add non-standard prepi/ frcmod/ lib files (if any)};
@@ -46,7 +46,7 @@
     \node [bblock, below of=loadpdb] (solvate) {solvate the system and add ions};
     \node [wblock, right of=solvate, node distance=15em] (save2) {save the solvated prmtop and inpcrd files};
     \node [wblock, below of=save2] (save3) {save the solvated PDB};
-    \node [bblock, below of=AMBER] (cruntch) {copy to cluster and use \href{https://emleddin.github.io/comp\_chem\_website/AMBERguide-mdin.html}{mdin} files to minimize, etc.};
+    \node [bblock, below of=AMBER] (cruntch) {copy to cluster and use \href{https://emleddin.github.io/comp-chem-website/AMBERguide-mdin.html}{mdin} files to minimize, etc.};
 %    \node [bblock, below of=AMBER] (cruntch) {copy to cluster and use \href{/AMBERguide-mdin.html}{mdin} files to minimize, etc.};
     \node [bblock, below of=cruntch] (check) {check the system visually using VMD and inspect output};
     % Draw edges
