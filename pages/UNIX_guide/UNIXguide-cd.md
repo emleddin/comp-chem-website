@@ -8,6 +8,8 @@ of putting things in folders. Computers are no different, except their folder
 system is called a directory tree. Each folder is known as a directory."
 ---
 
+<link rel="stylesheet" href="css/theme-orange.css">
+
 One of the most important commands created is `cd` which stands for
 "change directory."
 Basically, if I'm in folder `A`, but want to be in `Folder_17` inside of it,
