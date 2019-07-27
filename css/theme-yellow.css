@@ -22,7 +22,6 @@ h4 {color: #808080; }
 }
 
 .nav > li > a:hover {
-    /* FFF933*/
     background-color: #BFBB26;
 }
 
@@ -32,9 +31,9 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 
 
 .nav li.thirdlevel > a {
-    background-color: #FAFAFA !important;
-/* background looks like the nav level backgrd grayish 6D6B6B*/
-    color: #FFF933;
+    background-color: #525151 !important;
+/* background looks like the nav level backgrd grayish 6D6B6B FAFAFA*/
+    color: #BFBB26;
     font-weight: bold;
 }
 
@@ -46,7 +45,7 @@ a[data-toggle="tooltip"] {
 
 .navbar-inverse {
     background-color: #FFF933;
-    border-color: ##9F9C20;
+    border-color: #FFFFFF;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
@@ -63,11 +62,11 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: ##9F9C20;
+    color: #FFFFFF;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: ##9F9C20;
+    background-color: #FFFFFF;
     color: #000000;
     /* 909090 */
 }
@@ -99,36 +98,36 @@ a.navbar-brand:hover {
 }
 
 .printTitle {
-    color: ##9F9C20 !important;
+    color: #FFFFFF !important;
 }
 
-body.print h1 {color: #BFBB26 !important; font-size:28px !important;}
+body.print h1 {color: #FFFFFF !important; font-size:28px !important;}
 body.print h2 {color: #595959 !important; font-size:24px !important;}
 body.print h3 {color: #DFDA2D !important; font-size:14px !important;}
-body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic;}
+body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !important;}
 
 .anchorjs-link:hover {
-    color: #9F9C20;
+    color: #216f9b;
 }
 
 div.sidebarTitle {
-    color: ##9F9C20;
+    color: #FFFFFF;
 }
 
 li.sidebarTitle {
     margin-top:20px;
     font-weight:normal;
     font-size:130%;
-    color: #ED1951;
+    color: #DFDA2D;
     margin-bottom:10px;
     margin-left: 5px;
 
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: ##9F9C20;
+    background-color: #FFFFFF;
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: ##9F9C20;
+    border-color: #FFFFFF;
 }
