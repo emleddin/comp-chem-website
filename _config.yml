@@ -111,10 +111,10 @@ defaults:
 
 sidebars:
 - home_sidebar
-- mydoc_sidebar
 - UNIXguide_sidebar
 - AMBER_sidebar
 - analysis_sidebar
+- Rguide_sidebar
 - other
 
 description: "My personal website with information on using UNIX and AMBER for
