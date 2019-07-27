@@ -4,6 +4,7 @@ sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-cat.html
 folder: UNIX_guide
 page_color: blue
+
 ---
 
 The `cat` command can be used to print the contents of a file to the Terminal.
