@@ -28,6 +28,16 @@ layout: default
 
 {% endif %}
 
+<!-- fix? -->
+<!-- Add page_color to front matter! -->
+<!-- Works for local -->
+{% if page.page_color %}
+  {% for stylesheet in page.page_color %}
+  <link rel="stylesheet" href="/css/theme-{{ stylesheet }}.css">
+  {% endfor %}
+{% endif %}
+<!-- end? -->
+
 <div class="post-content">
 
    {% if page.summary %}
