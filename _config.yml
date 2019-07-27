@@ -38,6 +38,7 @@ exclude:
   - .idea/
   - .gitignore
   - vendor
+  - tex-image-files/
 # these are the files and directories that jekyll will exclude from the build
 
 feedback_subject_line: Comp Chem Github
@@ -116,6 +117,10 @@ sidebars:
 - analysis_sidebar
 - Rguide_sidebar
 - other
+
+ # I want emoji.
+plugins:
+  - jemoji
 
 description: "My personal website with information on using UNIX and AMBER for
 computational chemistry."

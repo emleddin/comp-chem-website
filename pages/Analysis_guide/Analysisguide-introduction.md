@@ -5,6 +5,7 @@ permalink: Analysisguide-introduction.html
 folder: Analysis_guide
 ---
 
+<link rel="stylesheet" href="css/theme-purple.css">
 
 ## Sample Content
 

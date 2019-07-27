@@ -47,28 +47,36 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Overview
+      url: /AMBERguide-systems-overview.html
+      output: web, pdf
+
     - title: Overlays in Chimera
       url: /AMBERguide-chimera-overlays.html
       output: web, pdf
 
     - title: "Example CPU Script (Min-Eq)"
-      url: /AMBERguide_CPU-run-script.html
+      url: /AMBERguide-CPU-run-script.html
       output: web, pdf
 
     - title: "Example GPU Script (Production)"
-      url: /AMBERguide_GPU-run-script.html
+      url: /AMBERguide-GPU-run-script.html
       output: web, pdf
 
     - title: Molecular Dyanmics Workflow
-      url: /AMBERguide_MD-workflow.html
+      url: /AMBERguide-MD-workflow.html
       output: web, pdf
 
   - title: Mdin Files
     output: web, pdf
     folderitems:
 
+    - title: Mdin Files
+      url: /AMBERguide-mdins.html
+      output: web, pdf
+
     - title: Run Programs
-      url: /AMBERguide_run-programs.html
+      url: /AMBERguide-run-programs.html
       output: web, pdf
 
     - title: Creating Input Files
@@ -79,9 +87,13 @@ entries:
       url: /AMBERguide-example-files.html
       output: web, pdf
 
-  - title: Non-Standard Residue Parameter Generation
+  - title: "Non-Standard Residue Parameter Generation"
     output: web, pdf
     folderitems:
+
+    - title: "Non-Standards"
+      url: /AMBERguide-non-standards.html
+      output: web, pdf
 
     - title: Uploads to PyRED
       url: /AMBERguide-PyRED-uploads.html
@@ -99,17 +111,25 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Using <i>LEaP</i>
+      url: /AMBERguide-LEAP.html
+      output: web, pdf
+
     - title: "tleap: for Command-Line Lovers"
-      url: /AMBERguide_tleap.html
+      url: /AMBERguide-tleap.html
       output: web, pdf
 
     - title: "xleap: for GUI Lovers and the Paranoid"
-      url: /AMBERguide_tleap.html
+      url: /AMBERguide-xleap.html
       output: web, pdf
 
   - title: PDBs and SNPs
     output: web, pdf
     folderitems:
+
+    - title: PDBs and SNPs
+      url: /AMBERguide-PDBs.html
+      output: web, pdf
 
     - title: Amino Acids and DNA and RNA Bases
       url: /AMBERguide-AAs-DNA-RNA.html
