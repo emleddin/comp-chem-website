@@ -5,6 +5,8 @@ permalink: UNIXguide-aliases.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Aliases are a powerful tool for the forgetful, the lazy, and the efficient.
 They take commands that you commonly use and shorten them to a specified
 command.

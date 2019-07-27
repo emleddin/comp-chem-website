@@ -5,6 +5,8 @@ permalink: UNIXguide-date-cal-time.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 # date {#date}
 
 No, you're not asking the Terminal out with the `date` command.

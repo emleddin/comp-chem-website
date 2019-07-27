@@ -5,6 +5,8 @@ permalink: UNIXguide-bzip2.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The less common way of compressing files is using `bzip2`.
 Like with `gzip`, the syntax is
 ```bash

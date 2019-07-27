@@ -5,6 +5,8 @@ permalink: UNIXguide-awk.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The `awk` language is useful for whittling down data from a mega-file to a more
 manageable file.
 Basically, instead of columns A-Z with different information, you could select

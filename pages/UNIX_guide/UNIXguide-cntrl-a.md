@@ -5,6 +5,8 @@ permalink: UNIXguide-cntrl-a.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 This command allows you to move the cursor to the beginning of the command
 prompt that you were typing.
 This is helpful because you cannot simply click to where in the command you

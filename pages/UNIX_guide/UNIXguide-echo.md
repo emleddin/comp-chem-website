@@ -5,6 +5,8 @@ permalink: UNIXguide-echo.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The `echo` command prints text to the screen.
 It's incredibly useful in scripting, as it can be used to demonstrate how far
 along a script has gotten during the run through printing statements or the time.

@@ -5,6 +5,8 @@ permalink: UNIXguide-cntrl-c.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Occasionally (or not occasionally, I don't know your life), you submit a command
  like [rsync](UNIXguide-rsync.html) or [scp](UNIXguide-scp.html) and you really
  wish you hadn't.

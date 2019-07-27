@@ -5,6 +5,8 @@ permalink: UNIXguide-environment-variables.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 [//]: # ( \label{sec:env} )
 Environment variables are variables that help set the environment.
 Since that was a horrible definition, I'll try to define by example.

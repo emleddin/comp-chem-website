@@ -5,6 +5,8 @@ permalink: UNIXguide-crontab.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Commands can be set up to run at specific intervals using `crontab`.
 For instance, automatic backups to an external hard drive can be scheduled to
 run weekly.

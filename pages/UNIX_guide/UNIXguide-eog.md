@@ -5,6 +5,8 @@ permalink: UNIXguide-eog.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 {% include note.html content="This section will really only be helpful on
 Linux systems, but considering these things are covered through other means on
 other operating systems, it's not the end of the world." %}

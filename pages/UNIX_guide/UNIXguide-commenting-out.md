@@ -5,6 +5,8 @@ permalink: UNIXguide-commenting-out.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Something that makes scripting and file editing easier when an outsider is
 reading them are comments.
 Comments enable more detail about a code for anyone crazy enough to want to

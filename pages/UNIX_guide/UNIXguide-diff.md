@@ -5,6 +5,8 @@ permalink: UNIXguide-diff.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 You can check for differences line by line in files using the `diff` command.
 First, let's examine these two files using [cat](UNIXguide-cat.html).
 ```bash

@@ -5,6 +5,8 @@ permalink: UNIXguide-additional-terminals.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 You can open additional Terminals (to the same directory) using system-specific
 commands.
 On Ubuntu, use the `gnome-terminal` command.

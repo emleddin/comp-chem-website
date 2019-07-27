@@ -5,6 +5,8 @@ permalink: UNIXguide-cntrl-l.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The Terminal screen can become cluttered with old prompts and printed content.
 To clean it up (if only for a moment), use Cntrl+L.
 

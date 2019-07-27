@@ -5,6 +5,8 @@ permalink: UNIXguide-command-line.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 First, you’re going to need a way to access the command line.
 If you’re on Linux or Mac machine, this is easy!
 Both have applications that come with your computer named Terminal.

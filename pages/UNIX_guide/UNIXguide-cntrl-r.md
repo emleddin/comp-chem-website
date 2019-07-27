@@ -5,6 +5,8 @@ permalink: UNIXguide-cntrl-r.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 While [history](UNIXguide-history.html) will bring up a log of past commands,
 using `Cntrl+R` will allow you to search through old commands.
 When I search for "qsub" on insert_computer_cluster, my most recent submission

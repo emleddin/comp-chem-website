@@ -5,13 +5,15 @@ permalink: UNIXguide-du.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The `du` command allows you to check how much storage space is available on the
 computer.
 There are two flags that make `du` much more managable: `-h`
 (for human-readable) and `-s` for summary.
 Human-readable format translates the number of bytes into bigger sizes
 (like KB, MB, GB, TB, etc.).
-Summary totals the amount of space for a folder. 
+Summary totals the amount of space for a folder.
 Running without the summary will provide individual file sizes.
 
 \begin{lstlisting}[style=P1]

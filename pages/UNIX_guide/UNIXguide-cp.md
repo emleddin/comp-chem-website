@@ -5,6 +5,8 @@ permalink: UNIXguide-cp.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Copying files locally can be achieved through `cp`.
 This command can be used to copy a file in the same directory, or copy it from
 a directory to another directory.

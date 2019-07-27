@@ -5,6 +5,8 @@ permalink: UNIXguide-cntrl-z.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Sometimes you have long-term jobs running locally in a Terminal, so the command
 line is unavailable, but you need to do other things in said Terminal.
 If you know before the job is submitted that it should be run in the background,
