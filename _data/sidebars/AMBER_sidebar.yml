@@ -64,7 +64,7 @@ entries:
       url: /AMBERguide-GPU-run-script.html
       output: web, pdf
 
-    - title: Molecular Dyanmics Workflow
+    - title: Molecular Dynamics Workflow
       url: /AMBERguide-MD-workflow.html
       output: web, pdf
 

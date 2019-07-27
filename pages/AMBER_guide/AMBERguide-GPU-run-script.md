@@ -58,7 +58,7 @@ done
 
 {% include note.html content="It is also important to check that you're not
 accidentally overlapping with someone by connecting to the specific node with
-\`ssh\` and using the `nvidia-smi` command." %}
+`ssh` and using the `nvidia-smi` command." %}
 
 The following covers how to read the `nvidia-smi` output.
 ```
