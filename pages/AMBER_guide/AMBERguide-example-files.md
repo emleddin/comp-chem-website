@@ -12,7 +12,9 @@ Yet again, thanks to Alice for these inputs (who in turn thanks Sajeewa).
 Using the Berendsen thermostat makes this halfway NVE and halfway NVT, but it
 should be reported as NVT. That said, you really shouldn't use the Berendsen
 thermostat because of the possibility of experiencing the
-"Flying Ice Cube Effect." You can read more about that [in the original 1998 paper][https://doi.org/10.1002/(SICI)1096-987X(199805)19:7<726::AID-JCC4>3.0.CO;2-S] and [a 2018 paper revisiting the concept][https://pubs.acs.org/doi/10.1021/acs.jctc.8b00446].
+"Flying Ice Cube Effect." You can read more about that
+[in the original 1998 paper][https://doi.org/10.1002/(SICI)1096-987X(199805)19:7<726::AID-JCC4>3.0.CO;2-S]
+and [a 2018 paper revisiting the concept][https://pubs.acs.org/doi/10.1021/acs.jctc.8b00446].
 If you need any more convincing, see the tweet below.
 
 {% include image.html file="AMBERguide/Berendsen_tweet.png"
@@ -33,7 +35,7 @@ Energy minimization for 5000 cycles, switching from steepest descent
 to conjugate gradient after 500 cycles. Bonds with hydrogen are constrained and
 ignored with SHAKE. Wrapping is performed for files, the system is held at
 constant volume, atoms with the specified restraint mask are restrained at
-those weights (in kcal mol<s>-1</s>, and the nonbonded cutoff is 9 &#8491;.
+those weights (in kcal mol<sup>-1</sup>, and the nonbonded cutoff is 9 &#8491;.
 ```
 Protein
  &cntrl
@@ -71,7 +73,7 @@ current date and time. The simulation is run at constant temperature, with weak
 coupling. The initial temperature is 10 K, and the externally coupled
 temperature is held constant at 10 K at a speed of 0.5 ps.
 Atoms with the specified restraint mask are restrained at those weights
-(in kcal mol<s>-1</s>), and the nonbonded cutoff is 9 &#8491;.
+(in kcal mol<sup>-1</sup>), and the nonbonded cutoff is 9 &#8491;.
 ```
 Protein
  &cntrl
@@ -209,7 +211,7 @@ The initial temperature is 10.0 K, and the externally coupled temperature is
 held constant at 10.0 K at a speed of 0.001 ps.
 Velocities greater than 20.0 will be reduced to the magnitude 20.0.
 Atoms with the specified restraint mask are restrained at those weights
-(in kcal mol<s>-1</s>), NMR restraints and weight changes will be given,
+(in kcal mol<sup>-1</sup>), NMR restraints and weight changes will be given,
 and the nonbonded cutoff is 9 &#8491;.
 The target temperature (`TEMP0`) will be adjusted at the specified time
 intervals.
@@ -429,7 +431,7 @@ conjugate gradient after 50 cycles.
 No SHAKE, and complete interactions are calculated.
 Wrapping is performed for files, the system is held at constant volume,
 atoms with the specified restraint mask are restrained at those weights
-(in kcal mol<s>-1</s>), and the nonbonded cutoff is 9 &#8491;.
+(in kcal mol<sup>-1</sup>), and the nonbonded cutoff is 9 &#8491;.
 ```
 minimization of water and ions
  &cntrl
@@ -474,7 +476,7 @@ minimization of enzyme
 ### `mdin.3` (aka `heat.in`) {#mdin3lang}
 Coordinates will be read, and a new simulation will be run at constant volume.
 Atoms with the specified restraint mask are restrained at those weights
-(in kcal mol<s>-1</s>), and the nonbonded cutoff is 9 &#8491;.
+(in kcal mol<sup>-1</sup>), and the nonbonded cutoff is 9 &#8491;.
 Bonds with hydrogen are constrained and ignored with SHAKE.
 The initial temperature is 0.0 K, and the externally coupled temperature is
 held constant at 300.0 K using Langevin dynamics with collisional frequency of
@@ -484,7 +486,7 @@ After 100 steps, energy information will be printed to the mdout and mdinfo
 files. After 10,000 steps, coordinates will be written to the trajectory file,
 and the restart file will be written to every 100 steps.
 Atoms with the specified restraint mask are restrained at those weights
-(in kcal mol<s>-1</s>).
+(in kcal mol<sup>-1</sup>).
 ```
 heat up
  &cntrl
@@ -520,7 +522,7 @@ The nonbonded cutoff is 9 &#8491;, and no atoms will be restrained.
 Bonds with hydrogen are constrained and ignored with SHAKE.
 The initial temperature is 300.0 K, and the externally coupled temperature is
 held constant at 300.0 K using Langevin dynamics with collisional frequency of
-1 ps<s>-1</s>.
+1 ps<sup>-1</sup>.
 The random seed is set based on date and time.
 1,000,000 MD steps will be run with a time step of 1 fs.
 After 100 steps, energy information will be printed to the mdout and mdinfo
@@ -550,7 +552,7 @@ conjugate gradient after 1000 cycles.
 Information is printed to mdout and mdinfo every 50 steps.
 The nonbonded cutoff is 8 &#8491;, wrapping is performed for files, and atoms
 with the specified restraint mask (i.e. all non-hydrogen atoms) are restrained
-at 10.0 kcal mol<s>-1</s>.
+at 10.0 kcal mol<sup>-1</sup>.
 ```
 Minimization to relax initial bad contacts, explicit solvent
  &cntrl
@@ -570,7 +572,7 @@ Minimization to relax initial bad contacts, explicit solvent
 ### `mdin.2` (aka `min2.mdin`) {#mdin2tsu}
 The is the same as
 [mdin.1](AMBERguide-example-files.html#mdin1tsu), except the restraints are
-reduced to 5.0 kcal mol<s>-1</s>.
+reduced to 5.0 kcal mol<sup>-1</sup>.
 ```
 Minimization to relax initial bad contacts, explicit solvent
  &cntrl
@@ -589,7 +591,7 @@ Minimization to relax initial bad contacts, explicit solvent
 
 ### `mdin.3` (aka `min3.mdin`) {#mdin3tsu}
 The is the same as [mdin.2](AMBERguide-example-files.html#mdin2tsu), except
-the restraints are reduced to 2.0 kcal mol<s>-1</s>.
+the restraints are reduced to 2.0 kcal mol<sup>-1</sup>.
 ```
 Minimization to relax initial bad contacts, explicit solvent
  &cntrl
@@ -607,7 +609,7 @@ Minimization to relax initial bad contacts, explicit solvent
 
 ### `mdin.4` (aka `min4.mdin`) {#mdin4tsu}
 This is the same as [mdin.3](AMBERguide-example-files.html#mdin3tsu),
-except the restraints are reduced to 1.0 kcal mol<s>-1</s>.
+except the restraints are reduced to 1.0 kcal mol<sup>-1</sup>.
 ```
 Minimization to relax initial bad contacts, explicit solvent
  &cntrl
@@ -625,7 +627,7 @@ Minimization to relax initial bad contacts, explicit solvent
 
 ### `mdin.5` (aka `min5.mdin`) {#mdin5tsu}
 This is the same as [mdin.4](AMBERguide-example-files.html#mdin4tsu), except
-the restraints are reduced to 0.5 kcal mol<s>-1</s>.
+the restraints are reduced to 0.5 kcal mol<sup>-1</sup>.
 ```
 Minimization to relax initial bad contacts, explicit solvent
  &cntrl
@@ -644,7 +646,7 @@ Minimization to relax initial bad contacts, explicit solvent
 
 ### `mdin.6` (aka `min6.mdin`) {#mdin6tsu}
 This is the same as [mdin.5](AMBERguide-example-files.html#mdin5tsu),
-except the restraints are reduced to 0.1 kcal mol<s>-1</s>.
+except the restraints are reduced to 0.1 kcal mol<sup>-1</sup>.
 ```
 Minimization to relax initial bad contacts, explicit solvent
  &cntrl
@@ -682,7 +684,7 @@ Coordinates will be read, and a new simulation will be run.
 energy information will be printed to the mdout and mdinfo files.
 After 50,000 steps, coordinates will be written to the trajectory file,
 and the restart file will be written to every 50,000 steps.
-Langevin temperature scaling with collisional frequency of 5.0 ps<s>-1</s> is
+Langevin temperature scaling with collisional frequency of 5.0 ps<sup>-1</sup> is
 used, and the starting velocities are picked from a random seed based on the
 date and time.
 For SHAKE, bonds with hydrogen are constrained and  hydrogen atoms are ignored.
@@ -692,7 +694,7 @@ constant pressure MD is used with isotropic position scaling.
 Wrapping is performed for files, the outputs are written as binary NetCDF
 files, and NMR restraints and weight changes are given.
 Atoms with the specified restraint mask are restrained at the weight of
-10 kcal mol<s>-1</s>.
+10 kcal mol<sup>-1</sup>.
 The NMR-style restraints describe the temperature increases.
 The temperature at time step 0 is 10.0 K, and linearly increases until reaching
 100.0 K at time step 100,000.
@@ -727,7 +729,7 @@ After 10,000 steps, energy information will be printed to the mdout and mdinfo
 files.
 After 10,000 steps, coordinates will be written to the trajectory file,
 and the restart file will be written to every 10,000 steps.
-Langevin temperature scaling with collisional frequency of 1.0 ps<s>-1</s>
+Langevin temperature scaling with collisional frequency of 1.0 ps<sup>-1</sup>
 is used, and the starting velocities are picked from a random seed based on the
 date and time.
 For SHAKE, bonds with hydrogen are constrained and  hydrogen atoms are ignored.
@@ -737,7 +739,7 @@ and constant pressure MD is used with isotropic position scaling.
 Wrapping is performed for files, and the outputs are written as binary NetCDF
 files.
 Atoms with the specified restraint mask are restrained at the weight of
-10 kcal mol<s>-1</s>.
+10 kcal mol<sup>-1</sup>.
 ```
 Explicit solvent molecular dynamics constant pressure MD
  &cntrl
@@ -754,7 +756,7 @@ Explicit solvent molecular dynamics constant pressure MD
 
 ### `mdin.10` (aka `eq2.mdin`) {#mdin10tsu}
 The is the same as [mdin.9](AMBERguide-example-files.html#mdin9tsu),
-except the restraints are reduced to 5.0 kcal mol<s>-1</s>.
+except the restraints are reduced to 5.0 kcal mol<sup>-1</sup>.
 ```
 Explicit solvent molecular dynamics constant pressure MD
  &cntrl
@@ -771,7 +773,7 @@ Explicit solvent molecular dynamics constant pressure MD
 
 ### `mdin.11` (aka `eq3.mdin`) {#mdin11tsu}
 The is the same as [mdin.10](AMBERguide-example-files.html#mdin10tsu),
-except the restraints are reduced to 2.0 kcal mol<s>-1</s>.
+except the restraints are reduced to 2.0 kcal mol<sup>-1</sup>.
 ```
 Explicit solvent molecular dynamics constant pressure MD
  &cntrl
@@ -788,7 +790,7 @@ Explicit solvent molecular dynamics constant pressure MD
 
 ### `mdin.12` (aka `eq4.mdin`) {#mdin12tsu}
 The is the same as [mdin.11](AMBERguide-example-files.html#mdin11tsu),
-except the restraints are reduced to 1.0 kcal mol<s>-1</s>.
+except the restraints are reduced to 1.0 kcal mol<sup>-1</sup>.
 ```
 Explicit solvent molecular dynamics constant pressure MD
  &cntrl
@@ -805,7 +807,7 @@ Explicit solvent molecular dynamics constant pressure MD
 
 ### `mdin.13` (aka `eq5.mdin`) {#mdin13tsu}
 The is the same as [mdin.12](AMBERguide-example-files.html#mdin12tsu),
-except the restraints are reduced to 0.5 kcal mol<s>-1</s>.
+except the restraints are reduced to 0.5 kcal mol<sup>-1</sup>.
 ```
 Explicit solvent molecular dynamics constant pressure MD
  &cntrl
@@ -822,7 +824,7 @@ Explicit solvent molecular dynamics constant pressure MD
 
 ### `mdin.14` (aka `eq6.mdin`) {#mdin14tsu}
 The is the same as [mdin.13](AMBERguide-example-files.html#mdin13tsu),
-except the restraints are reduced to 0.1 kcal mol<s>-1</s>.
+except the restraints are reduced to 0.1 kcal mol<sup>-1</sup>.
 ```
 Explicit solvent molecular dynamics constant pressure MD
  &cntrl
@@ -862,7 +864,7 @@ After 10,000 steps, energy information will be printed to the mdout and mdinfo
 files.
 After 10,000 steps, coordinates will be written to the trajectory file,
 and the restart file will be written to every 10,000 steps.
-Langevin temperature scaling with collisional frequency of 1.0 ps<s>-1</s>
+Langevin temperature scaling with collisional frequency of 1.0 ps<sup>-1</sup>
 is used, and the starting velocities are picked from a random seed based on the
 date and time.
 For SHAKE, bonds with hydrogen are constrained and  hydrogen atoms are ignored.
@@ -872,7 +874,7 @@ and constant pressure MD is used with isotropic position scaling.
 Wrapping is performed for files, and the outputs are written as binary NetCDF
 files.
 Atoms with the specified restraint mask are restrained at the weight of
-10 kcal mol<s>-1</s>.
+10 kcal mol<sup>-1</sup>.
 ```
 Explicit solvent molecular dynamics constant pressure 25 ns MD
  &cntrl
@@ -887,7 +889,7 @@ Explicit solvent molecular dynamics constant pressure 25 ns MD
 
 {% include note.html content="You can use a a negative value for `ntwr`,
 and this will give each restart file will have a unique name and make it so
-they won't be overwritten. 
+they won't be overwritten.
 Each restart file would be named like `WT_protein_md001.rst7_50000`." %}
 
 {% include links.html %}
