@@ -28,15 +28,13 @@ layout: default
 
 {% endif %}
 
-<!-- fix? -->
-<!-- Add page_color to front matter! -->
-<!-- Works for local -->
+ {% comment %} test  {% end comment %}
 {% if page.page_color %}
   {% for stylesheet in page.page_color %}
   <link rel="stylesheet" href="/css/theme-{{ stylesheet }}.css">
   {% endfor %}
 {% endif %}
-<!-- end? -->
+ {% comment %} test  {% end comment %}
 
 <div class="post-content">
 
