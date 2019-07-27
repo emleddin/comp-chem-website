@@ -12,6 +12,7 @@ folder: AMBER_guide
 Units:
 Angstrom: &#8491;
 kcal per mol: kcal mol<s>-1</s>
+Not equals: &#8800;
 
 Stylesheet:
 <link rel="stylesheet" href="css/theme-orange.css">
@@ -30,3 +31,8 @@ Image
 {% include image.html file="AMBERguide/file.svg"
 alt="This is alt text." caption="This is a caption."
 max-width="600; I'm required for svg" %}
+
+
+Add line break: <br>
+Superscript: <sup> </sup>
+Underlins: <u> </u>

@@ -29,7 +29,7 @@ Setting | Explanation | Amber18 Page
 ------- | ----------- | ------------
 imin | Specifies the minization settings. `= 0`: Run MD without minimization [Default] <br> `= 1`:  Energy minimization <br> `= 5`: Read trajectory for analysis | 321
 maxcyc | Specifies the maximum number of cycles for minimization. [Default = 1]. | 324
-ncyc | Minimization method will switch from steepest descent to conjugate gradient after this many cycles (when default `ntmin = 1`). [Default = 10] | 324 
+ncyc | Minimization method will switch from steepest descent to conjugate gradient after this many cycles (when default `ntmin = 1`). [Default = 10] | 324
 ntc | Specifies whether to perform SHAKE (helps ensure bonds meet proper length constraints, and should be used for MD simulations). When using TIP3P water, use `ntf = ntc = 2`. <br> `= 1`: No SHAKE [Default] <br> `= 2`: Bonds with hydrogen are constrained <br> `= 3`: All bonds are constrained (not an option for QM/MM or parallel runs using *sander*). | 329
 iwrap | Specifies wrapping coordinates of restart and trajectory files to within the primary box. <br> `= 0`: No wrapping. The use of *cpptraj* will be necessary to translate back to primary box. [Default] <br> `= 1`: Wrapping is performed. May be necessary for very long runs if files written to ASCII and not NetCDF. | 322
 ntb | Specifies whether the system is subjected to periodic boundaries. <br> `= 0`: No periodicity and PME is off. [Default when `igb > 0`] <br> `= 1`: Constant volume. [Default when `ntp = igb = 0`, which are both their respective defaults] <br> `= 2`: Constant pressure. [Default when `ntp > 0`] | 338
@@ -55,7 +55,7 @@ tempi | Specifies the initial temperature, assigning velocites from a Maxwellian
 taup | Specifies the pressure relaxation time when `nto > 0`. Recommended to be between 1-5 ps. Unstable trajectories may need a higher value. <br> `= 1.0`: [Default] | 328
 tautp | Specifies the time constant (in ps) when `ntt = 1`. Values should range from 0.5-5.0} ps; small values result in faster heating and less natural movement. <br> `= 1.0`: [Default] | 326
 vlimit | Velocities greater than specified `vlimit` will be reduced to it, keeping the sign, which helps avoid run instability. [Default = 20] | 327
-ibelly | Specifies belly type dynamics. <br> `= 1`: Some atoms in the system are allowed to move, and the rest will be frozen. The moving atoms are specified through `bellymask`. <br> Note: `ibelly $\neq$ 0` is not supported by GPUs. | 323
+ibelly | Specifies belly type dynamics. <br> `= 1`: Some atoms in the system are allowed to move, and the rest will be frozen. The moving atoms are specified through `bellymask`. <br> Note: `ibelly &#8800; 0` is not supported by GPUs. | 323
 nsnb | Specifies the frequency of nonbonded list updates when `igb = nbflag = 0`. [Default 25] | 339
 nmropt | This specifies whether NMR data will be performed. <br> `= 0`: No NMR analysis will be done [Default] <br> `= 1`: Gives NMR restraints and weight changes <br> `= 5`: Gives NMR restraints, weight changes, NOESY volumes, chemical shifts, and residual dipolar restraints <br> Note: `nmropt > 1` is unsupported for runs on GPUs. | 321
 pres0 | The reference pressure (in bar, where 1 bar = 0.987 atm). [Default = 1] | 328
@@ -162,10 +162,10 @@ For completeness, the specific settings that aren't supported are in the
 ## Table: Unsupported GPU settings in AMBER {#GPU}
 
 | --------------- | ------------- | -------------------------------- |
-| ibelly $\neq$ 0 | icfe $\neq$ 0 | igb $\neq$ 0 && cut < systemsize |
-| nmropt > 1      | nrespa $\neq$ 1 | vlimit $\neq$ -1 |
-| MPI runs with imin = 1 | es_cutoff $\neq$ vdw_cutoff | order > 4 |
-| emil_do_calc $\neq$ 0 | lj1264 $\neq$ 0 | iemap > 0 |
+| ibelly &#8800; 0 | icfe &#8800; 0 | igb &#8800; 0 && cut < systemsize |
+| nmropt > 1      | nrespa &#8800; 1 | vlimit &#8800; -1 |
+| MPI runs with imin = 1 | es_cutoff &#8800; vdw_cutoff | order > 4 |
+| emil_do_calc &#8800; 0 | lj1264 &#8800; 0 | iemap > 0 |
 |                       | isgld > 0       |           |
 
 {% include links.html %}

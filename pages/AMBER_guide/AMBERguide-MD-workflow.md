@@ -13,7 +13,7 @@ Enter: the flow chart of doom.
 
 <!-- BEGIN IMAGE -->
 {% include image.html file="AMBERguide/amber-MD-workflow.svg"
-alt="First block is whie and says 'Follow AMBER system set-up.'
+alt="First block is white and says 'Follow AMBER system set-up.'
 Second block is yellow and says 'Copy the solvated prmtop and inpcrd, as well
 as run scripts and mdin files to the job location (e.g., cluster)'.
 Third block is yellow and says 'Copy the thing.inpcrd as thing_init0.rst for
