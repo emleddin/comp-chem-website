@@ -5,6 +5,8 @@ permalink: UNIXguide-wall.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The `wall` command can be used to write a message to every Terminal window
 currently open on a computer, including your own.
 This type of thing would be useful if you wanted to warn people about an

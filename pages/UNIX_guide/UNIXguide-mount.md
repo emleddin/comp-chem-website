@@ -5,6 +5,8 @@ permalink: UNIXguide-mount.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The `mount` command is used to attach the file directory of a device to the
 Linux operating system's directory tree.
 Using the generic `mount` will list all of the mounted devices, which is

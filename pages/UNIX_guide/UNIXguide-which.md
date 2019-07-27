@@ -5,6 +5,8 @@ permalink: UNIXguide-which.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 When there are multiple installations of a program in different locations on a
 computer, it can be helpful to know which installation you're trying to access.
 The `which` command can be used to prompt

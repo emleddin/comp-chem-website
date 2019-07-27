@@ -5,6 +5,8 @@ permalink: UNIXguide-history.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Unix shells keep a log of your previously run commands (that's how the up arrow
 function works).
 To print your history, use `history number`, where the number specifies how

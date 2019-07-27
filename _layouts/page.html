@@ -28,14 +28,6 @@ layout: default
 
 {% endif %}
 
- {% comment %} test  {% end comment %}
-{% if page.page_color %}
-  {% for stylesheet in page.page_color %}
-  <link rel="stylesheet" href="/css/theme-{{ stylesheet }}.css">
-  {% endfor %}
-{% endif %}
- {% comment %} test  {% end comment %}
-
 <div class="post-content">
 
    {% if page.summary %}

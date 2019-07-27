@@ -5,7 +5,9 @@ permalink: UNIXguide-locate.html
 folder: UNIX_guide
 ---
 
-Like [find](UNIXguide-find.html), `locate` can be used to search for files by 
+<link rel="stylesheet" href="css/theme-blue.css">
+
+Like [find](UNIXguide-find.html), `locate` can be used to search for files by
 name.
 With `locate`, however, you need not have to include the entire file name; it
 will search for parts of names.

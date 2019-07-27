@@ -5,6 +5,8 @@ permalink: UNIXguide-pipe.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 There's something on the keyboard that looks like a straight line or a weird
 colon that shares the key with `\`, and that thing is called a pipe (`|`).
 Use of a pipe allows you to combine multiple commands into a single line, and

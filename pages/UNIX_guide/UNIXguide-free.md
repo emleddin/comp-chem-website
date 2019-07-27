@@ -5,6 +5,8 @@ permalink: UNIXguide-free.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 You aren't going to get a sample or anything with this command.
 However, `free` will give you information on free, total and swap memory.
 Using the `-t` flag shows the total memory used.

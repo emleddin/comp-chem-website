@@ -5,6 +5,8 @@ permalink: UNIXguide-regular-expressions.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Regular Expressions (aka regexes) are strings that describe specific characters.
 They may be used in place of something else, or to make searches more versatile,
 and vary between programming languages.

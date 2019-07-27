@@ -5,7 +5,9 @@ permalink: UNIXguide-mesg.html
 folder: UNIX_guide
 ---
 
-To set whether users can send you messages with the 
+<link rel="stylesheet" href="css/theme-blue.css">
+
+To set whether users can send you messages with the
 [write](UNIXguide-who-write.html) command, use `mesg`.
 Just typing `mesg` will register what your choice is currently set as (y allows
     messages to appear; n prevents messages from appearing).

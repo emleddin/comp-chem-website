@@ -5,6 +5,8 @@ permalink: UNIXguide-man-pages.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Despite their name, `man` pages are for people of all genders.
 Commands have manual entries that can be accessed through their `man` pages
 (see [top](UNIXguide-top.html)).

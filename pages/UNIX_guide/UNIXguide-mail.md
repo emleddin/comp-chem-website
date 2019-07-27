@@ -5,6 +5,8 @@ permalink: UNIXguide-mail.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Mail in UNIX is both a command for sending emails, and a user file that acts as
 an inbox for system messages.
 

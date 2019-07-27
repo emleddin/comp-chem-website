@@ -5,6 +5,8 @@ permalink: UNIXguide-useradd.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Root users can create new user accounts with
 ```bash
 $ useradd -m newusername

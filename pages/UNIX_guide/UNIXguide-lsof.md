@@ -5,6 +5,8 @@ permalink: UNIXguide-lsof.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 `lsof` stands for "list of open files."
 Using this command, thus, gives a list of all the open files.
 Often crazy, ridiculously-named things are being used by programs and show up

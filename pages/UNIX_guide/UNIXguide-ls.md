@@ -5,6 +5,8 @@ permalink: UNIXguide-ls.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 To list items in directories, the command `ls` is employed.
 The "s" specifies that it is a short list, as opposed to `ll`, which is a long
 list.

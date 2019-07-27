@@ -5,6 +5,8 @@ permalink: UNIXguide-redirecting-output.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 For many commands (or even programs), the standard response when they are run
 is to print the output to the Terminal.
 Instead of this, putting the greater than sign (`>`) in your command can force

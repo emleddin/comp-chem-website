@@ -5,6 +5,8 @@ permalink: UNIXguide-file.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The `file` command can be used to print the format of the data within a file.
 In this example, the data is a binary NetCDF file.
 Using [cat](UNIXguide-cat.html) to print the file would make it look like a

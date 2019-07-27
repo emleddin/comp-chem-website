@@ -5,6 +5,8 @@ permalink: UNIXguide-su.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Say you're helping someone on their computer, where you are also a user, and
 want to access something like your `.bash_profile` in order to properly assist
 them.

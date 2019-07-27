@@ -5,6 +5,8 @@ permalink: UNIXguide-groups.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 To add people to a group, you need to know their username (imagine that).
 The command to add `mark` to the `grads` group would be:
 ```bash

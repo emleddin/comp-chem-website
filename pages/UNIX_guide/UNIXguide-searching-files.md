@@ -5,6 +5,8 @@ permalink: UNIXguide-searching-files.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 To search a file in the [vi](UNIXguide-vi.html) editor, use `/`.
 First, use escape to enter any mode that you're in.
 Then, type the forward slash before the text that you're searching for, and

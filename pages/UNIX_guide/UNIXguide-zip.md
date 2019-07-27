@@ -5,6 +5,8 @@ permalink: UNIXguide-zip.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Finally, for the times you need to create a folder in the zip folder format,
 then you can use `zip`, which puts things in the `.zip` format.
 ```bash

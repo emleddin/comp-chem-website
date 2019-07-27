@@ -5,6 +5,8 @@ permalink: UNIXguide-ssh-with-graphical.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 There is a way to set up graphical forwarding (known as X11 forwarding).
 Basically, this means that visual windows opened through the Terminal are
 forwarded to your screen.

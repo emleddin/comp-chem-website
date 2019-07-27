@@ -5,6 +5,8 @@ permalink: UNIXguide-package-manager-install.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Most Unix-like systems have a package manager that can be used to install
 programs.
 This is typically done through:

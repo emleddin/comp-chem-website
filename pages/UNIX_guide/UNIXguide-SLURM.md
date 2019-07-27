@@ -5,6 +5,8 @@ permalink: UNIXguide-SLURM.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 A SLURM queue manager is a slightly more unpopular queue scheduler.
 Unlike a PBS or SGE scheduler, the commands are slightly less straightforward.
 If this quick guide doesn't provide enough detail, there is more information

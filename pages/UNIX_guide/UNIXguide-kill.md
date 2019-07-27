@@ -5,6 +5,8 @@ permalink: UNIXguide-kill.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The `kill` command is used to terminate processes.
 To use it, simply use
 ```bash

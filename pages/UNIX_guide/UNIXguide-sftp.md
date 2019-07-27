@@ -5,6 +5,8 @@ permalink: UNIXguide-sftp.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 For transferring files between two remote systems (aka through an `ssh`
     connection), you can use `sftp` (Secure File Transfer Protocol).  
 First, navigate to the folder that you would like to send or receive

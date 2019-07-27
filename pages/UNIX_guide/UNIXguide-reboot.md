@@ -5,6 +5,8 @@ permalink: UNIXguide-reboot.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Occasionally, you'll need to reboot (restart) a computer through the command
 line.
 Believe it or not, there are multiple death screens before the blue screen of
@@ -19,7 +21,7 @@ The connection will automatically disconnect, which makes sense because it is
 restarting.
 It is always a good idea to use [top](UNIXguide-top.html) and
 [nvidia-smi](UNIXguide-nvidia-smi.html) (if there's a graphics card) to ensure
-that other users are not in the middle of important jobs or processes. 
+that other users are not in the middle of important jobs or processes.
 The polite thing in that situation would be to ask if you can reboot, and then
 proceed with rebooting.
 

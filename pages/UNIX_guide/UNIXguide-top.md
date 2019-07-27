@@ -5,6 +5,8 @@ permalink: UNIXguide-top.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 To see what processes (aka, what's taking up all of your CPUs) are running on
 your computer, use `top`.
 

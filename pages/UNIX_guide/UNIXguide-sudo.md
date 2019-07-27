@@ -5,6 +5,8 @@ permalink: UNIXguide-sudo.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 If you have administrator privileges, but are not the complete admin of
 everything (i.e. the root user), then you are likely able to use `sudo`.
 If you run into issues where you cannot use a command because permission has

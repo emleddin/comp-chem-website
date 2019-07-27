@@ -5,6 +5,8 @@ permalink: UNIXguide-ps.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Another way to see what processes are running, but only for what is in your
 current shell or window, is with `ps`.
 With `ps`, the `PID` is the process identifier, `TTY` shows the Terminal window

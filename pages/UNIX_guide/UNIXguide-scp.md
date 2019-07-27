@@ -5,6 +5,8 @@ permalink: UNIXguide-scp.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Secure copy, or `scp`, is a primary means (along with
     [rsync](UNIXguide-rsync.html)) of copying files between
     computers/clusters/etc.

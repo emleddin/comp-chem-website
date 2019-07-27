@@ -5,6 +5,8 @@ permalink: UNIXguide-housekeeping.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Using the command line is going to be a lot easier if you keep a few simple
 tips in mind.
 

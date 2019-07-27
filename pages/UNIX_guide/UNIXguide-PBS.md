@@ -5,6 +5,8 @@ permalink: UNIXguide-PBS.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The most common queue manager is Portable Batch System (PBS).
 It was created by NASA, and many clusters use it for scheduling.
 A complete guide to using the PBS queue manager can be found in the

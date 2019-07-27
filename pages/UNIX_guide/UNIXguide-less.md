@@ -5,6 +5,8 @@ permalink: UNIXguide-less.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Because with [vi](UNIXguide-vi.html) there is a potential for data loss or
 overwriting, you may wish to have a "safe" way to view files.
 Viewing files with `less` does just that.

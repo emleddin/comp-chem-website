@@ -5,6 +5,8 @@ permalink: UNIXguide-sed.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 In the 1970s, `sed`, a Stream EDitor, was created.
 `sed` reads files line by line, is mainly used for search and replace, and
 doesn't edit the input file by default (instead printing the information to the

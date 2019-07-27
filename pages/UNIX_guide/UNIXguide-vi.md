@@ -5,6 +5,8 @@ permalink: UNIXguide-vi.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The `vi` editor is a "VIsual" text editor.
 To open something named `fake_document.txt` in this editor, use
 ```bash

@@ -5,6 +5,8 @@ permalink: UNIXguide-rm.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Sometimes you need to permanently delete things.
 For instance, you realized after 2802 attempts that attempt 1 was just horribly
 incorrect and is taking up valuable memory. The command to use is `rm`, which

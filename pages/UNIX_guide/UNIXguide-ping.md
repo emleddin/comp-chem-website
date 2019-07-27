@@ -5,6 +5,8 @@ permalink: UNIXguide-ping.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 One way to check that computers are online (or responsive) is through `ping`.
 This command demonstrates how much information (packets) is transmitted and how
 many are received.

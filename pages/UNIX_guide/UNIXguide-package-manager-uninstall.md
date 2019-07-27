@@ -5,6 +5,8 @@ permalink: UNIXguide-package-manager-uninstall.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 During program [installations](UNIXguide-package-manager-install.html),
 there are dependent system components that are also installed, that may be
 spread in various places throughout the computer.

@@ -5,6 +5,8 @@ permalink: UNIXguide-who-write.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Similar to `wall`, messages can be sent to an individual user using `write`.
 First, you need to know `who` that individual user is (another straightforward
     command--amazing).
@@ -33,7 +35,7 @@ I\'m glad I can take over your Terminal. Now get back to work!
 ```
 Like before, I can use enter for line breaks, and I send by using Cntrl+D
 (and not command if on a Mac).
-This is what the receiving Terminal looks like (it literally takes over so you 
+This is what the receiving Terminal looks like (it literally takes over so you
     can't do work).
 ```bash
 emmett@splinter:~$

@@ -5,6 +5,8 @@ permalink: UNIXguide-paste.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 You can combine multiple files together using the `paste` command.
 If you have a file named `numbers.txt` (that's literally just a list of
 numbers) and a file you'd like numbered (say `greatcities.txt`), then you can

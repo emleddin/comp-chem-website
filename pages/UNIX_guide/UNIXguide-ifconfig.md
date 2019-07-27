@@ -5,6 +5,8 @@ permalink: UNIXguide-ifconfig.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Let's start with definitions: IP and MAC.
 IP stands for Internet Protocol, and is the numeric number assigned to a
 computer network access the internet.

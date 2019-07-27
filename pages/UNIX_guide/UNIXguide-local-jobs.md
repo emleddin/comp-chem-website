@@ -5,6 +5,8 @@ permalink: UNIXguide-local-jobs.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Jobs are how you produce data and run analyses.
 There are several different resources attributed to different jobs.
 

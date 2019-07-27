@@ -5,6 +5,8 @@ permalink: UNIXguide-introduction.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 This is a list of commands and their contexts for getting started with using
 Unix.
 It’s probably going to be somewhere between nothing and StackOverflow in

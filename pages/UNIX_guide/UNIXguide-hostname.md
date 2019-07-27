@@ -5,6 +5,8 @@ permalink: UNIXguide-hostname.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Have you ever forgotten which computer you're using?
 Probably not, since most people aren't working with multiple systems at one
 time.

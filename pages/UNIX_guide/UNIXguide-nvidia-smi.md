@@ -5,6 +5,8 @@ permalink: UNIXguide-nvidia-smi.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The way to check GPUs for running jobs is to use the `nvidia-smi` command.
 Using this command is not only helpful to see which GPUs are available (so you
     don't double up on jobs and lead to things like overheating...) but also to

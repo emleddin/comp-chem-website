@@ -5,6 +5,8 @@ permalink: UNIXguide-tar.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 A common way of packaging up files into a single combined file is to use the
 `tar` command to create a tarball.
 Oftentimes, the source code for a program is downloadable as a tarball file,

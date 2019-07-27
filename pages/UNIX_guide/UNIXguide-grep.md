@@ -5,6 +5,8 @@ permalink: UNIXguide-grep.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The command line program `grep` recognizes matching patterns.
 An example what `grep` can do is shown through the following line.
 In the line, the `-e` flag tells the program to search for patterns starting

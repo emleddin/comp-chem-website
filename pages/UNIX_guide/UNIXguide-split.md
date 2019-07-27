@@ -5,6 +5,8 @@ permalink: UNIXguide-split.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Sometimes files are egregiously large and are downright unmanageable to look at.
 The `split` command can be used to break large files into smaller components,
 while keeping the original file intact.

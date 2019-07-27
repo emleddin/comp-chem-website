@@ -2,9 +2,10 @@
 title: exit
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-exit.html
-folder: UNIX_guide
-page_color: blue
+folder: UNIX_guide 
 ---
+
+<link rel="stylesheet" href="css/theme-blue.css">
 
 Anytime you want to exit the Terminal (or sever your `ssh` connection), just
 type `exit`.

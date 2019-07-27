@@ -5,6 +5,8 @@ permalink: UNIXguide-head.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The command `head` can be used to print the first few lines of a file.
 The default use of head with print the first 10 lines of the file, but a flag
 can be used to print more or fewer lines.

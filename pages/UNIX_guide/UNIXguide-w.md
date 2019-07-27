@@ -5,6 +5,8 @@ permalink: UNIXguide-w.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The `w` command combines the [uptime]{UNIXguide-uptime.html} and
 [who](UNIXguide-who-write.html) commands into
 a single letter.

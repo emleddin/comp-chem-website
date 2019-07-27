@@ -5,6 +5,8 @@ permalink: UNIXguide-find.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 If you're like most people, using Cntrl+F is the way you live your life.
 While Cntrl+F isn't something you can use through the command line, you can use
 `find`. In general, the command syntax is `find [path] expression`.

@@ -5,6 +5,8 @@ permalink: UNIXguide-XSEDE-Comet.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Comet's IP address is `comet.sdsc.edu`.
 Comet also uses a [SLURM](UNIXguide-SLURM.html) queue manager.
 More information available on

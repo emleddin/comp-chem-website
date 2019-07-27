@@ -5,6 +5,8 @@ permalink: UNIXguide-last.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 To check user activity, and receive information such as reboot, boot, and
 kernel version, you can use the  `last` command.
 The kernel version is the central component to the operating system, and is

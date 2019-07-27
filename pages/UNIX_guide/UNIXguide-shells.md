@@ -5,6 +5,8 @@ permalink: UNIXguide-shells.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Shells are command-line interpreters.
 They are related to terminals (text input/output environment) and consoles
 (physical terminals).

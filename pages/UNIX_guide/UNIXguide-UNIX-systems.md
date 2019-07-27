@@ -5,6 +5,8 @@ permalink: UNIXguide-UNIX-systems.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 UNIX is a family of computer operating systems that meet a set of criteria
 (some examples include Apple’s macOS and Oracle Solaris).
 Unix-like systems are computer systems that behave similarly to UNIX,

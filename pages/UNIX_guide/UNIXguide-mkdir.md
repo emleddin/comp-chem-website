@@ -5,6 +5,8 @@ permalink: UNIXguide-mkdir.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 `mkdir` stands for "make directory," and can be used to create new directories
 (folders) from the command line.
 The command to make a folder titled `testingR` would be:

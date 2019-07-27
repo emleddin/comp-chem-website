@@ -10,6 +10,8 @@ from the internet. Dealing with zipped (compressed) files is another thing
 you can do with the command line."
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 The most common way to compress files in Unix is though `gzip`.
 Zipping a file turns it into a binary file, which is no longer readable (until
     it is uncompressed).

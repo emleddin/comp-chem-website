@@ -5,6 +5,8 @@ permalink: UNIXguide-uptime.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Computers (like humans) get finicky when they've been awake for a long time.
 To check the amount of time that a computer has been online, use the `uptime` \
 command.

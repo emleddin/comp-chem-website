@@ -5,6 +5,8 @@ permalink: UNIXguide-search-and-replace.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Similarly to find and replace all in Microsoft products, you can use `:\%s` to
 search and replace in the [vi](UNIXguide-vi.html) editor.
 Practically, to search for `gobbledygook` and replace it with `balderdash` in

@@ -5,12 +5,14 @@ permalink: UNIXguide-ssh.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Connecting to other computers (or clusters, etc.) involves a command called
 `ssh`.
 It stands for "secure shell," and allows for secure remote access to other
 devices. This is helpful.
 
-Oftentimes, there are people much smarter than me that want to heavily protect 
+Oftentimes, there are people much smarter than me that want to heavily protect
 their computers.
 Universities are one example.
 They create strong firewalls to protect information, which means that a special

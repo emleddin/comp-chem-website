@@ -5,6 +5,8 @@ permalink: UNIXguide-ln.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Symbolic links are redirects to a specific file location.
 Instead of copying a file or folder, you can just provide a link to that in
 your current working directory, which saves disk space.

@@ -5,6 +5,8 @@ permalink: UNIXguide-sort.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 You can sort data with the `sort` command (amazing!).
 First, use [cat](UNIXguide-cat.html) to print the data.
 ```bash

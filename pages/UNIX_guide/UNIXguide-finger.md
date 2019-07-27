@@ -5,6 +5,8 @@ permalink: UNIXguide-finger.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Did I include this program under fun because body parts are funny? Indeed.
 The `finger` program is used to find out information about a specific user
 given their username. The command syntax is `finger username`.

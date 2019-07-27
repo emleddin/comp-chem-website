@@ -5,6 +5,8 @@ permalink: UNIXguide-wildcards.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 No, we're not playing UNO.
 Wildcards are what asterisks are called, because they have many functions,
 including making lives easier.

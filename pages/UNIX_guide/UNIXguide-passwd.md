@@ -5,6 +5,8 @@ permalink: UNIXguide-passwd.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 Changing your password can be done through the command line with `passwd`.
 ```bash
 euid123:~$ passwd

@@ -5,6 +5,8 @@ permalink: UNIXguide-rsync.html
 folder: UNIX_guide
 ---
 
+<link rel="stylesheet" href="css/theme-blue.css">
+
 A way to copy files to protect against newer files being overwritten by those
 being transferred is using rsync.
 This is not recommended between personal computers and UNT computer clusters,
