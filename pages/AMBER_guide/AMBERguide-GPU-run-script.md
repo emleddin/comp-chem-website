@@ -58,7 +58,7 @@ done
 
 {% include note.html content="It is also important to check that you're not
 accidentally overlapping with someone by connecting to the specific node with
-`ssh` and using the `nvidia-smi` command." %}
+\`ssh\` and using the `nvidia-smi` command." %}
 
 The following covers how to read the `nvidia-smi` output.
 ```
@@ -124,6 +124,6 @@ system running on that specific GPU node (with something like
 
 {% include important.html content="Not every system has `nvidia-smi` configured
 correctly. Make sure you check with someone locally that the numbers in the
-command and the numbers for exporting `CUDA_VISIBLE_DEVICES` match up. %}
+command and the numbers for exporting `CUDA_VISIBLE_DEVICES` match up." %}
 
 {% include links.html %}
