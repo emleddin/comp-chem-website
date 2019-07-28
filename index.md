@@ -43,13 +43,14 @@ and I've outlined a few here.
 * [AMBER](http://ambermd.org/Manuals.php)
 * [Software Carpentry (online lessons)](https://software-carpentry.org/lessons/)
 * [MolSSI: Getting Started in Computational Chemistry](https://github.com/MolSSI-Education/getting-started-computational-chemistry)
-* [Mobely Lab: Basic (MD/MC) Simulation Training](https://github.com/MobleyLab/basic_simulation_training/blob/master/paper/basic_training.pdf)
+* [Mobley Lab: Basic (MD/MC) Simulation Training](https://github.com/MobleyLab/basic_simulation_training/blob/master/paper/basic_training.pdf)
 * [Shodor: Background Reading for Basis Sets](https://www.shodor.org/chemviz/basis/teachers/background.html)
 * [Spartan’s Description of Basis Sets](http://downloads.wavefun.com/FAQ/BasisSetFAQ.html)
 * [Dr. Sherrill: Basis Sets in Quantum Chemistry](http://vergil.chemistry.gatech.edu/courses/chem6485/pdf/basis-sets.pdf)
 * [Dr. Gilbert: Introduction to Computational Quantum Chemistry](http://rsc.anu.edu.au/~agilbert/gilbertspace/uploads/Chem3108.pdf)
 * [Dr. Kahn: Semiempirical Quantum Chemistry](https://people.chem.ucsb.edu/kahn/kalju/chem226/public/semiemp_intro.html)
 * [Dr. Lynch: Introduction to GaussView and Gaussian](https://comp.chem.umn.edu/Chem8021/gv)
+* [Directory of Computer Aided Drug Design tools](https://www.click2drug.org/)
 
 ### Textbooks {#book-recs}
 
