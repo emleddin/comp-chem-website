@@ -32,7 +32,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Plotting RMSD, RMSF, and Total Number of Hydrogen Bonds with gnuplot
+    - title: "Plotting RMSD, RMSF, and Total Number of Hydrogen Bonds with gnuplot"
       url: /Analysisguide-plotting-RMSD.html
       output: web, pdf
 
@@ -44,7 +44,7 @@ entries:
       url: /Analysisguide-parmed.html
       output: web, pdf
 
-    - title: Hydrogen Bond Analysis (HBA)
+    - title: "Hydrogen Bond Analysis (HBA)"
       url: /Analysisguide-hba.html
       output: web, pdf
 
@@ -52,7 +52,7 @@ entries:
       url: /Analysisguide-correlational.html
       output: web, pdf
 
-    - title: Backbone
+    - title: Backbone Analysis
       url: /Analysisguide-backbone.html
       output: web, pdf
 
@@ -69,7 +69,7 @@ entries:
       output: web, pdf
 
     - title: Loading Files from the Command Line
-      url: /Analysisguide-plotting-RMSD-averages.html
+      url: /Analysisguide-loading-files-cl.html
       output: web, pdf
 
     - title: "Changing Your System's Orientation"
@@ -81,7 +81,7 @@ entries:
       output: web, pdf
 
     - title: Graphical Representations
-      url: /Analysisguide-graphical-representations.html
+      url: /Analysisguide-graphical-reps.html
       output: web, pdf
 
     - title: Saving Files
@@ -105,7 +105,7 @@ entries:
       output: web, pdf
 
     - title: Loading in the Protein
-      url: /Analysisguide-plotting-RMSD-averages.html
+      url: /Analysisguide-loading-protein.html
       output: web, pdf
 
     - title: Plotting Normal Modes with gnuplot
@@ -144,11 +144,11 @@ entries:
       url: /Analysisguide-EDA-differences.html
       output: web, pdf
 
-    - title: Using gnuplot's Multiplot Feature with Standard Deviations
+    - title: "Using gnuplot's Multiplot Feature with Standard Deviations"
       url: /Analysisguide-EDA-multiplot.html
       output: web, pdf
 
-    - title: Depracated Python EDA Scripts
+    - title: Deprecated Python EDA Scripts
       url: /Analysisguide-EDA-Python.html
       output: web, pdf
 
@@ -157,7 +157,7 @@ entries:
     folderitems:
 
     - title: Matrix Correlation Information
-      url: /Analysisguide-matrix-correlation-Chimera.html
+      url: /Analysisguide-mat-corr-Chimera.html
       output: web, pdf
 
     - title: EDA Plots by Residue
@@ -172,7 +172,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Custon Settings at Start-Up
+    - title: "Custom Settings at Start-Up"
       url: /Analysisguide-gnuplot-settings.html
       output: web, pdf
 
