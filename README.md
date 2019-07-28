@@ -9,6 +9,6 @@ The site was created using the
 [Documentation Theme for Jekyll](http://jekyllthemes.org/themes/documentation-theme-jekyll/)
 template.
 
-To build the site it locally,
+To build the site locally,
 [install Jekyll](https://jekyllrb.com/docs/installation/) and run:
 ```$ bundle exec jekyll serve```

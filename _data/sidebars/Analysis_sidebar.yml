@@ -32,6 +32,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Cpptraj
+      url: /Analysisguide-cpptraj.html
+      output: web, pdf
+
     - title: "Plotting RMSD, RMSF, and Total Number of Hydrogen Bonds with gnuplot"
       url: /Analysisguide-plotting-RMSD.html
       output: web, pdf
@@ -100,6 +104,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: NMA Overview
+      url: /Analysisguide-NMA.html
+      output: web, pdf
+
     - title: Downloading VMD and ProDy
       url: /Analysisguide-downloading-VMD.html
       output: web, pdf
@@ -119,6 +127,10 @@ entries:
   - title: Energy Decomposition Analysis (EDA)
     output: web, pdf
     folderitems:
+
+    - title: EDA Overview
+      url: /Analysisguide-EDA.html
+      output: web, pdf
 
     - title: EDA Input File
       url: /Analysisguide-EDA-input.html
@@ -156,6 +168,10 @@ entries:
     output: web, pdf
     folderitems:
 
+    - title: Mapping Data to Structures
+      url: /Analysisguide-map-data.html
+      output: web, pdf
+
     - title: Matrix Correlation Information
       url: /Analysisguide-mat-corr-Chimera.html
       output: web, pdf
@@ -171,6 +187,10 @@ entries:
   - title: Using Gnuplot
     output: web, pdf
     folderitems:
+
+    - title: Gnuplot Overview
+      url: /Analysisguide-gnuplot.html
+      output: web, pdf
 
     - title: "Custom Settings at Start-Up"
       url: /Analysisguide-gnuplot-settings.html

@@ -39,3 +39,6 @@ Superscript: <sup> </sup>
 Underlins: <u> </u>
 If you need the rightarrow in code:
 <code>Tools &rarr; Structure Comparison &rarr; MatchMaker</code>
+
+Change text background color:
+<span style="background-color: #FFFF00"> Thing to be highlighted </span>
