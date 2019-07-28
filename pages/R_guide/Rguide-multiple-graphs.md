@@ -37,6 +37,6 @@ The bottom left is titled 'Formaldehyde Data.' Data are increasing linearly.
 The x-axis is carb and the y-axis is optden.
 The bottom right is titled 'Histogram of AirPassengers.' The x-axis
 is air passengers and the y-axis is frequency. Data are right-skewed."
-caption="A random dataset, created using `par`." %}
+caption="A random dataset, created using <code>par</code>." %}
 
 {% include links.html %}

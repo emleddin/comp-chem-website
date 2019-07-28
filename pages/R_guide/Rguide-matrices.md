@@ -7,7 +7,7 @@ folder: R_guide
 
 <link rel="stylesheet" href="css/theme-pink.css">
 
-\subsubsection{Filling Matrices}
+## Filling Matrices {#fill-mat}
 To make a 4x5 matrix filled with zeroes, it would look like:
 ```R
 > matrix(0, 4, 5)

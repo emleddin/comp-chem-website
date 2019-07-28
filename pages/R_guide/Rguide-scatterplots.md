@@ -72,7 +72,7 @@ alt="Depictions of the different marker types for 0 to 25.
 24: white triangle smaller than 2
 25: inverted white triangle smaller than 6."
 caption="Different marker options available, with the default equal to
-`pch=1`." %}
+<code>pch=1</code>." %}
 
 
 

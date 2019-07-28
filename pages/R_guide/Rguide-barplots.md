@@ -32,7 +32,7 @@ The generated barplot is shown in the image below.
 alt="A bar plot. On the x-axis, Kirksville has less than 20,000,. New Lenox
 has about 25,000. Denton has above 120,000, but not as much as Joliet, which
 is off the scale."
-caption="Example use of `barplot`, which creates a barplot." %}
+caption="Example use of <code>barplot</code>, which creates a barplot." %}
 
 To add a line at the mean (or median, etc.) of the population, the `abline`
 command can be used, which will update the current plot.

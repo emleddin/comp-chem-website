@@ -53,7 +53,7 @@ named example, then the line would be `~/home/euid123/R_jobs/example \`.
 | `--het`   | Heterozygosity    | F Value       |
 | `--hardy` | Hardy Weinberg Equilibrium | HWE  |
 | `--r2`    | Linkage Disequilibrium | r<sup>2</sup> |
-| ``--out snps` | Linkage Disequilibrium | r<sup>2</sup> |
+| `--out snps` | Linkage Disequilibrium | r<sup>2</sup> |
 | `--missing --mind 1` | Missingness | F_MISS   |
 | `--recodeAD` | Recode        | -              |
 
