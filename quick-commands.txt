@@ -14,6 +14,7 @@ Angstrom: &#8491;
 kcal per mol: kcal mol<s>-1</s>
 Not equals: &#8800;
 Right arrow: &rarr;
+Degree: &deg;
 
 Stylesheet:
 <link rel="stylesheet" href="css/theme-orange.css">

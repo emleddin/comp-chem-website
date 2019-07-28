@@ -29,7 +29,7 @@ Additional details about gnuplot scripts can be found on the
 [gnuplot documentation](http://www.gnuplot.info/documentation.html)
 and in the [gnuplot section](Analysisguide-gnuplot.html) later in this guide.
 
-## rmsd-etc.gnu
+## `rmsd-etc.gnu` {#rmsd-etc}
 
 (Thank's Alice!)
 ```Gnuplot
