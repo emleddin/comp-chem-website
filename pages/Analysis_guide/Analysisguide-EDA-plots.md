@@ -11,9 +11,9 @@ In an effort to quickly generate the EDA plots based on data that has already
 been used in previous steps, `chimeraprint.sh` was written.
 This script generates the files needed for difference images for by-residue
 data that has been processed using
-[`bashbyres.sh`](Analysisguide-EDA-Python.html) and using the associated
-[paste](Analysisguide-EDA-Python.html) command to create a
-combined data file.
+[`bashbyres.sh`](Analysisguide-EDA-Python.html##bashbyres-script) and using
+the associated [paste](Analysisguide-EDA-Python.html##byresEDAplot) command to
+create a combined data file.
 
 ## `chimeraprint.sh` {#print-script}
 ```bash
