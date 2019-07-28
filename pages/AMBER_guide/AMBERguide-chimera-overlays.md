@@ -9,8 +9,8 @@ folder: AMBER_guide
 
 As mentioned earlier, you can save structures relative to each other in
 Chimera. First, open both structures in Chimera. Then, follow
-`Tools $\rightarrow$ Structure Comparison $\rightarrow$ MatchMaker`.
-This brings up the `MatchMaker` panel (see the image below). On the left, 
+`Tools &rarr; Structure Comparison &rarr; MatchMaker`.
+This brings up the `MatchMaker` panel (see the image below). On the left,
 you'll select one structure as the reference, and you'll choose the ones to
 match on the right.
 
@@ -24,7 +24,7 @@ caption="The MatchMaker screen, which allows you to align sequences and then
 save their coordinates relative to each other." %}
 
 Once you've hit "apply," they'll be matched and oriented to the reference you
-selected. You can then save them through `File $\rightarrow$ SavePDB`.
+selected. You can then save them through `File &rarr; SavePDB`.
 Highlight the one to save, and then select the correct option under "Save
 relative to model," depending on what you want.
 

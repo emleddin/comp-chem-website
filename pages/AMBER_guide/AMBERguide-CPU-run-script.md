@@ -18,12 +18,12 @@ modify this script to change the `#PBS -N` line and change the
 ```bash
 #!/bin/bash                        ## Tell the script to run in a bash shell
 #PBS -q my_cpu_alloc               ## Use CPUs to run the job
-#PBS -l nodes=1:ppn=20,mem=20GB	   ## Use 1 node, with 20 processors per node
+#PBS -l nodes=1:ppn=20,mem=20GB    ## Use 1 node, with 20 processors per node
                                    ## and 20GB memory
-#PBS -j oe				     ## Combine standard output & standard error files
-#PBS -r n					 ## Says the job is not rerunnable
-#PBS -o err.error			 ## Write printed errors to a file titled err.error
-#PBS -N WT_protein			 ## Name of the job to appear in queue
+#PBS -j oe                   ## Combine standard output & standard error files
+#PBS -r n                    ## Says the job is not rerunnable
+#PBS -o err.error            ## Write printed errors to a file titled err.error
+#PBS -N WT_protein           ## Name of the job to appear in queue
 
 ## Access the directory you submitted from
 cd $PBS_O_WORKDIR

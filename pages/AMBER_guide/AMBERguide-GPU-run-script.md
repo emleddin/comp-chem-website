@@ -15,11 +15,11 @@ Doubly-commented parts (`##`) are included here for explanation purposes.
 ```
 #!/bin/bash                  ## Tell the script to run in a bash shell
 #PBS -q my_gpu_alloc         ## Queue allocation
-#PBS -l n11-12-13	         ## Specify this GPU node to run on
-#PBS -j oe				     ## Combine standard output & standard error files
-#PBS -r n					 ## Says the job is not rerunnable
-#PBS -o err.error			 ## Write printed errors to a file titled err.error
-#PBS -N WT_protein_GPU		 ## Name of the job to appear in queue
+#PBS -l n11-12-13            ## Specify this GPU node to run on
+#PBS -j oe                   ## Combine standard output & standard error files
+#PBS -r n                    ## Says the job is not rerunnable
+#PBS -o err.error            ## Write printed errors to a file titled err.error
+#PBS -N WT_protein_GPU       ## Name of the job to appear in queue
 
 ## Specify which specific GPU card to run on
 export CUDA_VISIBLE_DEVICES=3
