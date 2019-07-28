@@ -41,7 +41,7 @@ Python starts counting at 0, so residue 436 shows up as residue 435 in the
 script.
 Additionally, the axes need to be set explicitly. This is currently setup for
 a system with 455 residues.
-Thanks to Alice for <u>`matrcorr_graph.py`</u>.
+Thanks to Alice for `matrcorr_graph.py`.
 
 ## matrcorr_graph.py
 ```python

@@ -52,6 +52,6 @@ Additional details on these commands can be found on page 232 of the
 {% include image.html file="AMBERguide/water-boxes.png"
 alt="Shapes of box and truncated octahedron water boxes."
 caption="The different types of periodic solvent boxes for explicit solvent,
-`solvateBox` (left) and `solvateOct` (right)." %}
+<code>solvateBox</code> (left) and <code>solvateOct</code> (right)." %}
 
 {% include links.html %}

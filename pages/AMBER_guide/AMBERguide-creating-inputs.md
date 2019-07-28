@@ -49,13 +49,13 @@ ntp | Specifies constant pressure dynamics. <br> `= 0`: no pressure scaling perf
 ig | The random seed. MD starting velocities are dependent on the random number. Setting a specific random seed can be done to check reproducibility. <br> `= -1`: Seed is set based off current date and time. [Default] | 326
 barostat | Specifies the barostat for pressure control. <br> `= 1`: Berendsen [Default] <br> `= 2`: Monte Carlo | 328
 ntt | Specifies temperature scaling. <br> `= 0`: Constant total energy, assuming `ntb < 2`. Microcanonical NVE. <br> `= 1`: Constant temperature, with weak-coupling algorithm. Dangerous for generalized Born simulations. <br> `= 2`: Anderson-like temperature, with Newtonian dynamics. Canonical (constant T) ensemble. <br> `= 3`: Langevin dynamics with collision frequency specified by `gamma_ln`. (If `gamma_ln = 0`, same as `ntt = 0`). Restarts of these systems should have an explicitly set `ig` value. <br> `= 9`: Optimized Isokinetic Nose-Hoover (OIN) chain ensemble, aka a fancy constant temperature simulation. <br> `= 10`: Stochastic Isokinetic Nose-Hoover RESPA Integrator. Can help demonstrate a Boltzman distribution. | 325
-temp0 | The temperature that systems with `ntt > 0`{} should be held constant at. <br> `= 300`: {[Default]} <br> If greater than 300, reduce step size, because of potential for errors with SHAKE and other things. | 326
+temp0 | The temperature that systems with `ntt > 0` should be held constant at. <br> `= 300`: [Default] <br> If greater than 300, reduce step size, because of potential for errors with SHAKE and other things. | 326
 gamma_ln | Specifies the collision frequency, &gamma;, in ps<sup>-1</sup> when using `ntt = 3`. Also specifies constants when `ntt = 9` and `ntt = 10` <br> `= 0`: [Default] | 326
 tempi | Specifies the initial temperature, assigning velocites from a Maxwellian distribution. This has no impact if `ntx > 3` <br> `= 0.0`: velocities calculated from the forces, instead of assigned. [Default] | 322
 taup | Specifies the pressure relaxation time when `nto > 0`. Recommended to be between 1-5 ps. Unstable trajectories may need a higher value. <br> `= 1.0`: [Default] | 328
-tautp | Specifies the time constant (in ps) when `ntt = 1`. Values should range from 0.5-5.0} ps; small values result in faster heating and less natural movement. <br> `= 1.0`: [Default] | 326
+tautp | Specifies the time constant (in ps) when `ntt = 1`. Values should range from 0.5-5.0 ps; small values result in faster heating and less natural movement. <br> `= 1.0`: [Default] | 326
 vlimit | Velocities greater than specified `vlimit` will be reduced to it, keeping the sign, which helps avoid run instability. [Default = 20] | 327
-ibelly | Specifies belly type dynamics. <br> `= 1`: Some atoms in the system are allowed to move, and the rest will be frozen. The moving atoms are specified through `bellymask`. <br> Note: `ibelly &#8800; 0` is not supported by GPUs. | 323
+ibelly | Specifies belly type dynamics. <br> `= 1`: Some atoms in the system are allowed to move, and the rest will be frozen. The moving atoms are specified through `bellymask`. <br> Note: <code>ibelly &#8800; 0</code> is not supported by GPUs. | 323
 nsnb | Specifies the frequency of nonbonded list updates when `igb = nbflag = 0`. [Default 25] | 339
 nmropt | This specifies whether NMR data will be performed. <br> `= 0`: No NMR analysis will be done [Default] <br> `= 1`: Gives NMR restraints and weight changes <br> `= 5`: Gives NMR restraints, weight changes, NOESY volumes, chemical shifts, and residual dipolar restraints <br> Note: `nmropt > 1` is unsupported for runs on GPUs. | 321
 pres0 | The reference pressure (in bar, where 1 bar = 0.987 atm). [Default = 1] | 328
@@ -110,13 +110,13 @@ General comment describing settings of this file
 
 Since `nstlim` refers to the total number of steps, the simulation time of a
 single file can be found through an equation of
-[`nstlim` / 1000000{fs <sup>ns<-1>} x `dt` = time of simulation (in ns)].
+[`nstlim` / 1000000 fs ns<sup>-1</sup> x `dt` = time of simulation (in ns)].
 Thus, with an `nstlim` of 250000 at a 2 fs time-step, 200 files of unrestrained
 MD data would yield a total simulation time of 100 nanoseconds.
 One [table](AMBERguide-creating-inputs.html#2fs) shows times with a 2 fs
 time-step, and another [table](AMBERguide-creating-inputs.html#1fs) shows
 times with a 1 fs time-step.
-The 2fs time-step is recommended when using SHAKE (set by `ntc > 1`).
+The 2 fs time-step is recommended when using SHAKE (set by `ntc > 1`).
 Without SHAKE, the 1 fs time-step is recommended.
 
 <!-- 2 femtosecond timestep -->

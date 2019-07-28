@@ -19,7 +19,7 @@ N goes to the nucleobase. N-C1 is a glycosidic bond, labeled chi.
 Alpha is P to O5'. Beta is O5' to C5'. Gamma is C5' to C4'.
 C4' to C3' is delta. C3' to O3' is epsilon. O3' to other nucelotide's P is zeta."
 caption="The different nucleic acid backbone angles, taken from
-[NPTEL](http://nptel.ac.in/courses/104103018/module4/lec2/3.html)." %}
+<a href="http://nptel.ac.in/courses/104103018/module4/lec2/3.html">NPTEL</a>." %}
 
 The different backbone angles can be seen in the figure above.
 These backbone angles have been defined through:
@@ -42,13 +42,13 @@ Specifying a dataset name (ex. `alpha449`) will allow multiple angles to be
 printed to the same out file.
 ```
 #Residue 449 DG
-dihedral alpha449 :448@O3' :449@P :449@O5' :449@C5' out RNA_backbone-449-dihedral.dat
-dihedral beta449 :449@P :449@O5' :449@C5' :449@C4' out RNA_backbone-449-dihedral.dat
-dihedral gamma449 :449@O5' :449@C5' :449@C4' :449@C3' out RNA_backbone-449-dihedral.dat
-dihedral delta449 :449@C5' :449@C4' :449@C3' :449@O3' out RNA_backbone-449-dihedral.dat
-dihedral epsilon449 :449@C4' :449@C3' :449@O3' :450@P out RNA_backbone-449-dihedral.dat
-dihedral zeta449 :449@C3' :449@O3' :450@P :450@O5' out RNA_backbone-449-dihedral.dat
-dihedral chi449 :449@O4' :449@C1' :449@N9 :449@C4 out RNA_backbone-449-dihedral.dat
+dihedral alpha449 :448@O3' :449@P :449@O5' :449@C5' out RNA_backbone-449-dihed.dat
+dihedral beta449 :449@P :449@O5' :449@C5' :449@C4' out RNA_backbone-449-dihed.dat
+dihedral gamma449 :449@O5' :449@C5' :449@C4' :449@C3' out RNA_backbone-449-dihed.dat
+dihedral delta449 :449@C5' :449@C4' :449@C3' :449@O3' out RNA_backbone-449-dihed.dat
+dihedral epsilon449 :449@C4' :449@C3' :449@O3' :450@P out RNA_backbone-449-dihed.dat
+dihedral zeta449 :449@C3' :449@O3' :450@P :450@O5' out RNA_backbone-449-dihed.dat
+dihedral chi449 :449@O4' :449@C1' :449@N9 :449@C4 out RNA_backbone-449-dihed.dat
 ```
 
 Double-stranded nucleic acids can also be studied with respect to other base
@@ -62,7 +62,8 @@ The `nastruct` command has predetermined prefixes (`BP.`; `BPstep.`; and
 `Helix.`), but you specify the rest of the filename and extension after `naout`.
 An example is shown below.
 ```
-nastruct master resrange 431,432,433,434,435,446,447,448,449,450 naout master.dat resmap 5xC:C calcnohb
+nastruct master resrange 431,432,433,434,435,446,447,448,449,450 naout master.dat \
+ resmap 5xC:C calcnohb
 ```
 
 Because `nastruct` will automatically match pairs, the output will need to be
@@ -76,7 +77,7 @@ $ awk 'NR == 1 || NR % 4 == 2' Helix.master.dat > Helix-A2-C3.dat
 The `NR == 1` will print the first row (the header) and the `NR % 4 == 2` will
 print every 4th row starting with the second row.
 
-## Using 3DNA {#3DNA}
+## Using 3DNA {#DNA}
 
 Another program that can be used to analyze DNA is
 [3DNA program](http://x3dna.org/).

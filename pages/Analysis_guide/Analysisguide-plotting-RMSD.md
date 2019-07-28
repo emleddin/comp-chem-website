@@ -18,7 +18,7 @@ $ gnuplot scriptname.gnu
 ```
 
 In the following script, `set encoding iso_8859_1` makes it so that the &#8491;
-symbol can be encoded by using `\305`.
+symbol can be encoded by using `{\305}`.
 The script also assumes that this is in a general directory, with additional
 system directories contained inside (think they're folder B, but you're in
 folder A), which is why the path to the data files is set as such.

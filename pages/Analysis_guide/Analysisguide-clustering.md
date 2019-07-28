@@ -14,7 +14,7 @@ Let's say that in your system, you're really interested in the distance
 between two specific helices.
 You can use clustering to categorize your entire simulation time into groups
 that are based off the distance between them
-(i.e., 2-3&#8491;, 3-4&#8491;, 4-5&#8491;, etc).
+(i.e., 2-3 &#8491;, 3-4 &#8491;, 4-5 &#8491;, etc).
 
 If you're looking to do a clustering analysis, it's probably because you're
 thinking about doing quantum mechanics/molecular mechanics (QM/MM).

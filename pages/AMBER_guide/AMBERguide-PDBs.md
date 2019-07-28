@@ -8,7 +8,7 @@ folder: AMBER_guide
 <link rel="stylesheet" href="css/theme-orange.css">
 
 PDB stands for Protein Data Bank and is a file extension type that is used for
-crystal structures by the [RCSB PDB][https://www.rcsb.org/].
+crystal structures by the [RCSB PDB](https://www.rcsb.org/).
 Once resolved, crystal structures are published on the website (see below),
 which provides information about the specifics of the crystals structure and
 relevant citations for the protein of interest.

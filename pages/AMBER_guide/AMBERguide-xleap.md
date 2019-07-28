@@ -30,7 +30,7 @@ even if your solvated PDB looks incorrect in VMD
 To open the program, open a Terminal, change directories to the folder with
 the files you need to set-up the system (so PDBs, prepi files, frcmod files,
     mol2 files, and lib files), and enter
-```
+```bash
 $ AMBERHOME/bin/xleap
 ```
 into the command line.
@@ -41,14 +41,14 @@ enabled (meaning you used `ssh -X` or `ssh -Y` when you began the connection).
 After doing this, the GUI will pop up. The Terminal is now useless until you
 close *xleap* through (a) typing `quit` in its command line,
 (b) clicking the orange X (not recommended, it's not the safe way to quit), or
-(c) following `File &rarr; Quit`." %}
+(c) following <code>File &rarr; Quit</code>." %}
 
 Once the GUI appears (see below), you can start entering the commands to set up
 your system.
 
 {% include image.html file="AMBERguide/xleapGUI.png"
-alt="The xleap editor GUI." caption="The *xleap* Universe Editor GUI shown after
-sourcing force fields and adding zinc parameters." %}
+alt="The xleap editor GUI." caption="The <i>xleap</i> Universe Editor GUI shown
+after sourcing force fields and adding zinc parameters." %}
 
 Individual components can be edited and checked in *xleap* after all the
 necessary things have been added. For a loaded PDB, individual residues
@@ -58,7 +58,7 @@ These different components can then be edited with something like `edit PDB`,
 which will open the Unit editor.
 Remember, the editor will not work properly if numlock is enabled, so make
 sure that that is toggled off.
-Following `Edit &rarr; Show selection only` will show the residues you
+Following <code>Edit &rarr; Show selection only</code> will show the residues you
 highlighted. The highlighting can be turned off by typing something
 like `deselect PDB` in the command line Universe Editor.
 
@@ -74,7 +74,7 @@ effects under `Manipulation` can adjust it.
 A system that needs editing in the Unit editor is shown below.
 
 {% include image.html file="AMBERguide/xleap-editor.png"
-alt="The xleap editor's unit editor." caption="The *xleap* Unit Editor,
+alt="The xleap editor's unit editor." caption="The <i>xleap</i> Unit Editor,
 where a ring that needs to be fixed is shown. The C3' to C1' bond should be
 between C3' and C4'." %}
 

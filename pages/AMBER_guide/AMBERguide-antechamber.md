@@ -43,7 +43,7 @@ It's not meant to be super great--it's a quick and dirty calculation, because
 you're likely doing this same parametrization for a great number of compounds.
 If you really care about this ligand's parametrization, then you'll want to
 consider using RESP charges (and now we're back to the
-[<b>R</b>ESP <b>E</b>SP charge <b>DD</b>ata <b>B</b>ase Home Page][http://upjv.q4md-forcefieldtools.org/REDDB/index.php]).
+[<b>R</b>ESP <b>E</b>SP charge <b>DD</b>ata <b>B</b>ase Home Page](http://upjv.q4md-forcefieldtools.org/REDDB/index.php)).
 There are other charge options for *antechamber*, too, which can be found by
 doing `antechamber -L`.
 Anyway, the `-nc 0` says that the `n`et `c`harge is zero.

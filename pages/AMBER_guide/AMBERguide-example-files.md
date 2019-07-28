@@ -13,8 +13,7 @@ Using the Berendsen thermostat makes this halfway NVE and halfway NVT, but it
 should be reported as NVT. That said, you really shouldn't use the Berendsen
 thermostat because of the possibility of experiencing the
 "Flying Ice Cube Effect." You can read more about that
-[in the original 1998 paper][https://doi.org/10.1002/(SICI)1096-987X(199805)19:7<726::AID-JCC4>3.0.CO;2-S]
-and [a 2018 paper revisiting the concept][https://pubs.acs.org/doi/10.1021/acs.jctc.8b00446].
+[in the original 1998 paper][link2] and [a 2018 paper revisiting the concept](https://pubs.acs.org/doi/10.1021/acs.jctc.8b00446).
 If you need any more convincing, see the tweet below.
 
 {% include image.html file="AMBERguide/Berendsen_tweet.png"
@@ -35,7 +34,7 @@ Energy minimization for 5000 cycles, switching from steepest descent
 to conjugate gradient after 500 cycles. Bonds with hydrogen are constrained and
 ignored with SHAKE. Wrapping is performed for files, the system is held at
 constant volume, atoms with the specified restraint mask are restrained at
-those weights (in kcal mol<sup>-1</sup>, and the nonbonded cutoff is 9 &#8491;.
+those weights (in kcal mol<sup>-1</sup>), and the nonbonded cutoff is 9 &#8491;.
 ```
 Protein
  &cntrl
@@ -202,7 +201,7 @@ Coordinates will be read and a new simulation will be run. The velocities are
 ignored and the time step is set to zero. The frequency of the nonbonded list
 updates every step. After 100 steps, energy information will be printed to the
 mdout and mdinfo files. After 1000 steps, coordinates will be written to the
-trajectory file, and no velocity trajectory file is written. 100000 MD steps
+trajectory file, and no velocity trajectory file is written. 100,000 MD steps
 will be run from a start time of 0, and the time step is every 1 fs.
 Bonds with hydrogen are constrained and ignored with SHAKE.
 The simulation is at constant volume. Wrapping is performed for files.
@@ -254,7 +253,7 @@ END
 
 ### `mdin.7` {#mdin7NVT}
 After 10,000 steps, energy information will be printed to the mdout and mdinfo
-files. After 1000 steps, coordinates will be written to the trajectory file,
+files. After 1,000 steps, coordinates will be written to the trajectory file,
 and no velocity trajectory file is written.
 20000 MD steps will be run from a start time of 0, and the time step is every
 1 fs.
@@ -292,9 +291,9 @@ END
 ### `mdin.8` {#mdin8NVT}
 After 100 steps, energy information will be printed to the mdout and mdinfo
 files.
-After 1000 steps, coordinates will be written to the trajectory file, and no
+After 1,000 steps, coordinates will be written to the trajectory file, and no
 velocity trajectory file is written.
-10000 MD steps will be run from a start time of 0, and the time step is every
+10,000 MD steps will be run from a start time of 0, and the time step is every
 1 fs. The restraint weight is reduced.
 The rest is the same as [mdin.7](AMBERguide-example-files.html#mdin7NVT).
 ```
@@ -386,9 +385,9 @@ Coordinates will be read and a new simulation will be run.
 The velocities are ignored and the time step is set to zero.
 The frequency of the nonbonded list updates every step.
 After 100 steps, energy information will be printed to the mdout and mdinfo
-files. After 1000 steps, coordinates will be written to the trajectory file,
+files. After 1,000 steps, coordinates will be written to the trajectory file,
 and no velocity trajectory file is written.
-250000 MD steps will be run from a start time of 0, and the time step is every
+250,000 MD steps will be run from a start time of 0, and the time step is every
 2 fs.
 Bonds with hydrogen are constrained and ignored with SHAKE.
 The simulation is at constant volume.
@@ -401,7 +400,7 @@ this is later changed to -1.0.
 NMR restraints and weight changes will be given, and the nonbonded cutoff is
 9 &#8491;.
 The relative weights of all the NMR restraint energy terms (`REST`) will be
-adjusted at step 5000.
+adjusted at step 5,000.
 ```
 Protein Constant volume no contraints
  &cntrl
@@ -426,7 +425,7 @@ Protein Constant volume no contraints
 Thanks to Hedi for these inputs.
 
 ### `mdin.1` (aka `min1.in`) {#mdin1lang}
-Energy minimization for 1000 cycles, switching from steepest descent to
+Energy minimization for 1,000 cycles, switching from steepest descent to
 conjugate gradient after 50 cycles.
 No SHAKE, and complete interactions are calculated.
 Wrapping is performed for files, the system is held at constant volume,
@@ -453,7 +452,7 @@ END
 
 
 ### `mdin.2` (aka `min2.in`) {#mdin2lang}
-Energy minimization for 2500 cycles, switching from steepest descent to
+Energy minimization for 2,500 cycles, switching from steepest descent to
 conjugate gradient after 50 cycles.
 Bonds with hydrogen are constrained and ignored with SHAKE.
 Wrapping is performed for files, the system is held at constant volume, no
@@ -547,8 +546,8 @@ production
 These inputs were provided by Dr. Bill Miller III.
 
 ### `mdin.1` (aka `min1.mdin`) {#mdin1tsu}
-Energy minimization for 5000 cycles, switching from steepest descent to
-conjugate gradient after 1000 cycles.
+Energy minimization for 5,000 cycles, switching from steepest descent to
+conjugate gradient after 1,000 cycles.
 Information is printed to mdout and mdinfo every 50 steps.
 The nonbonded cutoff is 8 &#8491;, wrapping is performed for files, and atoms
 with the specified restraint mask (i.e. all non-hydrogen atoms) are restrained
@@ -892,4 +891,6 @@ and this will give each restart file will have a unique name and make it so
 they won't be overwritten.
 Each restart file would be named like `WT_protein_md001.rst7_50000`." %}
 
+
+[link2]: https://doi.org/10.1002/(SICI)1096-987X(199805)19:7<726::AID-JCC4>3.0.CO;2-S
 {% include links.html %}

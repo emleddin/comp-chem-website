@@ -39,7 +39,7 @@ quit
 
 When running a *tleap* script, you can specify the input file with the
 `-f` flag.
-```
+```bash
 $ $AMBERHOME/bin/tleap -f tleap-script.in
 ```
 
@@ -51,7 +51,7 @@ if you don't want to watch everything fail before your eyes
 The information that is printed is also saved to an appending `leap.log` file,
 so the log from every attempt at creating your system is saved without
 overwriting by default.
-```
+```bash
 $ $AMBERHOME/bin/tleap -f tleap-script.in > tleap-attempt.out
 ```
 

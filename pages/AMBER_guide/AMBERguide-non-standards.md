@@ -16,9 +16,9 @@ That said, a few hours scouring the internet could save you the pain and
 suffering (fine, maybe just the time and mild annoyance) of having to generate
 parameters for non-standard residues.
 Two good places to check are the
-[<b>R</b>ESP <b>E</b>SP charge <b>DD</b>ata <b>B</b>ase Home Page][http://upjv.q4md-forcefieldtools.org/REDDB/index.php]
+[<b>R</b>ESP <b>E</b>SP charge <b>DD</b>ata <b>B</b>ase Home Page](http://upjv.q4md-forcefieldtools.org/REDDB/index.php)
 (they were trying real hard to stay with a theme...) and the
-[University of Manchester AMBER parameter data base][http://research.bmh.manchester.ac.uk/bryce/amber].
+[University of Manchester AMBER parameter data base](http://research.bmh.manchester.ac.uk/bryce/amber).
 
 If you're not lucky enough to have pre-generated parameters, then you get the
 pure and utter joy of either using *antechamber* in AMBER yourself
