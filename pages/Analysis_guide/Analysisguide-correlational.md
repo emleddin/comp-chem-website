@@ -44,7 +44,7 @@ a system with 455 residues.
 Thanks to Alice for <u>`matrcorr_graph.py`</u>.
 
 ## matrcorr_graph.py
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -227,10 +227,11 @@ ax.set_yticks(placesy)
 ax.set_yticklabels(labelsy, fontdict=None, minor=False)
 plt.savefig('MUT-C_minus_MUT-B_436.png')
 plt.close('MUT-C_minus_MUT-B_436.png')
-\end{lstlisting}
+```
 
+## Modifications to Remove Axis Labels
 The following modification can be used to have no axis labels.
-\begin{lstlisting}[style=P1]
+```python
 sm.graphics.plot_corr(data43,normcolor=(-1.0,1.0),cmap='RdYlBu')
 ax = plt.gca()
 ax.axes.get_xaxis().set_visible(False)
@@ -239,10 +240,10 @@ plt.savefig('MUT-C_minus_MUT-B_436.png')
 plt.close('MUT-C_minus_MUT-B_436.png')
 ```
 
+## Modifications for (0,0) Origin
 The following modification can be used to have a traditional (0,0) origin by
 inverting the y-axis.
-## Modifications (0,0) Origin
-```
+```python
 #Explicitly choose where to put x and y ticks
 placesx = [0, 100, 200, 300, 400, 455]
 placesy = [0, 55, 155, 255, 355, 455]

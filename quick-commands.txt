@@ -29,10 +29,15 @@ Important
 {% include important.html content="This is important." %}
 
 Image
+## AMBER
 {% include image.html file="AMBERguide/file.svg"
 alt="This is alt text." caption="This is a caption."
 max-width="600; I'm required for svg" %}
 
+## Analysis
+{% include image.html file="Analysis/file.png"
+alt="This is alt text." caption="This is a caption."
+max-width="600; I'm required for svg" %}
 
 Add line break: <br>
 Superscript: <sup> </sup>
