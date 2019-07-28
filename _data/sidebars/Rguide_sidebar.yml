@@ -32,39 +32,39 @@ entries:
     folderitems:
 
     - title: Getting Help
-      url: /Rguide-.html
+      url: /Rguide-help.html
       output: web, pdf
 
     - title: Printing and Setting the Working Directory
-      url: /Rguide-.html
+      url: /Rguide-working-dir.html
       output: web, pdf
 
     - title: Using Unix Commands from R
-      url: /Rguide-.html
+      url: /Rguide-UNIX-in-R.html
       output: web, pdf
 
     - title: Loading a Previous Session
-      url: /Rguide-.html
+      url: /Rguide-load-previous.html
       output: web, pdf
 
     - title: Using External Data, Files, and Scripts
-      url: /p2_sample5.html
+      url: /Rguide-external-data.html
       output: web, pdf
 
     - title: Directing Output to a File
-      url: /Rguide-.html
+      url: /Rguide-direct-output.html
       output: web, pdf
 
     - title: Installing, Using, and Removing Packages
-      url: /Rguide-.html
+      url: /Rguide-install-packages.html
       output: web, pdf
 
     - title: Sample Data
-      url: /Rguide-.html
+      url: /Rguide-sample-data.html
       output: web, pdf
 
     - title: Exiting R
-      url: /Rguide-.html
+      url: /Rguide-exit.html
       output: web, pdf
 
   - title: Basic Math
@@ -80,15 +80,15 @@ entries:
     folderitems:
 
     - title: Vectors
-      url: /Rguide-.html
+      url: /Rguide-vectors.html
       output: web, pdf
 
     - title: Matrices
-      url: /Rguide-.html
+      url: /Rguide-matrices.html
       output: web, pdf
 
     - title: Factors
-      url: /Rguide-.html
+      url: /Rguide-factors.html
       output: web, pdf
 
   - title: Central Tendency and Other Statistics
@@ -96,27 +96,27 @@ entries:
     folderitems:
 
     - title: Mean
-      url: /Rguide-.html
+      url: /Rguide-mean.html
       output: web, pdf
 
     - title: Median
-      url: /Rguide-.html
+      url: /Rguide-median.html
       output: web, pdf
 
     - title: Mode
-      url: /Rguide-.html
+      url: /Rguide-mode.html
       output: web, pdf
 
     - title: Standard Deviation
-      url: /Rguide-.html
+      url: /Rguide-std-dev.html
       output: web, pdf
 
     - title: Inner-Quartile Range
-      url: /Rguide-.html
+      url: /Rguide-IQR.html
       output: web, pdf
 
     - title: Stem Plot
-      url: /Rguide-.html
+      url: /Rguide-stem-plot.html
       output: web, pdf
 
   - title: Plots
@@ -124,23 +124,23 @@ entries:
     folderitems:
 
     - title: Barplots
-      url: /Rguide-.html
+      url: /Rguide-barplots.html
       output: web, pdf
 
     - title: Scatter Plots
-      url: /Rguide-.html
+      url: /Rguide-scatterplots.html
       output: web, pdf
 
     - title: Histograms
-      url: /Rguide-.html
+      url: /Rguide-histograms.html
       output: web, pdf
 
     - title: Boxplots
-      url: /Rguide-.html
+      url: /Rguide-boxplots.html
       output: web, pdf
 
     - title: Multiple Graphs
-      url: /Rguide-.html
+      url: /Rguide-multiple-graphs.html
       output: web, pdf
 
 
@@ -149,23 +149,23 @@ entries:
     folderitems:
 
     - title: Fisher's Exact Test
-      url: /Rguide-.html
+      url: /Rguide-fisher-exact.html
       output: web, pdf
 
     - title: Chi-Square Test
-      url: /Rguide-.html
+      url: /Rguide-chi-square.html
       output: web, pdf
 
     - title: Logistic Regression
-      url: /Rguide-.html
+      url: /Rguide-log-reg.html
       output: web, pdf
 
     - title: Conditional Logistic Regression
-      url: /Rguide-.html
+      url: /Rguide-cond-log-reg.html
       output: web, pdf
 
     - title: Testing for Gene-Environment Interaction
-      url: /Rguide-.html
+      url: /Rguide-test-gene-env-int.html
       output: web, pdf
 
   - title: PLINK Toolset
@@ -173,9 +173,9 @@ entries:
     folderitems:
 
     - title: PLINK Data Files
-      url: /Rguide-.html
+      url: /Rguide-PLINK-data.html
       output: web, pdf
 
     - title: PLINK Run Information
-      url: /Rguide-.html
+      url: /Rguide-PLINK-run.html
       output: web, pdf
