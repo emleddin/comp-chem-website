@@ -18,8 +18,8 @@ codon wheel (shown below).
 Sequences of these amino acids are what make up proteins.
 
 {% include image.html file="AMBERguide/codon-wheel.png"
-alt="This is alt text." caption="Codon wheel from
-[Millipore Sigma's website][https://www.sigmaaldrich.com/technical-documents/articles/biology/amino-acid-codon-wheel.html]." %}
+alt="This is alt text."
+caption='Codon wheel from <a href="https://www.sigmaaldrich.com/technical-documents/articles/biology/amino-acid-codon-wheel.html">the Millipore Sigma website</a>.' %}
 
 Different mutations in DNA can propagate through to proteins.
 Some mutations, known as point-nonsense mutations, result when a mutation at a
@@ -78,6 +78,7 @@ In short, Mark came up with "Apo absent, holo has."
 __Apoprotein__: the protein part of an enzyme that is missing its prosthetic
 group. Think of it like a bear that's missing their hat--they can exist without
 it, but they're much happier with it.
+
 __Holoprotein__: the apoprotein combined with its prosthetic group.
 The bear has located their hat again and is now wearing it.
 
@@ -87,8 +88,7 @@ valine, cysteine, proline, leucine, isoleucine, methionine, tryptophan,
 and phenylalanine. Polar includes serine, threonine, tyrosine, asparagine,
 and glutamine. Positively charged includes lysine, arginine, and histidine.
 Negatively charged includes aspartic acid and glutamic acid."
-caption="Amino acid chart from
-[Socratic's website](https://socratic.org/questions/which-part-of-an-amino-acid-s-structure-makes-it-unique-from-other-amino-acids)." %}
+caption='Amino acid chart from <a href="https://socratic.org/questions/which-part-of-an-amino-acid-s-structure-makes-it-unique-from-other-amino-acids">the Socratic website</a>.' %}
 
 {% include image.html file="AMBERguide/AA_image1.png"
 alt="ACE, ALA, ARG, ASH, ASN, ASP, CYM, CYS, CYX, GLH, GLN, GLU,

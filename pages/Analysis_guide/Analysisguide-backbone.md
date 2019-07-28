@@ -18,8 +18,8 @@ alt="Angles of sugar-phosphate backbone of a nucleotide.
 N goes to the nucleobase. N-C1 is a glycosidic bond, labeled chi.
 Alpha is P to O5'. Beta is O5' to C5'. Gamma is C5' to C4'.
 C4' to C3' is delta. C3' to O3' is epsilon. O3' to other nucelotide's P is zeta."
-caption="The different nucleic acid backbone angles, taken from
-<a href="http://nptel.ac.in/courses/104103018/module4/lec2/3.html">NPTEL</a>." %}
+caption='The different nucleic acid backbone angles, taken from
+<a href="http://nptel.ac.in/courses/104103018/module4/lec2/3.html">NPTEL</a>.' %}
 
 The different backbone angles can be seen in the figure above.
 These backbone angles have been defined through:
