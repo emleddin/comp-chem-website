@@ -37,3 +37,5 @@ max-width="600; I'm required for svg" %}
 Add line break: <br>
 Superscript: <sup> </sup>
 Underlins: <u> </u>
+If you need the rightarrow in code:
+<code>Tools &rarr; Structure Comparison &rarr; MatchMaker</code>

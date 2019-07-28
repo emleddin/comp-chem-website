@@ -8,7 +8,7 @@ folder: AMBER_guide
 <link rel="stylesheet" href="css/theme-orange.css">
 
 A number of studies recently have focused on what single nucleotide
-polymorphisms (SNPs) do to a protein's function. 
+polymorphisms (SNPs) do to a protein's function.
 Changes in a single nucleotide that are found in less than 1\% of human
 populations are SNPs. These SNPs can be missense mutations.
 PDB files generated from a crystal structure are typically in the wild type,
@@ -23,8 +23,9 @@ have been added). After the wild type structure has been prepared
 It would be wise to make a copy first, so that you do not accidentally
 overwrite the wild type structure.
 
-Once the structure is pulled up, follow `Favorites &rarr; Command Line` in the
-menu bar to pull up Chimera's command line.
+Once the structure is pulled up, follow
+<code>Favorites &rarr; Command Line</code> in the menu bar to pull up Chimera's
+command line.
 In the command prompt, type the following command, where `123` is the residue
 number of interest.
 The specific number will be dependent on the protein numbering on the
@@ -36,10 +37,10 @@ select :123
 
 This selects the specific SNP position, and should show it highlighted in
 green. To then visualize the residue as a stick, follow
-`Actions &rarr; Atoms/Bonds &rarr; Show` in the menu bar.
+<code>Actions &rarr; Atoms/Bonds &rarr; Show</code> in the menu bar.
 
 Using the menu bar again, follow
-`Tools &rarr; Structure Editing &rarr; Rotamers` to bring up the rotamers
+<code>Tools &rarr; Structure Editing &rarr; Rotamers</code> to bring up the rotamers
 screen (see the image below).
 The rotamers screen allows the current residue in the SNP position,
 described as the rotamer type (THR in the rotamers image),
@@ -62,7 +63,7 @@ he original residue, and its stated probability should be written down in your
 lab notebook before changing it with `OK`.
 
 Once the residue is changed, then a new PDB should be saved, indicating the SNP
-in the file name. This can be achieved through `File &rarr; Save PDB`.
+in the file name. This can be achieved through <code>File &rarr; Save PDB</code>.
 If multiple things are open in Chimera, highlight the appropriate structure
 under `Save models`.
 Specify the file location, hit save, and then do a happy dance;
