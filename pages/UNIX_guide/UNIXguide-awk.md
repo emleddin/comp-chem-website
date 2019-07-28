@@ -1,5 +1,5 @@
 ---
-title:
+title: awk
 sidebar: UNIX_guide_sidebar
 permalink: UNIXguide-awk.html
 folder: UNIX_guide

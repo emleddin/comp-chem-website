@@ -13,6 +13,7 @@ Units:
 Angstrom: &#8491;
 kcal per mol: kcal mol<s>-1</s>
 Not equals: &#8800;
+Plus minus: &#177;
 Right arrow: &rarr;
 Degree: &deg;
 
@@ -37,6 +38,11 @@ max-width="600; I'm required for svg" %}
 
 ## Analysis
 {% include image.html file="Analysis/file.png"
+alt="This is alt text." caption="This is a caption."
+max-width="600; I'm required for svg" %}
+
+## R
+{% include image.html file="Rguide/file.png"
 alt="This is alt text." caption="This is a caption."
 max-width="600; I'm required for svg" %}
 

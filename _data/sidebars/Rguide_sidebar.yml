@@ -55,7 +55,7 @@ entries:
       url: /Rguide-direct-output.html
       output: web, pdf
 
-    - title: Installing, Using, and Removing Packages
+    - title: "Installing, Using, and Removing Packages"
       url: /Rguide-install-packages.html
       output: web, pdf
 
@@ -147,6 +147,10 @@ entries:
   - title: Hypothesis Testing
     output: web, pdf
     folderitems:
+
+    - title: Hypothesis Testing Overview
+      url: /Rguide-hypoth-overview.md
+      output: web, pdf
 
     - title: Fisher's Exact Test
       url: /Rguide-fisher-exact.html
