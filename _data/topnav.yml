@@ -17,6 +17,8 @@ topnav_dropdowns:
       folderitems:
         - title: About Me
           url: /about-me.html
+        - title: Thinking About Grad School?
+          url: /grad-school.html
         - title: Licenses
           url: /licenses.html
         - title: Acknowledgements

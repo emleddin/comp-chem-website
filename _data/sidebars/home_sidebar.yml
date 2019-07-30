@@ -41,11 +41,14 @@ entries:
   - title: Thinking About Grad School?
     output: web
     folderitems:
+    - title: Overview
+      url: /grad-school.html
+      output: web
     - title: Questions to Ask Yourself
       url: /what-to-ask-for-grad-school.html
       output: web
     - title: Application Resources
-      url: /grad-prof-application-resources.html
+      url: /grad-prof-app-resources.html
       output: web
     - title: Some Funding Resources
       url: /funding-school.html

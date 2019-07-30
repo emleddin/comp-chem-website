@@ -67,9 +67,9 @@ Goldwater Scholarship" %}
 
 ## Both Undergraduate and Graduate Applicants
 
-{% include note.html content="These fellowships are open to undergraduate
-students within 1 year of matriculating who intend to pursue graduate
-education. Any information provided is to help screen your initial
+{% include note.html content="Most of these fellowships are open to
+undergraduate students within 1 year of matriculating who intend to pursue
+graduate education. Any information provided is to help screen your initial
 search--it may not be the most up-to-date eligibility criteria." %}
 
 * [DOD Science, Mathematics, and Research for Transformation (SMART)](https://smartscholarshipprod.service-now.com/smart?id=smart_index)
@@ -96,6 +96,11 @@ search--it may not be the most up-to-date eligibility criteria." %}
 * [Hertz Foundation](https://hertzfoundation.org/fellowships/eligibility)
     * Citizenship requirements: citizens or permanent residents of the United States
     * When: Typically before the start of the 2<sup>nd</sup> year of graduate study
+
+* [Point Foundation](https://pointfoundation.org/point-apply/application-faqs/)
+    * Location requirements: enrolled or intending to enroll at an accredited college or university based in the United States
+    * When: While enrolled (or intending to enroll) in undergraduate or graduate study
+    * Must be an "out" member of the LGBTQ+ community
 
 * [NSF Graduate Research Fellowship Program (GRFP)](https://www.nsfgrfp.org/)
     * Citizenship requirements: United States citizens, nationals, or permanent

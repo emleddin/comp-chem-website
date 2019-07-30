@@ -7,6 +7,13 @@ permalink: /what-to-ask-for-grad-school.html
 ---
 
 ## PI-Specific {#ask-PI}
+
+{% include note.html content="PI stands for Principal Investigator.
+They are your graduate advisor (aka boss).
+The term comes from grants and funding--the PI is the lead researcher on those
+applications. A __major__ component of the application process is
+finding a person that you want to work for over the next 2-5+ years." %}
+
 * What kind of lab management style do you have? Hands-on? Hands-off?
 Do you have group meetings? Do you have one-on-one meetings?
 * How often do you travel?
@@ -20,12 +27,6 @@ Do you have group meetings? Do you have one-on-one meetings?
 * What kinds of funding does the lab have?
 * How many graduate students are you looking to take next year?
 How many do you usually take?
-
-{% include note.html content="PI stands for Principal Investigator.
-They are your graduate advisor (aka boss).
-The term comes from grants and funding--the PI is the lead researcher on those
-applications. A __major__ component of the application process is
-finding a person that you want to work for over the next 2-5+ years." %}
 
 ## Program-Specific {#ask-program}
 

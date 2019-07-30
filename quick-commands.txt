@@ -16,6 +16,7 @@ Not equals: &#8800;
 Plus minus: &#177;
 Right arrow: &rarr;
 Degree: &deg;
+Registered: &reg;
 
 Stylesheet:
 <link rel="stylesheet" href="css/theme-orange.css">
