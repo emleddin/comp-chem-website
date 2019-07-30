@@ -18,6 +18,6 @@ USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 euid123  pts/8    10.144.120.74    09:05    1.00s  0.04s  0.00s w
 ```
 The load averages in this example look a lot better, since this command was run
-on a Linux system. :smiley:
+on a Linux system. &#x1F603;
 
 {% include links.html %}

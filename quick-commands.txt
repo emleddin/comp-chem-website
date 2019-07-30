@@ -17,6 +17,7 @@ Plus minus: &#177;
 Right arrow: &rarr;
 Degree: &deg;
 Registered: &reg;
+Smiley (HTML): &#x1F603;
 
 Stylesheet:
 <link rel="stylesheet" href="css/theme-orange.css">

@@ -260,7 +260,7 @@ capture.output( print(save_cols_clean_AH, print.gap=3, row.names=FALSE), file = 
 
 From here, you can use the HBA shell script.
 It won't have the listed issue of only being effective on single trials
-(since you just averaged them :smiley:).
+(since you just averaged them &#x1F603;).
 
 ## HBA: the Shell Script
 As you can already tell, HBA is... tedious.

@@ -90,7 +90,7 @@ max-width="600" %}
 
 So how do you deal with these missing residues? First, it would behoove you to
 see what the experimentalists did to get the crystal structure... which means
-reading the paper. <small><small>:smiley:</small></small>
+reading the paper. &#x1F603;
 They'll probably talk about how those loops or residues were skipped, and if
 they had any experimental add-ins (like an X-residue linker) to tell them where
 the first part ended and the new part began.
