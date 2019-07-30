@@ -21,6 +21,11 @@ Do you have group meetings? Do you have one-on-one meetings?
 * How many graduate students are you looking to take next year?
 How many do you usually take?
 
+{% include note.html content="PI stands for Principal Investigator.
+They are your graduate advisor (aka boss).
+The term comes from grants and funding--the PI is the lead researcher on those
+applications. A __major__ component of the application process is
+finding a person that you want to work for over the next 2-5+ years." %}
 
 ## Program-Specific {#ask-program}
 

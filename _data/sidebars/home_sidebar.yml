@@ -12,6 +12,9 @@ entries:
     - title: About Me
       url: /about-me.html
       output: web
+    - title: My CV
+      url: /about-me.html
+      output: web
     - title: Licenses
       url: /licenses.html
       output: web
@@ -40,4 +43,10 @@ entries:
     folderitems:
     - title: Questions to Ask Yourself
       url: /what-to-ask-for-grad-school.html
+      output: web
+    - title: Application Resources
+      url: /grad-prof-application-resources.html
+      output: web
+    - title: Some Funding Resources
+      url: /funding-school.html
       output: web
