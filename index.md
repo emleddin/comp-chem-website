@@ -38,7 +38,7 @@ with the R programming language. A PDF of this guide is available
 There are a *lot* of resources for getting started with computational chemistry,
 and I've outlined a few here.
 
-#### Tutorials {#tuts}
+### Tutorials {#tuts}
 
 * [UNIX/Linux Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 * [AMBER Tutorials](http://ambermd.org/tutorials/)
