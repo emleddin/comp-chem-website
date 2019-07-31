@@ -10,6 +10,7 @@ folder: R_guide
 Using our fake data, we'll run Fisher's exact test.
 This test is typically used in place of the chi-square on small samples,
 but it is valid for all sample sizes.
+
 <u> Hypotheses </u>
 * *H<sub>0</sub> = in HWE*
 * *H<sub>a</sub> = not in HWE*

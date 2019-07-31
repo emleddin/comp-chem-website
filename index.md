@@ -19,14 +19,14 @@ his undergraduate research students. They've evolved a bit since then.
 The [Unix Guide](UNIXguide-introduction.html) gives an overview of UNIX systems
 and basic commands to get someone started with using the command line.
 
-The [AMBER Guide](AMBER-introduction.html) covers how to set-up AMBER
+The [AMBER Guide](AMBERguide-introduction.html) covers how to set-up AMBER
 simulations and a general overview of molecular dynamics simulations.
 
-The [Simulation Analysis Guide](Analysis-introduction.html) addresses how to
-use some of the tools to analyze AMBER trajectories, visualizing data,
+The [Simulation Analysis Guide](Analysisguide-introduction.html) addresses how
+to use some of the tools to analyze AMBER trajectories, visualizing data,
 and presenting data in a useful manner through images and videos.
 
-The [R Guide](R-introduciton.html) includes some basics for getting started
+The [R Guide](R-introduction.html) includes some basics for getting started
 with the R programming language.
 
 ## Resources, Resources, Resources {#resources}
@@ -34,15 +34,32 @@ with the R programming language.
 There are a *lot* of resources for getting started with computational chemistry,
 and I've outlined a few here.
 
-### Online {#online-recs}
+#### Tutorials {#tuts}
 
 * [UNIX/Linux Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
-* [UNIX vi Editor Commands](https://www.ccsf.edu/Pub/Fac/vi.html)
-* [Stack Overflow (aka Coding Google)](https://stackoverflow.com/)
-* [Gaussian](https://gaussian.com/techsupport/)
-* [AMBER](http://ambermd.org/Manuals.php)
+* [AMBER Tutorials](http://ambermd.org/tutorials/)
 * [Software Carpentry (online lessons)](https://software-carpentry.org/lessons/)
 * [MolSSI: Getting Started in Computational Chemistry](https://github.com/MolSSI-Education/getting-started-computational-chemistry)
+* [Overleaf: Learn LaTeX](https://www.overleaf.com/learn/latex/Tutorials)
+
+### Documentation {#docs}
+
+* [AMBER](http://ambermd.org/Manuals.php)
+* [Gaussian](https://gaussian.com/techsupport/)
+* [Gnuplot](http://www.gnuplot.info/documentation.html)
+* [OpenMM](http://openmm.org/documentation.html)
+* [Psi4](http://www.psicode.org/psi4manual/1.2/index.html)
+* [Tinker](https://dasher.wustl.edu/tinker/downloads/guide.pdf)
+* [UCSF Chimera](https://www.cgl.ucsf.edu/chimera/docindex.html)
+* [UNIX vi Editor Commands](https://www.ccsf.edu/Pub/Fac/vi.html)
+* [Visual Molecular Dynamics (VMD)](https://www.ks.uiuc.edu/Research/vmd/current/docs.html)
+
+### Search Directories {#searchable}
+
+* [Stack Overflow (aka Coding Google)](https://stackoverflow.com/)
+* [Directory of Computer Aided Drug Design tools](https://www.click2drug.org/)
+
+### Explanations and Lessons {#descript}
 * [Mobley Lab: Basic (MD/MC) Simulation Training](https://github.com/MobleyLab/basic_simulation_training/blob/master/paper/basic_training.pdf)
 * [Shodor: Background Reading for Basis Sets](https://www.shodor.org/chemviz/basis/teachers/background.html)
 * [Spartan’s Description of Basis Sets](http://downloads.wavefun.com/FAQ/BasisSetFAQ.html)
@@ -50,7 +67,6 @@ and I've outlined a few here.
 * [Dr. Gilbert: Introduction to Computational Quantum Chemistry](http://rsc.anu.edu.au/~agilbert/gilbertspace/uploads/Chem3108.pdf)
 * [Dr. Kahn: Semiempirical Quantum Chemistry](https://people.chem.ucsb.edu/kahn/kalju/chem226/public/semiemp_intro.html)
 * [Dr. Lynch: Introduction to GaussView and Gaussian](https://comp.chem.umn.edu/Chem8021/gv)
-* [Directory of Computer Aided Drug Design tools](https://www.click2drug.org/)
 
 ### Textbooks {#book-recs}
 

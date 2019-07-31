@@ -18,7 +18,7 @@ ligand into a new PDB file.
 If your ligand PDB does not have hydrogens, then those will need to be added.
 Luckily, AMBER's *reduce* program can do this!
 
-```
+```bash
 $AMBERHOME/bin/reduce ligand_missing_H.pdb > ligand_with_H.pdb
 ```
 
@@ -27,7 +27,7 @@ Now you're ready to use *antechamber*,
 which may take a little bit of time depending on the size of your ligand,
 because AMBER will be running a quantum calculation.
 
-```
+```bash
 $AMBERHOME/bin/antechamber -i ligand_with_H.pdb -fi pdb -o ligand_with_H.mol2 -fo mol2 -c bcc -s 2 -nc 0 -m 1
 ```
 
@@ -60,7 +60,7 @@ with charges in a mol2 file.
 With that information, we can use *parmchk* to make a force field modification
 file (known as an frcmod) for the ligand.
 
-```
+```bash
 $AMBERHOME/bin/parmchk -i ligand_with_H.mol2 -f mol2 -o ligand_with_H.frcmod
 ```
 

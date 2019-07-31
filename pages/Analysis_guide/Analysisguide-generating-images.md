@@ -12,15 +12,19 @@ If you've been reading in order, then you know that I keep throwing this
 Well, what do you know, the "Generating Images" section will actually tell you
 how to make these images! Amazing.
 Once you've gotten the the screen to look how you want the image you wanted
-created to look, follow <code>File $\rightarrow$ Render</code> in the main menu.
+created to look, follow <code>File &rarr; Render</code> in the main menu.
 This brings up the `File Render Controls` menu (see the image below).
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[]{file-render-controls.png}
-\caption{The Render screen for image generation.}
-\label{fig:imagemaking}
-\end{figure}
+{% include image.html file="Analysis/file-render-controls.png"
+alt="The File Render Controls window. The first option is 'Render the
+current scene using:' with Tachyon, internal, in-memory rendering selected.
+The next choice is 'Filename', and the name given is
+my-delightful-protein-system.tga. Next to this box is a Browse button.
+Finally, the 'Render command' is shown.
+This is usr slash bin slash open space percent s.
+The button next to it is 'Restore Default.'
+The 'Start Rendering' button is at the bottom."
+caption="The Render screen for image generation." %}
 
 The first dropdown, `Render the current scene using:`, selects the
 image-quality type.
@@ -47,7 +51,7 @@ Gimp or the UNIX [`convert`](UNIXguide-convert.html) command later.
 The final box shouldn't be something you have to mess with at all, as it is the
 default option. Once you're ready, hit `Start Rendering`.
 
-Woohoo! You've saved a picture! Enjoy remaking it 73 more times because 
+Woohoo! You've saved a picture! Enjoy remaking it 73 more times because
 it wasn't good yet.
 Oh, and a quick note: If you're coloring specific sections of a protein
 (like with `resid 1 to 23` and `resid 95 to 293`), then you will need to make

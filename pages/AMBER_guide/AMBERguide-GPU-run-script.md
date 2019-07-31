@@ -56,7 +56,7 @@ f=$[$f+1]
 done
 ```
 
-{% include note.html content="It is also important to check that you're not
+{% include important.html content="It is also important to check that you're not
 accidentally overlapping with someone by connecting to the specific node with
 `ssh` and using the `nvidia-smi` command." %}
 

@@ -131,9 +131,9 @@ END
 ```
 
 {% include note.html content="`ntx = 7` is an
-[old (OLD) form][archive.ambermd.org/200704/0111.html], and is equivalent to
-`ntx = 5`. Thus, `ntx = 5` should be used. This is corrected in the remaining
-input files shown here." %}
+[old (OLD) form](http://archive.ambermd.org/200704/0111.html), and is
+equivalent to `ntx = 5`. Thus, `ntx = 5` should be used.
+This is corrected in the remaining input files shown here." %}
 
 
 ### `mdin.4` {#mdin4NVT}

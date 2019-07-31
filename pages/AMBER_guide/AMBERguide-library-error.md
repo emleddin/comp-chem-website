@@ -22,11 +22,11 @@ cpptraj: error while loading shared libraries: libsander.so: cannot open shared 
 ```
 
 So, if you're using a bash shell, here's what you do to fix it.
-```
+```bash
 $ source $AMBERHOME/amber.sh
 ```
 If you're using a c-shell environment, use:
-```
+```bash
 $ source $AMBERHOME/amber.csh
 ```
 If you're not sure which shell you're using, first use the `$ echo $SHELL`

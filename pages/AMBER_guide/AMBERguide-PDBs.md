@@ -24,7 +24,7 @@ downloaded from a box on the right-hand side of the structure's page,
 shown below.
 This file will contain a lot of extraneous information,
 which is why you will likely end up using a command like:
-```
+```bash
 $ grep -e '^ATOM\|^HETATM\|^TER\|^END' PDBID.pdb > PDBID_clean.pdb
 ```
 to extract out any lines that start with ATOM, HETATM, TER, or END, and save
@@ -65,6 +65,6 @@ results.
 alt="PDB sequence chain view. There are visible gaps between sequence and
 residues denoted as being included in the PDB."
 caption="Sequence Chain View for 5O6O from
-[RCSB's website](https://www.rcsb.org/pdb/explore/remediatedSequence.do?structureId=5O6O)." %}
+<a href='https://www.rcsb.org/pdb/explore/remediatedSequence.do?structureId=5O6O'>the RCSB website</a>." %}
 
 {% include links.html %}

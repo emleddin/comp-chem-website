@@ -38,7 +38,7 @@ run to test for minor allele frequency (MAF) is below.
 # path needs to include folder and the name for the ped and map
 plink --noweb --file /path/to/PED/and/MAP/files \
       --nonfounders \ # all individuals included
-      --allow-no-sex \ # prevents setting phenotypes with ambiguous sex to missing
+      --allow-no-sex \ # prevents setting phenotypes with "ambiguous" sex to missing
       --freq # actual test
 ```
 
@@ -47,15 +47,16 @@ If the path were `~/home/euid123/R_jobs/` and the `.ped` and `.map` were both
 named example, then the line would be `~/home/euid123/R_jobs/example \`.
 
 ## Table: Test specifics for PLINK {#table}
-| Specifier | Test or Function | Test Statistic |
-| --------- | ---------------- | -------------- |
-| `--freq`  | Minor Allele Frequency | MAF      |
-| `--het`   | Heterozygosity    | F Value       |
-| `--hardy` | Hardy Weinberg Equilibrium | HWE  |
-| `--r2`    | Linkage Disequilibrium | r<sup>2</sup> |
-| `--out snps` | Linkage Disequilibrium | r<sup>2</sup> |
-| `--missing --mind 1` | Missingness | F_MISS   |
-| `--recodeAD` | Recode        | -              |
+
+| Specifier            | Test or Function            | Test Statistic |
+| -------------------- | --------------------------- | -------------- |
+| `--freq`             | Minor Allele Frequency      | MAF            |
+| `--het`              | Heterozygosity              | F Value        |
+| `--hardy`            | Hardy Weinberg Equilibrium  | HWE            |
+| `--r2`               | Linkage Disequilibrium      | r<sup>2</sup>  |
+| `--out snps`         | Linkage Disequilibrium      | r<sup>2</sup>  |
+| `--missing --mind 1` | Missingness                 | F\_MISS        |
+| `--recodeAD`         | Recode                      | NA             |
 
 * __Frequency__: test for minor allele frequency.
 * __Heterozygosity__: test for inbreeding coefficients.

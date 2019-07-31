@@ -12,8 +12,9 @@ Answer: Not a statistics software.
 Anyway, there are several options for hypothesis testing,
 which are all better explained in a stats class.
 So let's get on with the examples.
-First, we'll create our fake data set (which would be something we'd eventually
-want to test Hardy-Weinberg equilibrium).
+First, we'll create our fake data set
+(which would be something we'd eventually want to test for
+Hardy-Weinberg equilibrium).
 
 ```R
 >Input =("
@@ -32,5 +33,6 @@ AA      200      160
 Aa      400      360
 aa      400      480
 ```
+
 
 {% include links.html %}
