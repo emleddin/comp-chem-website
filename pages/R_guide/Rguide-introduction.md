@@ -24,4 +24,6 @@ For R's internal command line, that symbol is `>`.
 To clear the console in R or RStudio on a Windows or Linux operating system,
 use `Cntrl+L`. On a Mac, you can use either `Cntrl+L` or `Command+Option+L`.
 
+<a target="\_blank" class="noCrossRef" href="{{ "pdf/Rguide.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
+
 {% include links.html %}

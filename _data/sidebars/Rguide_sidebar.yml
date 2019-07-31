@@ -25,7 +25,7 @@ entries:
 
     - title: Overview
       url: /Rguide-introduction.html
-      output: web
+      output: web, pdf
 
   - title: Using R
     output: web, pdf
@@ -149,7 +149,7 @@ entries:
     folderitems:
 
     - title: Hypothesis Testing Overview
-      url: /Rguide-hypoth-overview.md
+      url: /Rguide-hypoth-overview.html
       output: web, pdf
 
     - title: Fisher's Exact Test

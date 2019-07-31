@@ -3,8 +3,8 @@ url: "http://127.0.0.1:4011"
 baseurl: "/Rguide-pdf"
 port: 4011
 output: pdf
-product: Rguide
-print_title: R Guide documentation
+product: R Guide
+print_title: R Guide
 print_subtitle: version 0.1
 output: pdf
 defaults:

@@ -1,7 +1,7 @@
 ---
 title: Hypothesis Testing Overview
 sidebar: Rguide_sidebar
-permalink: Rguide-hypoth-overview.md
+permalink: Rguide-hypoth-overview.html
 folder: R_guide
 ---
 

@@ -3,7 +3,7 @@ url: "http://127.0.0.1:4012"
 baseurl: "/Analysisguide-pdf"
 port: 4012
 output: pdf
-product: Analysis
+product: Analysis Guide
 print_title: Analysis Guide
 print_subtitle: version 0.1
 output: pdf

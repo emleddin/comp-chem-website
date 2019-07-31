@@ -3,7 +3,7 @@ url: "http://127.0.0.1:4011"
 baseurl: "/AMBERguide-pdf"
 port: 4011
 output: pdf
-product: AMBER
+product: AMBER Guide
 print_title: AMBER Simulation Guide
 print_subtitle: version 0.1
 output: pdf

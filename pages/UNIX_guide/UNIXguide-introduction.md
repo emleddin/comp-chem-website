@@ -15,4 +15,6 @@ The odds are high that if you have a very specific thing that you want to do,
 that someone on the internet has answered something similar to it on
 [StackOverflow](https://stackoverflow.com/).
 
+<a target="\_blank" class="noCrossRef" href="{{ "pdf/UNIXguide.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
+
 {% include links.html %}

@@ -18,4 +18,7 @@ Relevant other references include the:
 
 Future me will put the scripts referenced in this guide in a folder on Github.
 
+
+<a target="\_blank" class="noCrossRef" href="{{ "pdf/Analysisguide.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
+
 {% include links.html %}

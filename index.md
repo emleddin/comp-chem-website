@@ -17,17 +17,21 @@ The guides were adapted from the manuals that
 his undergraduate research students. They've evolved a bit since then.
 
 The [Unix Guide](UNIXguide-introduction.html) gives an overview of UNIX systems
-and basic commands to get someone started with using the command line.
+and basic commands to get someone started with using the command line. A PDF
+of this guide is available [here](pdf/UNIXguide.pdf).
 
 The [AMBER Guide](AMBERguide-introduction.html) covers how to set-up AMBER
-simulations and a general overview of molecular dynamics simulations.
+simulations and a general overview of molecular dynamics simulations. A PDF
+of this guide is available [here](pdf/AMBERguide.pdf).
 
 The [Simulation Analysis Guide](Analysisguide-introduction.html) addresses how
 to use some of the tools to analyze AMBER trajectories, visualizing data,
-and presenting data in a useful manner through images and videos.
+and presenting data in a useful manner through images and videos. A PDF
+of this guide is available [here](pdf/Analysisguide.pdf).
 
 The [R Guide](R-introduction.html) includes some basics for getting started
-with the R programming language.
+with the R programming language. A PDF of this guide is available
+[here](pdf/Rguide.pdf).
 
 ## Resources, Resources, Resources {#resources}
 

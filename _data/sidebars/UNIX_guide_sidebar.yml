@@ -27,11 +27,11 @@ entries:
     folderitems:
     - title: Introduction
       url: /UNIXguide-introduction.html
-      output: web
+      output: web, pdf
 
     - title: Command Line
       url: /UNIXguide-command-line.html
-      output: web
+      output: web, pdf
 
     - title: UNIX and Unix-Like File Systems
       url: /UNIXguide-UNIX-systems.html
@@ -475,7 +475,7 @@ entries:
       output: web, pdf
 
     - title: Using XSEDE's Comet
-      url: UNIXguide-XSEDE-Comet.html
+      url: /UNIXguide-XSEDE-Comet.html
       output: web, pdf
 
 # Section 14
