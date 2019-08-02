@@ -16,7 +16,8 @@ Relevant other references include the:
 * [Chimera User's Guide](https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/)
 * [Gnuplot User's Guide](http://www.gnuplot.info/docs_5.0/gnuplot.pdf)
 
-Future me will put the scripts referenced in this guide in a folder on Github.
+The scripts referenced in this guide can be found in
+[this Github repository](https://github.com/emleddin/research-scripts).
 
 
 <a target="\_blank" class="noCrossRef" href="{{ "pdf/Analysisguide.pdf"}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
