@@ -9,6 +9,7 @@ This is a very incomplete list of funding sources for undergraduate and
 graduate students, but it is a starting point with some of the major ones.
 
 ## Acronyms
+* __CAS__: Chemical Abstracts Service
 * __DOD__: Department of Defense
 * __DOE__: Department of Energy
 * __MolSSI__: Molecular Sciences Software Institute
@@ -33,7 +34,11 @@ graduate students, but it is a starting point with some of the major ones.
 
 * [Federal Opportunities for Graduate Students](https://stemgradstudents.science.gov/)
 
+* [Pathways to Science](https://www.pathwaystoscience.org/grad.aspx)
+
 * [John's Hopkins graduate funding opportunities](https://research.jhu.edu/rdt/funding-opportunities/graduate/)
+
+* [University of Connecticut's Engineering List](https://grad.engr.uconn.edu/fellowships/)
 
 ## Undergraduate Students
 
@@ -60,10 +65,19 @@ Goldwater Scholarship" %}
     Canada, or Mexico. (No citizenship requirement.)
     * When: fall of the second year of the PhD program
 
+* [Microsoft PhD Fellowship](https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/)
+    * Location requirements: enrolled at a university in the United States,
+    Canada, or Mexico. (No citizenship requirement.)
+    * When: summer before the third year of the PhD program
+
 * [NIH F31 and F31 Diversity](https://researchtraining.nih.gov/programs/fellowships/F31)
     * Citizenship requirements: U.S. citizen or permanent resident
     * When: Typically with 2-3 years remaining.
     * 3 application cycles per year [see here](https://grants.nih.gov/grants/how-to-apply-application-guide/due-dates-and-submission-policies/due-dates.htm)
+
+* [NVIDIA Graduate Fellowship Program](https://www.nvidia.com/en-us/research/graduate-fellowships/)
+    * No location/citizenship requirement
+    * When: After 1 year of graduate study, but with at least 1 year remaining
 
 ## Both Undergraduate and Graduate Applicants
 
@@ -111,6 +125,24 @@ search--it may not be the most up-to-date eligibility criteria." %}
         * [Mallory Ladd's NSF GRFP Advice](http://www.malloryladd.com/nsf-grfp-advice.html)
         * [Alex Lang's Advice](https://www.alexhunterlang.com/nsf-fellowship)
         * [Award Breakdown](https://github.com/cloudy/nsf-grfp-analysis)
+
+## Other Opportunities for Graduate Students and/or Post-Docs
+
+* [CAS Future Leaders](https://www.cas.org/about/futureleaders)
+    * Citizenship requirements: None
+    * When: As a current Ph.D. student or postdoctoral researcher
+
+* [Lindau Meeting of Nobel Laureates](https://www.orau.org/lindau/)
+    * Citizenship requirements: U.S. citizen or a U.S. Legal Permanent Resident
+    (Contact the Lindau Meeting Planners for academic partners outside of the US)
+    * When: After completing at least one year of graduate study, with at
+    least two years in the program remaining
+
+* [Christine Mirzayan Science & Technology Policy Graduate Fellowship Program](https://sites.nationalacademies.org/pga/policyfellows/)
+    * Citizenship requirements: United States citizens, United States permanent
+    residents, DACA recipients, refugees, asylees, and various visa classes
+    * When: During graduate/professional school or anytime 5 years after
+    completing graduate studies
 
 
 {% include links.html %}
