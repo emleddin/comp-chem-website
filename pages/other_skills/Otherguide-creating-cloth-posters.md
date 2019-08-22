@@ -1,8 +1,11 @@
 ---
 title: Creating Cloth Posters
-sidebar: other_skills
+sidebar: other_skills_sidebar
 permalink: /Otherguide-creating-cloth-posters.html
+folder: other_skills
 ---
+
+<!-- <link rel="stylesheet" href="css/theme-blue.css"> -->
 
 Cloth research posters are more portable, durable, and substantially cheaper
 than traditional paper posters. Have you ever had to bring a poster tube on a
