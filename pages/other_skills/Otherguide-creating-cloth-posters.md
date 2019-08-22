@@ -47,9 +47,9 @@ caption="The PDF resolution should be changed from the default 100 pixels/inch
 to 300 pixels/inch before saving in an image format." %}
 
 Once the PDF is imported, you can now export it as in image format. To do this,
-follow `File &rarr; Export As`. I personally recommend saving as a PNG, but
-any of the accepted formats is okay. Make sure to explicitly change the file
-extension and the output file type.
+follow <code>File &rarr; Export As</code>. I personally recommend saving as a
+PNG, but any of the accepted formats is okay. Make sure to explicitly change
+the file extension and the output file type.
 
 Now that you've exported the image (it might be a good idea to open it up and
     check that everything looks right), you can upload it to
