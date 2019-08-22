@@ -1,0 +1,65 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and
+# provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Other Programs and Lab Skills
+  version: 0.1
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Introduction
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /Otherguide-introduction.html
+      output: web, pdf
+
+  - title: Additional Lab Skills
+    output: web, pdf
+    folderitems:
+
+    - title: Creating Cloth Posters
+      url: /Otherguide-creating-cloth-posters.html
+      output: web, pdf
+
+    - title: Reference Managers
+      url: /Otherguide-reference-managers.html
+      output: web, pdf
+
+  - title: Using Caver
+    output: web, pdf
+    folderitems:
+
+    - title: Caver Overview
+      url: /Otherguide-caver-overview.html
+      output: web, pdf
+
+  - title: Using Gaussian
+    output: web, pdf
+    folderitems:
+
+    - title: Gaussian Overview
+      url: /Otherguide-gaussian-overview.html
+      output: web, pdf
+
+  - title: Using LICHEM
+    output: web, pdf
+    folderitems:
+
+    - title: LICHEM Overview
+      url: /Otherguide-lichem-overview.html
+      output: web, pdf

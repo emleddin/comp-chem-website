@@ -35,3 +35,5 @@ topnav_dropdowns:
           url: /Analysisguide-introduction.html
         - title: Using R
           url: /Rguide-introduction.html
+        - title: Other Programs and Lab Skills
+          url: /Otherguide-introduction.html
