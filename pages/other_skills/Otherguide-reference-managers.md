@@ -24,28 +24,35 @@ information.
 Sometimes they'll do funky things, like take the title as the journal name,
 which can make searching for it later a hassle.
 
-[Zotero](https://www.zotero.org/)
+* [Zotero](https://www.zotero.org/)
     * Open source
     * Lots of plugins
-[Mendeley](www.mendeley.com)
+
+* [Mendeley](www.mendeley.com)
     * Owned by Elsevier (take that as you will)
     * Lots of plugins (but doesn't play well with others)
-[Endnote ($$$)](https://endnote.com/)
+
+* [Endnote ($$$)](https://endnote.com/)
     * Costs money
     * Lots of plugins (works well with Word)
-[Quasi-Endnote](https://access.clarivate.com/login?app=endnote&pageview=)
+
+* [Quasi-Endnote](https://access.clarivate.com/login?app=endnote&pageview=)
     * Requires you to download the citation files from every article you care
     about and upload them to a website
     * Good for collaborating with people that use Endnote to format their work
-[RefWorks](https://refworks.proquest.com/)
+
+* [RefWorks](https://refworks.proquest.com/)
     * Schools tend to have licenses
-[JabRef](http://www.jabref.org/)
+
+* [JabRef](http://www.jabref.org/)
     * Open source
     * Good for converting between file formats
-[Paperpile ($)](https://paperpile.com/welcome)
+
+* [Paperpile ($)](https://paperpile.com/welcome)
     * Cheap
     * Works with Google Docs
-[Qiqqa](http://www.qiqqa.com/)
+
+* [Qiqqa](http://www.qiqqa.com/)
     * 2 GB free storage
     * Not for Macs or Linux without a mirror
 
@@ -65,17 +72,18 @@ are great search engines for the field.
 
 Pre-printed articles (available before the peer-review process and full
 acceptance to a journal) are submitted to field-based archives.
-    * [arXiv](https://arxiv.org/): physics, math, computer science, engineering,
+
+* [arXiv](https://arxiv.org/): physics, math, computer science, engineering,
     economics, etc.
-    * [ChemRxiv](https://chemrxiv.org/): chemistry
-    * [BioRxiv](https://www.biorxiv.org/): biology, clinical trials,
+* [ChemRxiv](https://chemrxiv.org/): chemistry
+* [BioRxiv](https://www.biorxiv.org/): biology, clinical trials,
     neuroscience, etc.
-    * [PsyArXiv](https://psyarxiv.com/): psychological science
+* [PsyArXiv](https://psyarxiv.com/): psychological science
 
 Some others include:
-    * [Web of Science](https://www.webofknowledge.com)
-    * [ScienceDirect](https://www.sciencedirect.com/)
-    * [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
+* [Web of Science](https://www.webofknowledge.com)
+* [ScienceDirect](https://www.sciencedirect.com/)
+* [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
 
 Also, don't neglect your local or university library. These have access to many
 publications, and librarians are fantastic at helping you search for technical
@@ -109,7 +117,7 @@ Hello Professor X,
 
 I am a [high school teacher, student, researcher, person who thought the title
 was cool] and I stumbled upon your work "Insert Title of Work Here" in
-<i>location of work here</i>.
+[location of work in italics here].
 
 I do not have access to this publication and was wondering if you would be able
 to send me a copy.
