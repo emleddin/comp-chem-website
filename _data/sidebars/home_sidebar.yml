@@ -37,6 +37,9 @@ entries:
     - title: R Guide
       url: /Rguide-introduciton.html
       output: web
+    - title: Other Programs and Lab Skills
+      url: /Otherguide-introduction.html
+      output: web
 
   - title: Thinking About Grad School?
     output: web
