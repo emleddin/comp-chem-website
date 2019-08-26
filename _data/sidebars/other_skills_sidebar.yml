@@ -56,6 +56,18 @@ entries:
       url: /Otherguide-gaussian-overview.html
       output: web, pdf
 
+    - title: Gaussian Input Files
+      url: /Otherguide-gaussian-input.html
+      output: web, pdf
+
+    - title: Viewing Gaussian Results
+      url: /Otherguide-gaussian-results.html
+      output: web, pdf
+
+    - title: Making Images
+      url: /Otherguide-gaussian-images.html
+      output: web, pdf
+
   - title: Using LICHEM
     output: web, pdf
     folderitems:
