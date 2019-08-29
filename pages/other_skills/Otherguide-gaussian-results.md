@@ -72,4 +72,38 @@ alt="Methane is shown with the charges listed on the atoms. Carbon has a -0.794
 charge. The hydrogens each have a charge of 0.198."
 caption="Charges mapped onto methane." %}
 
+## Cube Data
+
+Different data can be plotted onto the structure. This can be accomplished
+by following <code>Results &rarr; Surfaces/Contours</code>, which brings up the
+surfaces and contours window.
+
+{% include image.html file="other_skills/surfaces_and_contours_window.png"
+alt="The first block contains the Cubes Available, with the Cube Actions
+button to the right. Under this block is Surfaces Available with the Surface
+Actions button to the right. There are some boxes below to specify the isovalue
+for new surfaces of MO, Density, and Laplacian. The final block is Contours
+Available with the Contour Actions to the right."
+caption="The Surfaces and Contours window. Here, the electron density cube
+was selected and and ESP surface was mapped onto it." %}
+
+First, pick a type of information to show on the structure through
+<code>Cube Actions &rarr; New Cube</code>. You can plot several different
+properties. For the example below, I picked the total density as the content
+for the new cube. The grid options specify how smooth the surface looks.
+`Coarse` is fine for quick images, and `Medium` should be alright for
+presentations or posters.
+
+You can also use those cubes to plot different information.
+To do so, follow <code>Surfaces Available &rarr; New Mapped Surfaces</code>
+in the second block. I picked electrostatic potential (ESP) for the example.
+
+{% include image.html file="other_skills/ESP_map.png"
+alt="A structure of blobs. The left is teal and the right is dark blue. The
+spectral scale goes from red as negative values to dark blue as positive
+values."
+caption="The electrostatic potential mapped onto the structure." %}
+
+Cubes can be saved, but surfaces will be recalculated each time.
+
 {% include links.html %}
