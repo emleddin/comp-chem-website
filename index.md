@@ -49,8 +49,10 @@ and I've outlined a few here.
 ### Documentation {#docs}
 
 * [AMBER](http://ambermd.org/Manuals.php)
+* [CAVER](https://www.caver.cz/index.php?sid=132)
 * [Gaussian](https://gaussian.com/techsupport/)
 * [Gnuplot](http://www.gnuplot.info/documentation.html)
+* [LICHEM](https://github.com/CisnerosResearch/LICHEM/blob/master/src/manual.tex)
 * [OpenMM](http://openmm.org/documentation.html)
 * [Psi4](http://www.psicode.org/psi4manual/1.2/index.html)
 * [Tinker](https://dasher.wustl.edu/tinker/downloads/guide.pdf)

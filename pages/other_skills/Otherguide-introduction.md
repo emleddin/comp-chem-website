@@ -7,7 +7,9 @@ folder: other_skills
 
 <!-- <link rel="stylesheet" href="css/theme-blue.css"> -->
 
-Welcome. The only page that's active right now for this guide is the one about
-creating posters. Sorry about that.
+This guide contains information about other lab skills and programs, including
+stuff about reference managers, printing cloth posters, and using CAVER,
+Gaussian, and LICHEM.
+In other words, this is the random guide.
 
 {% include links.html %}

@@ -173,6 +173,3 @@ seed 1    #no default, if missing, the seed is random
 
 
 {% include links.html %}
-
-
-{% include links.html %}

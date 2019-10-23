@@ -13,7 +13,7 @@ biomolecular structures.
 There are several tools: (a) CAVER, a command-line tool; (b) CAVER Analyst,
 a GUI; and (c) a CAVER PyMOL plugin.
 
-## CAVER (Command-Line)
+## CAVER (Command-Line) {#cl}
 
 The command-line version requires an input file, described on the
 [next page][Otherguide-caver-input.html]. Once the input file is generated,
@@ -61,7 +61,7 @@ newly generated subfolder, named using the specified residue number.
 also have to change the `22c` portion of the sed command, based on its new
 line number." %}
 
-## CAVER Analyst
+## CAVER Analyst {#analyst}
 Once a structure is loaded in (<code>File &rarr; Open Structure</code>),
 follow <code>Tunnel &rarr; Computation</code>. From there you can enter all
 of the criteria for a tunnel search.
@@ -76,7 +76,7 @@ Under `Known binding sites`, a specific residue or atom can be given
 using the PDB's residue or atom number. It is suggested that you use a cofactor
 or inhibitor for this criterion.
 
-## PyMOL plugin
+## PyMOL plugin {#pymol}
 
 [PyMOL][https://pymol.org/] is a molecular visualization software.
 To use PyMOL for academic research, you need to purchase a license. More
@@ -85,7 +85,5 @@ information on that is available on their website.
 Once both PyMOL and the plugin are installed, you can use CAVER interactively.
 The information from the command-line input file becomes fill-in-the-blank
 boxes.
-
-{% include links.html %}
 
 {% include links.html %}
