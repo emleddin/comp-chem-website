@@ -8,7 +8,7 @@ folder: other_skills
 <!-- <link rel="stylesheet" href="css/theme-blue.css"> -->
 
 The input file contains a lot of information. Each of the keywords is
-described in the [CAVER documentation][http://caver.cz/index.php?sid=132].
+described in the [CAVER documentation](http://caver.cz/index.php?sid=132).
 
 A particular PDB residue or atom number in the PDB can be specified with
 `starting_point_residue` or `starting_point_atom`. It is suggested that you

@@ -7,7 +7,7 @@ folder: other_skills
 
 <!-- <link rel="stylesheet" href="css/theme-blue.css"> -->
 
-[CAVER][http://www.caver.cz/] is a software tool for analyzing tunnels in
+[CAVER](http://www.caver.cz/) is a software tool for analyzing tunnels in
 biomolecular structures.
 
 There are several tools: (a) CAVER, a command-line tool; (b) CAVER Analyst,
@@ -16,7 +16,7 @@ a GUI; and (c) a CAVER PyMOL plugin.
 ## CAVER (Command-Line) {#cl}
 
 The command-line version requires an input file, described on the
-[next page][Otherguide-caver-input.html]. Once the input file is generated,
+[next page](Otherguide-caver-input.html). Once the input file is generated,
 you can run it using a script, like `run-cluster.sh` below.
 
 ```bash
@@ -78,7 +78,7 @@ or inhibitor for this criterion.
 
 ## PyMOL plugin {#pymol}
 
-[PyMOL][https://pymol.org/] is a molecular visualization software.
+[PyMOL](https://pymol.org/) is a molecular visualization software.
 To use PyMOL for academic research, you need to purchase a license. More
 information on that is available on their website.
 

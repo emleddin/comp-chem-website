@@ -12,7 +12,7 @@ information contained herein may not be a complete representation of the
 set-up process." %}
 
 
-First, install Tinker7 on your machine from the [Tinker website][https://dasher.wustl.edu/tinker/].
+First, install Tinker7 on your machine from the [Tinker website](https://dasher.wustl.edu/tinker/).
 While Tinker8 has been released, the use of the analyze command is different
 than in Tinker7, and will generating the frozen atoms list more difficult.
 
@@ -110,8 +110,8 @@ Each of these lines needs to be specified as `active` for TINKER.
 This can be accomplished by using `sed` to edit the file.
 These lines with remove the tabs and then start each line with `active`.
 ```bash
-$ sed -i -e '2,s/[ \t]*//' active_tinker.key
-$ sed -i '2,s/^/active /' active_tinker.key
+$ sed -i -e 's/[ \t]*//' active_tinker.key
+$ sed -i 's/^/active /' active_tinker.key
 ```
 After using `sed`, edit the `active_tinker.key` file to remove the `active`
 on the `parameters` line.

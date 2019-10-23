@@ -12,7 +12,9 @@ PDB file would first need to be converted to a TINKER XYZ, which can be done
 using `pdbxyz`.
 
 `pdbxyz` is a program in the TINKER software package. Its usage is:
-`$ pdbxyz name_of_pdb.pdb -key tinker.key`
+```bash
+$ pdbxyz name_of_pdb.pdb -key tinker.key
+```
 
 Running this command with a complete PDB often causes issues.
 One way to avoid these issues is to break up the PDB into several smaller PDBs
@@ -33,7 +35,9 @@ So, one system could be broken into:
 After using `pdbxyz` on each of these individual files, all the files can be
 combined into a single TINKER XYZ file using TINKER's `xyzedit`.
 
-`$ xyzedit name_of_protein.xyz -key tinker.key`
+```bash
+$ xyzedit name_of_protein.xyz -key tinker.key
+```
 This will bring up a list of options, one of which is  
 `Append a second XYZ file to current one`.
 Enter the number corresponding to this option (likely `18`) and then enter in
