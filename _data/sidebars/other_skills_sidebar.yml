@@ -48,6 +48,10 @@ entries:
       url: /Otherguide-caver-overview.html
       output: web, pdf
 
+    - title: Caver Input
+      url: /Otherguide-caver-input.html
+      output: web, pdf
+
   - title: Using Gaussian
     output: web, pdf
     folderitems:
@@ -74,4 +78,12 @@ entries:
 
     - title: LICHEM Overview
       url: /Otherguide-lichem-overview.html
+      output: web, pdf
+
+    - title: Using PDBXYZ
+      url: /Otherguide-lichem-pdbxyz.html
+      output: web, pdf
+
+    - title: Set-Up Using Tinker and Gaussian
+      url: /Otherguide-lichem-tg-setup.html
       output: web, pdf
