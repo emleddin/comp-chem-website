@@ -40,6 +40,10 @@ entries:
       url: /Otherguide-reference-managers.html
       output: web, pdf
 
+    - title: Helpful LaTeX Packages for Chemistry
+      url: /Otherguide-chemistry-latex.html
+      output: web, pdf
+
   - title: Using Caver
     output: web, pdf
     folderitems:

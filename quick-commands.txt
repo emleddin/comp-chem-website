@@ -48,11 +48,20 @@ max-width="600; I'm required for svg" %}
 alt="This is alt text." caption="This is a caption."
 max-width="600; I'm required for svg" %}
 
+## Other
+{% include image.html file="other_skills/file.png"
+alt="This is alt text." caption="This is a caption."
+max-width="600; I'm required for svg" %}
+
 Add line break: <br>
 Superscript: <sup> </sup>
-Underlins: <u> </u>
+Underlines: <u> </u>
 If you need the rightarrow in code:
 <code>Tools &rarr; Structure Comparison &rarr; MatchMaker</code>
 
 Change text background color:
 <span style="background-color: #FFFF00"> Thing to be highlighted </span>
+
+Add links:
+[external link text](http://this-is-my-link-address.com)
+[internal link text](whole-name-of-page.html#opttag)
