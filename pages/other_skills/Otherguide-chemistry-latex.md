@@ -376,7 +376,9 @@ package has a way to create the degree symbol.
 
 Adding this:
 ```latex
+{% raw %}
 \newcommand{\degree}{\ensuremath{{}^{\circ}}\xspace}
+{% endraw %}
 ```
 to the preamble will mean that using `\degree` will make the symbol.
 
