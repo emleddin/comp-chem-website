@@ -6,7 +6,7 @@ folder: other_skills
 ---
 
 <!-- <link rel="stylesheet" href="css/theme-blue.css"> -->
-# LaTeX Overview {#overview}
+## LaTeX Overview {#overview}
 
 [LaTeX](https://www.latex-project.org/about/) is a system for preparing
 documents, slideshows, posters (and much, much more) using high-quality
@@ -32,12 +32,12 @@ search will likely pull up about twenty related questions (with solutions!) on
 [Stack Exchange](https://tex.stackexchange.com/).
 That website is incredible.
 
-# Helpful Formatting Commands {#format}
+## Helpful Formatting Commands {#format}
 
 There are a few formatting commands that I never remember, but I use in
 almost every document.
 
-## Changing font {#font}
+### Changing font {#font}
 The default font for most LaTeX classes is Computer Modern; Beamer’s default
 is sans serif Computer Modern.
 
@@ -80,7 +80,7 @@ like `\documentclass[12pt]{article}`.
 alt="The left column is the LaTeX command and the right is the result."
 caption="Results of commands impacting font size." %}
 
-## Modifying the Table of Contents {#TOC}
+### Modifying the Table of Contents {#TOC}
 Adding this line to your preamble will add periods after the sections,
 subsections, etc. in the document, provided that you haven’t redefined the
 numbers for the Table of Contents (TOC) too.
@@ -112,7 +112,7 @@ document to have a period.
 \renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}.}
 ```
 
-## Using minipage {#minipage}
+### Using minipage {#minipage}
 Minipages are used to put pages side-by-side.
 This is particularly useful for formatting images next to each other.
 The first specified minipage is placed on the left, and the second is placed
@@ -132,12 +132,12 @@ on the right.
 \end{
 ```
 
-# Packages {#packages}
+## Packages {#packages}
 
 There are a LOT of LaTeX packages out there. Here, I've highlighted a few
 that I either use all the time or that are more specific to chemistry.
 
-## siunitx {#siunitx}
+### siunitx {#siunitx}
 [`siunitx`](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/siunitx/siunitx.pdf)
 is a package for formatting SI units.
 
@@ -185,7 +185,7 @@ are in columns 2 and 4."
 caption="A list of different options and symbols for use with the
 <code>siunitx</code> package." %}
 
-## listings {#listings}
+### listings {#listings}
 Code segments can be highlighted using the
 [`listings`](http://ctan.mirrors.hoobly.com/macros/latex/contrib/listings/listings.pdf)
 package.
@@ -225,7 +225,7 @@ the [`textcomp`](https://ctan.org/pkg/textcomp?lang=en) package is also loaded.
 Loading that package is helpful so that code with apostrophes or double
 quotes is able to be copied correctly.
 
-## pdfcomment {#pdfcomment}
+### pdfcomment {#pdfcomment}
 [`pdfcomment`](http://mirror.utexas.edu/ctan/macros/latex/contrib/pdfcomment/doc/pdfcomment.pdf)
 is a package that helps annotate PDFs.
 It can thus be used to make PDFs more accessible, such as by adding alternative
@@ -246,18 +246,18 @@ annotations.
 Specific aspects of equations can be identified through the
 `pdfmarkupcomment` command.
 
-## sansmathfonts {#sansmathfonts}
+### sansmathfonts {#sansmathfonts}
 [`sansmathfonts`](http://ctan.forsale.plus/fonts/sansmathfonts/doc/sansmathfonts.pdf)
 is a package extends the general LaTeX sans serif font to small caps and math.
 
-## textgreek {#textgreek}
+### textgreek {#textgreek}
 The [`textgreek`](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/textgreek/textgreek.pdf)
 package avoids the use of unnecessary math environments in formatting Greek
 letters.
 
 Instead of `$\kappa$`, you would use `\textkappa`.
 
-## color (and xcolor) {#color}
+### color (and xcolor) {#color}
 The [`color`](http://mirror.its.dal.ca/ctan/macros/latex/required/graphics/color.pdf)
 package allows users to define colors and use them throughout documents.
 The [LaTeX color](http://latexcolor.com/) website has the definition lines for
@@ -287,7 +287,7 @@ line would be:
 \colorlet{purpling}{blue40red}
 ```
 
-## mhchem {#mhchem}
+### mhchem {#mhchem}
 The [`mhchem`](http://ctan.math.ca/tex-archive/macros/latex/contrib/mhchem/mhchem.pdf)
 package allows the formatting of chemical reactions.
 
@@ -298,7 +298,7 @@ with:
 If you start with \SI{25}{\gram} of \ce{Na2SO4}, how many grams of \ce{SO4^2-} can be made?
 ```
 
-## modiagram {#modiagram}
+### modiagram {#modiagram}
 The [`modiagram`](http://ctan.mirror.rafal.ca/macros/latex/contrib/modiagram/modiagram_en.pdf)
 package generates beautiful MO diagrams for s and p orbitals.
 
@@ -329,7 +329,7 @@ rounded corners}
 \end{center}
 ```
 
-## tikzorbital {#tikzorbital}
+### tikzorbital {#tikzorbital}
 [`tikzorbital`](http://ctan.forsale.plus/graphics/pgf/contrib/tikzorbital/tikzorbital.pdf)
 is a package that uses Tikz to generate s, p, and d orbitals, as well as MO
 diagrams, with shading.
@@ -348,7 +348,7 @@ This example creates p<sub>y</sub> and a p<sub>z</sub> orbitals.
 \end{center}
 ```
 
-## chemfig {#chemfig}
+### chemfig {#chemfig}
 [`chemfig`](http://ctan.mirror.rafal.ca/macros/generic/chemfig/chemfig-en.pdf)
 is a package that creates chemical structures and reaction diagrams.
 The package can be used to make schemes, and even color specific atoms.
@@ -365,12 +365,12 @@ This example makes a small, blue benzene become a larger, black benzene.
 \end{center}
 ```
 
-## chemstyle {#chemstyle}
+### chemstyle {#chemstyle}
 The [`chemstyle`](http://ctan.forsale.plus/macros/latex/contrib/chemstyle/chemstyle.pdf)
 package formats Latin phrases and has a symbol for standard state. Aptly, the
 command for that is just `\standardstate`.
 
-## xspace {#xspace}
+### xspace {#xspace}
 The [`xspace`](http://muug.ca/mirror/ctan/macros/latex/required/tools/xspace.pdf)
 package has a way to create the degree symbol.
 
@@ -380,7 +380,7 @@ Adding this:
 ```
 to the preamble will mean that using `\degree` will make the symbol.
 
-## braket {#braket}
+### braket {#braket}
 The [`braket`](http://ctan.math.ca/tex-archive/macros/latex/contrib/braket/braket.pdf)
 package can be used to typeset Dirac notation and sets.
 The [`physics`](http://mirror.its.dal.ca/ctan/macros/latex/contrib/physics/physics.pdf)
