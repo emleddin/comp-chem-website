@@ -53,6 +53,8 @@ max-width="600; I'm required for svg" %}
 alt="This is alt text." caption="This is a caption."
 max-width="600; I'm required for svg" %}
 
+(Captions need <code> </code> to have code work.)
+
 Add line break: <br>
 Superscript: <sup> </sup>
 Underlines: <u> </u>

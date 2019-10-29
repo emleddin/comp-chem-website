@@ -158,7 +158,7 @@ These new units would then be called with:
 Resulting in:
 {% include image.html file="other_skills/latex_siunitx_ex.png"
 alt="5 kcal mol -1, 25.3 plus minus 0.5 atm, 2-64 cal."
-caption="User-defined `siunitx` units." %}
+caption="User-defined <code>siunitx</code> units." %}
 
 Adding the following line to the preamble will change the default use of “per”
 (such as in `\si{\meter\per\second}`) from -1 to /.
@@ -168,7 +168,7 @@ Adding the following line to the preamble will change the default use of “per�
 
 {% include image.html file="other_skills/latex_siunitx_table1.png"
 alt="The LaTeX commands are on the left and the results are on the right."
-caption="A list of different formats for the `siunitx` package." %}
+caption="A list of different formats for the <code>siunitx</code> package." %}
 
 The other specific features, such changing the units to be listed once with
 `SIrange` and `SI`, separating uncertainty, or changing the range phrase can
@@ -182,8 +182,8 @@ ngle, range-phrase = --, range-units=single}
 {% include image.html file="other_skills/latex_siunitx_table2.png"
 alt="Four columns. The LaTeX commands are in columns 1 and 3, and the symbols
 are in columns 2 and 4."
-caption="A list of different options and symbols for use with the `siunitx`
-package." %}
+caption="A list of different options and symbols for use with the
+<code>siunitx</code> package." %}
 
 ## listings {#listings}
 Code segments can be highlighted using the
@@ -255,6 +255,8 @@ The [`textgreek`](http://mirrors.ibiblio.org/CTAN/macros/latex/contrib/textgreek
 package avoids the use of unnecessary math environments in formatting Greek
 letters.
 
+Instead of `$\kappa$`, you would use `\textkappa`.
+
 ## color (and xcolor) {#color}
 The [`color`](http://mirror.its.dal.ca/ctan/macros/latex/required/graphics/color.pdf)
 package allows users to define colors and use them throughout documents.
@@ -289,31 +291,99 @@ line would be:
 The [`mhchem`](http://ctan.math.ca/tex-archive/macros/latex/contrib/mhchem/mhchem.pdf)
 package allows the formatting of chemical reactions.
 
+The sentence "If you start with 25 g of Na<sub>2</sub>SO<sub>4</sub>, how many
+grams of SO<sub>4</sub><sup>2-</sup> can be made?" would be properly rendered
+with:
+```latex
+If you start with \SI{25}{\gram} of \ce{Na2SO4}, how many grams of \ce{SO4^2-} can be made?
+```
+
 ## modiagram {#modiagram}
 The [`modiagram`](http://ctan.mirror.rafal.ca/macros/latex/contrib/modiagram/modiagram_en.pdf)
 package generates beautiful MO diagrams for s and p orbitals.
+
+This example shows the molecular orbital energy diagram for
+N<sub>2</sub><sup>+</sup>.
+```latex
+\begin{center}
+\begin{MOdiagram}[labels,
+labels-fs=\footnotesize,
+names,
+names-style = {
+anchor=north,
+text height = 1.5ex,
+text depth = .25ex,
+draw = black,
+rounded corners}
+]
+ \atom[N]{left}{
+      1s, 2s, 2p = {;up,up,up}
+  }
+  \atom[\ce{N+}]{right}{
+      1s, 2s, 2p = {;up,up}
+  }
+  \molecule[\ce{N2+}]{
+      1sMO, 2sMO, 2pMO = {;pair,pair,up}
+  }
+\end{MOdiagram}
+\end{center}
+```
 
 ## tikzorbital {#tikzorbital}
 [`tikzorbital`](http://ctan.forsale.plus/graphics/pgf/contrib/tikzorbital/tikzorbital.pdf)
 is a package that uses Tikz to generate s, p, and d orbitals, as well as MO
 diagrams, with shading.
 
+This example creates p<sub>y</sub> and a p<sub>z</sub> orbitals.
+```latex
+\begin{center}
+\begin{tikzpicture}
+%	\orbital[pos = {(0,3)}]{px}
+%	\node[above] at (0,4) {p$_x$};
+	\orbital[pos = {(2,3)}]{py}
+	\node[above] at (2,4) {p$_y$};
+	\orbital[pos = {(4,3)}]{pz}
+	\node[above] at (4,4) {p$_z$};
+\end{tikzpicture}
+\end{center}
+```
+
 ## chemfig {#chemfig}
 [`chemfig`](http://ctan.mirror.rafal.ca/macros/generic/chemfig/chemfig-en.pdf)
 is a package that creates chemical structures and reaction diagrams.
 The package can be used to make schemes, and even color specific atoms.
 
+This example makes a small, blue benzene become a larger, black benzene.
+```latex
+\begin{center}
+\setchemfig{double bond sep=4pt}
+\schemestart
+\footnotesize \chemfig{*6((-H)-(-H)=(-H)-(-H)=(-H)-(-H)=(-H))}
+\normalsize \arrow([blue]--[black]){<=>}
+\chemfig{*6((-H)-(-H)=(-H)-(-H)=(-H)-(-H)=(-H))}
+\schemestop
+\end{center}
+```
+
 ## chemstyle {#chemstyle}
 The [`chemstyle`](http://ctan.forsale.plus/macros/latex/contrib/chemstyle/chemstyle.pdf)
-package formats Latin phrases and has a symbol for standard state.
+package formats Latin phrases and has a symbol for standard state. Aptly, the
+command for that is just `\standardstate`.
 
 ## xspace {#xspace}
 The [`xspace`](http://muug.ca/mirror/ctan/macros/latex/required/tools/xspace.pdf)
 package has a way to create the degree symbol.
 
+Adding this:
+```latex
+\newcommand{\degree}{\ensuremath{{}^{\circ}}\xspace}
+```
+to the preamble will mean that using `\degree` will make the symbol.
+
 ## braket {#braket}
 The [`braket`](http://ctan.math.ca/tex-archive/macros/latex/contrib/braket/braket.pdf)
 package can be used to typeset Dirac notation and sets.
-
+The [`physics`](http://mirror.its.dal.ca/ctan/macros/latex/contrib/physics/physics.pdf)
+package does the same, but with substantially more features.
 
 {% include links.html %}
