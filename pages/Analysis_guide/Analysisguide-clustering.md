@@ -76,8 +76,9 @@ cluster C2 kmeans clusters 10 data rm0 \
 
 This is by no means the only way to do clustering, and *cpptraj* has more
 options than just kmeans.
-[This website] has a really great explanation of different clustering methods
-if you'd like to read more.
+[This website](https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs/)
+has a really great explanation of different clustering methods if you'd like
+to read more.
 
 Sometimes the PDB that is written out from clustering (if requested) doesn't
 look quite right. That's because the PDB is an average representation.
