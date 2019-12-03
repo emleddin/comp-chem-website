@@ -84,8 +84,8 @@ The `get-active.key` file starts with the specific parameter file that
 corresponds to the XYZ.
 Charge-charge interaction distances are addressed through `neutral-groups`, and
 `debug` prints the detailed information that contains the active atoms.
-Finally, the `sphere` line specifies the atom number offset by 1
-(i.e., the atom in the XYZ file here we want is 3823) and the size of the
+Finally, the `sphere` line specifies the atom number in the Tinker XYZ
+(i.e., the atom in the XYZ file here we want is 3822) and the size of the
 sphere in angstroms.
 
 While we're generating keys, copy the `param.key` file as `active_tinker.key`.
