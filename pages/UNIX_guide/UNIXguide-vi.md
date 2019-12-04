@@ -47,6 +47,11 @@ To delete lines, you can specify a number and then `dd`.
 So `22dd` would delete 22 lines starting with the line your cursor is on.
 A single `dd` will delete the line your cursor is on.
 
+If you need line numbers, you can turn them on with `:set nu` or `:set number`.
+They can be turned off with `:set nu!` or `:set nonumber`.
+You can turn on hidden characters with `:set list` and turn them off with
+`:set nolist`.
+
 If you're using a Linux system, there is a good chance that your system
 administrator has installed the
 [gedit text editor](https://help.gnome.org/users/gedit/stable/index.html.en),
