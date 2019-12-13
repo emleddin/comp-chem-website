@@ -12,9 +12,15 @@ information contained herein may not be a complete representation of the
 set-up process." %}
 
 
-First, install Tinker7 on your machine from the [Tinker website](https://dasher.wustl.edu/tinker/).
+First, install Tinker7 on your machine from the
+[Tinker website](https://dasher.wustl.edu/tinker/).
 While Tinker8 has been released, the use of the analyze command is different
-than in Tinker7, and will generating the frozen atoms list more difficult.
+than in Tinker7, and will make generating the frozen atoms list more difficult.
+
+{% include tip.html content="If you have multiple versions of Tinker installed,
+export a global variable to the bin of each edition name. Bash shell example:
+`export Tinker7=/home/$USER/bin/tinker7/bin` and then call the program with
+`$Tinker7/xyzedit`." %}
 
 # Converting the TINKER XYZ with LICHEM {#convert}
 Once you have a Tinker XYZ file, create a `param.key` file that contains
@@ -24,7 +30,7 @@ look something like:
 parameters amber99.prm
 ```
 
-{% include note.html content="You can edit generate one key file named
+{% include note.html content="You can generate one key file named
 `tinker.key` and update the information therein, but for the purposes of
 this explanation, every key file with new information will be explicitly
 named." %}
@@ -73,7 +79,7 @@ This is done by specifying a sphere around a specific atom.
 Tinker7 can generate this list, but it needs some specific information in the
 key file.
 
-The `get-active.key`
+The `get-active.key`:
 ```bash
 parameters amber99sb.prm
 neutral-groups
@@ -241,9 +247,11 @@ The following command will use 20 processors to do so.
 lichem -n 20 -x xyzfile.xyz -c connect.inp -r regions.inp -o
 system_out.xyz -l system_out.log
 ```
-
+s
 {% include note.html content="The `xyzfile.xyz` is the one that LICHEM
-generated." %}
+generated with `lichem-convert`. A regular, non-Tinker XYZ can also be used
+if you have previously generated the `connect.inp` file and the numbering
+is the same between them." %}
 
 Despite only listing `xyzfile.xyz`, `connect.inp`, and `regions.inp`, LICHEM
 will look for other program-specific files including `BASIS` and `tinker.key`.
@@ -295,9 +303,9 @@ backbone halfway on each side.
 
 The BASIS file that is read by Gaussian is numbered using the `QM_atoms` and
 `Pseudobond_atoms` starting with `1`.
-If you have used a number in both the QM and pseudobond atom lists, or you
-have written a basis set incorrectly, you will likely get this error in your
-Gaussian output:
+If you have used an number in both the QM and pseudobond atom lists in the
+`regions.inp` file, or you have written a basis set incorrectly, you will
+likely get this error in your Gaussian output:
 ```
 The center is too long.
 ```
