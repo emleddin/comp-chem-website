@@ -23,6 +23,8 @@ h4 {color: #8D8D8D; }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
     background-color: #006600;
+    /* Previously no color */
+    color: white;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {

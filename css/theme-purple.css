@@ -1,28 +1,32 @@
 .summary {
-    color: #808080;
-    border-left: 5px solid #9D33FF;
+    color: #4A4A4A;
+    border-left: 5px solid #B262FC;
     font-size:16px;
 }
 
 
-h3 {color: #9D33FF; }
-h4 {color: #808080; }
+h3 {color: #B262FC; }
+h4 {color: #4A4A4A; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #248ec2;
     color: white;
 }
 
+/* Color for active sidebar */
 .nav > li.active > a {
-    background-color: #892DDF;
+    background-color: #7800B6;
 }
 
+/* Color for hovering over sidebar */
 .nav > li > a:hover {
-    background-color: #892DDF;
+    background-color: #7800B6;
+    color: white;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #892DDF;
+    background-color: #7800B6;
+    color: white;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
@@ -34,8 +38,8 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 }
 
 .nav li.thirdlevel > a {
-    background-color: #FAFAFA !important;
-    color: #892DDF;
+    background-color: #575757 !important;
+    color: #7800B6;
     font-weight: bold;
 }
 
@@ -46,7 +50,7 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #892DDF;
+    background-color: #7800B6;
     border-color: #7626BF;
 }
 
@@ -61,7 +65,7 @@ a[data-toggle="tooltip"] {
 
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #892DDF !important;
+    border-color: #7800B6 !important;
 }
 
 .btn-primary {
@@ -75,7 +79,7 @@ a[data-toggle="tooltip"] {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-color: #892DDF;
+    background-color: #7800B6;
     border-color: #7626BF;
 }
 
@@ -85,7 +89,7 @@ a[data-toggle="tooltip"] {
 
 body.print h1 {color: #7626BF !important; font-size:28px;}
 body.print h2 {color: #595959 !important; font-size:24px;}
-body.print h3 {color: #9D33FF !important; font-size:14px;}
+body.print h3 {color: #B262FC !important; font-size:14px;}
 body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic;}
 
 .anchorjs-link:hover {
@@ -93,18 +97,18 @@ body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic;}
 }
 
 div.sidebarTitle {
-    color: #9D33FF;
+    color: #B262FC;
 }
 
 li.sidebarTitle {
     margin-top:20px;
     font-weight:normal;
     font-size:130%;
-    color: #ED1951;
+    color: #A80081;
     margin-bottom:10px;
     margin-left: 5px;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #9D33FF;
+    background-color: #B262FC;
 }
