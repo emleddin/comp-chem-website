@@ -35,7 +35,8 @@ $ tar -zxvf tarball.tgz
 If the tarball extension was `.tar` instead of `.tgz`, then you wouldn't need
 to include the `-z` flag, since the file wasn't compressed through
 [gzip](UNIXguide-gzip.html) during creation.
-[Note: if you wish to compress the file using [bzip2](UNIXguide-bzip2.html),
-use a `-j` flag instead of the `-z` flag.]
+
+{% include note.html content="Note: if you wish to compress the file using
+[bzip2](UNIXguide-bzip2.html), use a `-j` flag instead of the `-z` flag." %}
 
 {% include links.html %}

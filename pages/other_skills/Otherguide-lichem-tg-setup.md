@@ -325,7 +325,7 @@ Having that line (even if it's blank) will result in an error with
 `Name of the center is too long` being printed to the Gaussian output file.
 
 If the error persists, remove the extra whitespace at the beginning of each
-line using [`sed`](Unixguide-sed.html).
+line using [`sed`](UNIXguide-sed.html).
 ```bash
 $ sed ’s/^ *//‘ xyzfile_from_vmd.xyz > xyzfile_for_lichem.xyz
 ```

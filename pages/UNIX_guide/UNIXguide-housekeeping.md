@@ -43,6 +43,7 @@ Well, for starters, don't use any of the symbols in the
 	So if that seems like you, or will eventually be you, you probably just want
   to use dashes.
 
+{:start="2"}
 2. Do not start or end file names with spaces, periods, hyphens, or underscores.
 
 3. Keep file names relevant, but on the shorter side. Linux has a max filename
