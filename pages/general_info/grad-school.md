@@ -30,4 +30,10 @@ school." %}
 So what questions should I ask myself? Visit
 [this page](what-to-ask-for-grad-school.html) for more on that topic.
 
+## All About Graduate School and Professional School Applications
+
+Below is a video overview of the application process.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6VkSUhsZr40" frameborder="0" allowfullscreen="1"> </iframe>
+
 {% include links.html %}
