@@ -27,6 +27,7 @@ h4 {color: #4A4A4A; }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
     background-color: #FD6C1B;
+    color: #000029;
 }
 
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
