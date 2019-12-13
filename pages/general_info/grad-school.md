@@ -32,7 +32,9 @@ So what questions should I ask myself? Visit
 
 ## All About Graduate School and Professional School Applications
 
-Below is a video overview of the application process.
+The video below is a screen and voice recording about applications to graduate
+and professional schools. The referenced slides (including alt image text) can
+be found [here](https://docs.google.com/presentation/d/14qedt5duANZN839CrjmENI79r43SAnXnwBDcaoFrlMo/edit).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6VkSUhsZr40" frameborder="0" allowfullscreen="1"> </iframe>
 
