@@ -1,12 +1,12 @@
 .summary {
-    color: #8D8D8D;
+    color: #4A4A4A;
     border-left: 5px solid #006400;
     font-size:16px;
 }
 
 
 h3 {color: #006400; }
-h4 {color: #8D8D8D; }
+h4 {color: #4A4A4A; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #255885;
@@ -107,6 +107,7 @@ li.sidebarTitle {
     margin-left: 5px;
 }
 
+/* Lights up top right corner nav bar in new color */
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: #006400;
 }

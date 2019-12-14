@@ -1011,7 +1011,7 @@ span.label.label-primary {
     }
 
 a code {
-    color: #248EC2;
+    color: #265A5A;
 }
 
 code + a > code {
@@ -1203,4 +1203,11 @@ h4.panel-title {
 code {
     color: #8B2735;
     background-color: #f9f2f4;
+}
+
+
+/* Make hyperlinking in TOC darker */
+a {
+    color: #224F77;
+    text-decoration: none
 }
