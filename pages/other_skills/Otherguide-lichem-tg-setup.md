@@ -212,6 +212,26 @@ GEN
 ```
 There are 2 spaces between the last number and the zero.
 
+Some examples of basis sets to put in the place of `GEN` include:
+- STO-3G
+    - STO-3G*
+- 3-21G
+- 3-21+G
+    - 3-21+G*
+    - 3-21+G**
+- 6-31G
+    - 6-31G*
+    - 6-31G**
+- 6-31++G
+    - 6-31++G*
+    - 6-31++G**
+- 6-311G
+- 6-311+G
+- 6-311++G
+
+You'll likely have to benchmark these for your system, as well as read the
+literature for the things that tend to work well for your system.
+
 The pseudopotential information (for the pseudobonds) is listed at the end.
 The following uses fluorine for atoms 1, 8, 15, and 25.
 ```bash
@@ -247,7 +267,7 @@ The following command will use 20 processors to do so.
 lichem -n 20 -x xyzfile.xyz -c connect.inp -r regions.inp -o
 system_out.xyz -l system_out.log
 ```
-s
+
 {% include note.html content="The `xyzfile.xyz` is the one that LICHEM
 generated with `lichem-convert`. A regular, non-Tinker XYZ can also be used
 if you have previously generated the `connect.inp` file and the numbering
