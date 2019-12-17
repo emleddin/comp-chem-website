@@ -35,7 +35,7 @@ entries:
       url: /Analysisguide-introduction.html
       output: web
     - title: R Guide
-      url: /Rguide-introduciton.html
+      url: /Rguide-introduction.html
       output: web
     - title: Other Programs and Lab Skills
       url: /Otherguide-introduction.html

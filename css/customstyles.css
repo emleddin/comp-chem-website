@@ -1211,3 +1211,8 @@ a {
     color: #224F77;
     text-decoration: none
 }
+
+/* Fixes toggle navigation coloration issue */
+.sr-only {
+    color: #FFFFFF;
+}

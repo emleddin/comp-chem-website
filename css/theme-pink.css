@@ -124,3 +124,8 @@ li.sidebarTitle {
 .navbar-inverse .navbar-toggle {
     border-color: #800053;
 }
+
+/* Fixes toggle navigation coloration issue */
+.sr-only {
+    color: #000000;
+}
