@@ -201,7 +201,14 @@ missing residues.
 There will also often be problems if the structure has non-standard residues.
 You will immediately get the following error message if either is true:
 ```
-THE CALCULATION HAS STOPPED. It appears that some residues are missing in the middle of the uploaded structure. When residues are missing (that is the sequence in the PDB file is discontiguous) the accuracy of pK estimates of any kind is affected, especially in the vicinity of the gaps. Make sure there are no "gaps" in your structure, see the FAQ for suggestions. It is also possible that your structure contains non-standard residue names, sometimes listed as HETATM, in the main sequence. These will not be recognized by the system and will be treated as missing, resulting in the above error. Please change the names to comply with the standard amino-acid nomenclature. Alternatively, you can supply your own PQR file -- the naming compliance is not enforced then. See the FAQ.
+THE CALCULATION HAS STOPPED. It appears that some residues are missing in the middle of the uploaded
+structure. When residues are missing (that is the sequence in the PDB file is discontiguous) the
+accuracy of pK estimates of any kind is affected, especially in the vicinity of the gaps. Make sure
+there are no "gaps" in your structure, see the FAQ for suggestions. It is also possible that your
+structure contains non-standard residue names, sometimes listed as HETATM, in the main sequence.
+These will not be recognized by the system and will be treated as missing, resulting in the above
+error. Please change the names to comply with the standard amino-acid nomenclature. Alternatively,
+you can supply your own PQR file -- the naming compliance is not enforced then. See the FAQ.
 ```
 
 The added benefit of H++ is that it *could* be used to solvate and neutralize
