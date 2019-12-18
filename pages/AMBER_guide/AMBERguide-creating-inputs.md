@@ -113,8 +113,8 @@ single file can be found through an equation of
 [`nstlim` / 1000000 fs ns<sup>-1</sup> x `dt` = time of simulation (in ns)].
 Thus, with an `nstlim` of 250000 at a 2 fs time-step, 200 files of unrestrained
 MD data would yield a total simulation time of 100 nanoseconds.
-One [table](AMBERguide-creating-inputs.html#2fs) shows times with a 2 fs
-time-step, and another [table](AMBERguide-creating-inputs.html#1fs) shows
+One [table](AMBERguide-creating-inputs.html#twofs) shows times with a 2 fs
+time-step, and another [table](AMBERguide-creating-inputs.html#onefs) shows
 times with a 1 fs time-step.
 The 2 fs time-step is recommended when using SHAKE (set by `ntc > 1`).
 Without SHAKE, the 1 fs time-step is recommended.

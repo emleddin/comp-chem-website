@@ -225,7 +225,7 @@ To use it, select the
 {% include image.html file="AMBERguide/Hplusplus-upload.png"
 alt="The Process a Structure page for H++. There are two choices: selecting
 a file to submit and entering a PDB code."
-caption="The 'Process a Structure' page for H++." %}
+caption="The <code>Process a Structure</code> page for H++." %}
 
 Then, submit! After submission, you get to select some options.
 
