@@ -27,6 +27,7 @@ be the difference between accurate or garbage simulations.
 There are five amino acids that can have weird protonation states. They are:
 aspartate, cysteine, glutamate, histidine, and lysine.
 
+## Figure: Protonation States {#prot-states}
 {% include image.html file="AMBERguide/protonation-states.png"
 alt="Aspartic acid, ASH. Aspartate, ASP. Cysteine can be CYM, CYS, or
 CYX when in a double bond. Glutamic acid, GLH. Glutamate, GLU.
@@ -34,8 +35,7 @@ Histidine can be HID, HIE, HIP, or HIS. Lysine can be LYN or LYS.
 ASP, CYM, GLU, and LYN are all deprotonated. ASH, CYS, GLH, and LYS
 are all protonated. HIS and HIE are protonated at N-epsilon. HID is
 protonated at N-delta. HIP is protonated at both N-epsilon and N-delta.
-ASH, CYM, HID, HIP, and LYN are all atypical deprotonation states.
-"
+ASH, CYM, HID, HIP, and LYN are all atypical deprotonation states."
 caption="The different protonation states of aspartate, cysteine, glutamate,
 histidine, and lysine." %}
 
@@ -221,6 +221,7 @@ This means H++ is more of a "one stop shop" for PDB preparation.
 To use it, select the
 ["Process a Structure"](http://biophysics.cs.vt.edu/uploadpdb.php) tab.
 
+## Figure: H++ Upload {#hpp-upload}
 {% include image.html file="AMBERguide/Hplusplus-upload.png"
 alt="The Process a Structure page for H++. There are two choices: selecting
 a file to submit and entering a PDB code."
@@ -228,6 +229,7 @@ caption="The 'Process a Structure' page for H++." %}
 
 Then, submit! After submission, you get to select some options.
 
+## Figure: H++ Options {#hpp-options}
 {% include image.html file="AMBERguide/hplusplus_options.png"
 alt="Box with chain count, chain number, number of amino acids, number of
 nucleic acids, and HETATM count. The next block is orange and titled

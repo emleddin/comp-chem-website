@@ -17,6 +17,7 @@ Which amino acid, or residue, that they code for can be found by looking at the
 codon wheel (shown below).
 Sequences of these amino acids are what make up proteins.
 
+## Figure: Codon Wheel {#codon-wheel}
 {% include image.html file="AMBERguide/codon-wheel.png"
 alt="This is alt text."
 caption='Codon wheel from <a href="https://www.sigmaaldrich.com/technical-documents/articles/biology/amino-acid-codon-wheel.html">the Millipore Sigma website</a>.' %}
@@ -44,6 +45,7 @@ and pyrimidine (6-member) rings.
 Cytosine, thymine, and uracil are pyridines with just the pyrimidine (6-member)
 ring. The different bases are shown below.
 
+## Figure: DNA Bases {#DNA-bases}
 {% include image.html file="AMBERguide/DNA-Bases.png"
 alt="Top row: deoxycytidine, deoxyguanosine, cytidine, guanosine.
 Bottom row: deoxythymidine, deoxyadenosine, uridine, adenosine."
@@ -54,6 +56,7 @@ each other. The typical backbone is linked through the 3' and 5' ends.
 In the *iso* forms, the backbone is linked through the 2' and 5' ends.
 These differences are shown in below.
 
+## Figure: DNA Binding {#DNA-binding}
 {% include image.html file="AMBERguide/DNA-binding.png"
 alt="Left: traditional DNA and RNA linking scheme. Right: iso- DNA and RNA
 linking scheme."
@@ -82,6 +85,7 @@ it, but they're much happier with it.
 __Holoprotein__: the apoprotein combined with its prosthetic group.
 The bear has located their hat again and is now wearing it.
 
+## Figure: Amino Acids {#AA-chart}
 {% include image.html file="AMBERguide/amino-acids.jpeg"
 alt="Amino acids, broken into categories. Non-polar includes glycine, alanine,
 valine, cysteine, proline, leucine, isoleucine, methionine, tryptophan,
@@ -90,11 +94,13 @@ and glutamine. Positively charged includes lysine, arginine, and histidine.
 Negatively charged includes aspartic acid and glutamic acid."
 caption='Amino acid chart from <a href="https://socratic.org/questions/which-part-of-an-amino-acid-s-structure-makes-it-unique-from-other-amino-acids">the Socratic website</a>.' %}
 
+## Figure: AMBER Amino Acids 1 {#AMBER-AAs1}
 {% include image.html file="AMBERguide/AA_image1.png"
 alt="ACE, ALA, ARG, ASH, ASN, ASP, CYM, CYS, CYX, GLH, GLN, GLU,
 GLY, HID, HIE, HIP, HIS, ILE, LEU, and LYN." caption="Amino acid chart with
 AMBER naming (consistent with ff99SB and higher)." %}
 
+## Figure: AMBER Amino Acids 2 {#AMBER-AAs2}
 {% include image.html file="AMBERguide/AA_image2.png"
 alt="LYS, MET, NME, PHE, PRO, SER, TRP, TYR, VAL, DA, DC, DG, DT, RA, RC, RG,
 and RU." caption="Amino acid chart with AMBER naming

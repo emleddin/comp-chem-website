@@ -120,7 +120,7 @@ The 2 fs time-step is recommended when using SHAKE (set by `ntc > 1`).
 Without SHAKE, the 1 fs time-step is recommended.
 
 <!-- 2 femtosecond timestep -->
-## Table: Simulation times with 2.0 fs timestep {#2fs}
+## Table: Simulation times with 2.0 fs timestep {#twofs}
 
 | nstlim | Single File Length | Number of Files for 100 ns | Number of Files for 1 &mu;s |
 | ------ | ------------------ | -------------------------- | --------------------------- |
@@ -135,7 +135,7 @@ Without SHAKE, the 1 fs time-step is recommended.
 
 
 <!-- %1 femtosecond timestep -->
-## Table: Simulation times with 1.0 fs timestep {#1fs}
+## Table: Simulation times with 1.0 fs timestep {#onefs}
 
 | nstlim | Single File Length | Number of Files for 100 ns | Number of Files for 1 &mu;s |
 | ------ | ------------------ | -------------------------- | --------------------------- |
@@ -148,7 +148,7 @@ Without SHAKE, the 1 fs time-step is recommended.
 20000000 | 20 ns | 5 | 50 |
 25000000 | 25 ns | 4 | 40 |
 
-## GPU Support
+## GPU Support {#GPUsupport}
 Simulations in the NVE, NVT, and NPT ensembles, as well as implicit solvent
 Generalized Born simulations, can benefit from GPU acceleration using
 *pmemd.cuda*. GPU runs do not give an Ewald error estimate, so it is

@@ -37,7 +37,7 @@ obtained
 add to saved files
 * `MASTER`: a dummy "master path" for the file that's useless to us
 
-### Figure: Setting Up Systems {#set-up}
+## Figure: Setting Up Systems {#set-up}
 {% include image.html file="AMBERguide/amber-system-flow.svg"
 alt="First block is blue and says 'Get PDB structure.'
 Second block is blue and says 'clean the PDB structure'.
@@ -77,7 +77,7 @@ When you open a structure in Chimera, areas with missing residues are linked
 together with dashed lines.
 
 
-### Figure: Setting Up Systems {#missing-res}
+## Figure: Missing Residues {#missing-res}
 <!-- FIX ME -->
 {% include image.html file="AMBERguide/amber-missing-residues.svg"
 alt="Top sequence is blue with G T R Y A G K V V. Bottom sequence is red
