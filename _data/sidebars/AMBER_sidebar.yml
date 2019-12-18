@@ -88,6 +88,38 @@ entries:
       url: /AMBERguide-example-files.html
       output: web, pdf
 
+  - title: PDBs and SNPs
+    output: web, pdf
+    folderitems:
+
+    - title: PDBs and SNPs
+      url: /AMBERguide-PDBs.html
+      output: web, pdf
+
+    - title: Amino Acids and DNA and RNA Bases
+      url: /AMBERguide-AAs-DNA-RNA.html
+      output: web, pdf
+
+    - title: Creating SNP Mutations in Chimera
+      url: /AMBERguide-SNPs-in-Chimera.html
+      output: web, pdf
+
+    - title: Creating SNP Mutations in <i>LEaP</i>
+      url: /AMBERguide-SNPs-in-LEaP.html
+      output: web, pdf
+
+  - title: Cleaning the Initial Structure
+    output: web, pdf
+    folderitems:
+
+    - title: "Proper Protonation States"
+      url: /AMBERguide-protonation.html
+      output: web, pdf
+
+    - title: "MolProbity: Correcting Bad Contacts"
+      url: /AMBERguide-molprobity.html
+      output: web, pdf
+
   - title: "Non-Standard Residue Parameter Generation"
     output: web, pdf
     folderitems:
@@ -122,26 +154,6 @@ entries:
 
     - title: "xleap: for GUI Lovers and the Paranoid"
       url: /AMBERguide-xleap.html
-      output: web, pdf
-
-  - title: PDBs and SNPs
-    output: web, pdf
-    folderitems:
-
-    - title: PDBs and SNPs
-      url: /AMBERguide-PDBs.html
-      output: web, pdf
-
-    - title: Amino Acids and DNA and RNA Bases
-      url: /AMBERguide-AAs-DNA-RNA.html
-      output: web, pdf
-
-    - title: Creating SNP Mutations in Chimera
-      url: /AMBERguide-SNPs-in-Chimera.html
-      output: web, pdf
-
-    - title: Creating SNP Mutations in <i>LEaP</i>
-      url: /AMBERguide-SNPs-in-LEaP.html
       output: web, pdf
 
   - title: Troubleshooting AMBER
