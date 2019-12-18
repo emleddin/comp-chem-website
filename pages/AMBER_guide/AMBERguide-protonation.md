@@ -1,11 +1,46 @@
 ---
-title: "Proper Protonation States"
+title: Addressing Multiple Protonation States
 sidebar: AMBER_sidebar
 permalink: AMBERguide-protonation.html
 folder: AMBER_guide
 ---
 
 <link rel="stylesheet" href="css/theme-orange.css">
+
+If you've never taken general chemistry, then the title here probably makes
+zero sense. If you *have* taken general chemistry, then the words "multiple
+protonation states" might spark panic. Never fear! With help of the Internet
+(and a little ~chemical intuition~), our systems will be biologically
+relevant!
+
+So what do I mean by multiple protonation states? You've probably heard of
+(and used) ammonia at some point. Ammonia is NH<sub>3</sub>. Its conjugate
+acid, an ammonium ion, is NH<sub>4</sub><sup>+</sup>. They differ by--you
+guess it--a single hydrogen. They're pretty similar things, and whether or not
+that hydrogen is there is pH-dependent.
+
+Why should you care? Certain amino acids, like histidine (*sigh*), can have
+multiple protonation states. That's actually a good thing, because then you get
+stuff like acid-base catalysis. But that also means things like histidine can
+be the difference between accurate or garbage simulations.
+
+There are five amino acids that can have weird protonation states. They are:
+aspartate, cysteine, glutamate, histidine, and lysine.
+
+{% include image.html file="AMBERguide/protonation-states.png"
+alt="Aspartic acid, ASH. Aspartate, ASP. Cysteine can be CYM, CYS, or
+CYX when in a double bond. Glutamic acid, GLH. Glutamate, GLU.
+Histidine can be HID, HIE, HIP, or HIS. Lysine can be LYN or LYS.
+ASP, CYM, GLU, and LYN are all deprotonated. ASH, CYS, GLH, and LYS
+are all protonated. HIS and HIE are protonated at N-epsilon. HID is
+protonated at N-delta. HIP is protonated at both N-epsilon and N-delta.
+ASH, CYM, HID, HIP, and LYN are all atypical deprotonation states.
+"
+caption="The different protonation states of aspartate, cysteine, glutamate,
+histidine, and lysine." %}
+
+There are a few ways to ensure that your protein is protonated correctly.
+These are described below.
 
 PROPKA (or the web version [PDB2PQR](http://nbcr-222.ucsd.edu/pdb2pqr_2.0.0/))
 is a program intended to predict the correct protonation states of protein
@@ -183,6 +218,16 @@ It has a few additional advantages, including checking if ASN, GLU, and HIS
 should be flipped and adding all missing hydrogen atoms.
 This means H++ is more of a "one stop shop" for PDB preparation.
 
+To use it, select the
+["Process a Structure"](http://biophysics.cs.vt.edu/uploadpdb.php) tab.
+
+{% include image.html file="AMBERguide/Hplusplus-upload.png"
+alt="The Process a Structure page for H++. There are two choices: selecting
+a file to submit and entering a PDB code."
+caption="The 'Process a Structure' page for H++." %}
+
+Then, submit! After submission, you get to select some options.
+
 {% include image.html file="AMBERguide/hplusplus_options.png"
 alt="Box with chain count, chain number, number of amino acids, number of
 nucleic acids, and HETATM count. The next block is orange and titled
@@ -194,12 +239,15 @@ GLN, and HIS groups, add H atoms, and assign HIS H atoms to the delta or
 epsilon O, based on van der Waals contacts and H-bonding. Next are the
 options for MD input files. Prepare topology/coordinate with AMBER, water model,
 box edge distance, add counterions, and then choices for ions 1 to 3."
+caption="H++ options."
 %}
 
-Structures uploaded to H++ need to be continuous, meaning that there are no
-missing residues.
-There will also often be problems if the structure has non-standard residues.
-You will immediately get the following error message if either is true:
+{% include important.html content="Make sure you've added any missing loops
+and addressed any non-standard residues before checking the protonation
+states! H++ __cannot__ run on a structure with missing residues!" %}
+
+You will immediately get the following error message if there are missing
+loops on non-standard residues:
 ```
 THE CALCULATION HAS STOPPED. It appears that some residues are missing in the middle of the uploaded
 structure. When residues are missing (that is the sequence in the PDB file is discontiguous) the

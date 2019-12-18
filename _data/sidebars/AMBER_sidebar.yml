@@ -112,7 +112,7 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: "Proper Protonation States"
+    - title: Addressing Multiple Protonation States
       url: /AMBERguide-protonation.html
       output: web, pdf
 
