@@ -21,7 +21,7 @@ provided here are based on the system I often work on." %}
 Run scripts, or jobfiles, contain all the necessary information to run a job.
 An example is the `basher.sh` script (thanks, Alice!).
 ```bash
-#/bin/bash
+#!/bin/bash
 #PBS -q my_cpu_alloc              ## queue allocation
 #PBS -l nodes=1:ppn=20,mem=20GB   ## 20 processors
 #PBS -j oe                        ## same output and error file
@@ -221,7 +221,7 @@ Thus, these types of things (e.g., things that run with the tidyverse package
     or EDA averaging scripts) should be submitted through the queue using a
     script like:
 ```bash
-#/bin/bash
+#!/bin/bash
 #PBS -q my_cpu_alloc
 #PBS -l nodes=1:ppn=1,mem=20GB
 #PBS -j oe
