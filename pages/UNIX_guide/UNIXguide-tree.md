@@ -28,7 +28,7 @@ VirtualBox_VMs/
 
 {% include note.html content="You don't need to specify a folder with the
 tree command. Here, `VirtualBox_VMs/` was specified from a home folder where
-the regular results would have just cluttered this page!" %}
+the regular result would have just cluttered this page!" %}
 
 Different flags can be used to give more information, or only show specific
 things in tree. By default, all files and subdirectories are shown.
@@ -115,7 +115,7 @@ VirtualBox_VMs
 
 If you want to save the tree structure to a file, you can specify the `-o` flag.
 ```bash
-tree -f VirtualBox_VMs/ -o virtual_box_tree.txt
+$ tree -f VirtualBox_VMs/ -o virtual_box_tree.txt
 ```
 
 {% include links.html %}
