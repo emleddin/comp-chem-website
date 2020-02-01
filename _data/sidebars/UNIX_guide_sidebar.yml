@@ -95,6 +95,10 @@ entries:
       url: /UNIXguide-pwd.html
       output: web, pdf
 
+    - title: tree
+      url: /UNIXguide-tree.html
+      output: web, pdf
+
     - title: hostname
       url: /UNIXguide-hostname.html
       output: web, pdf
