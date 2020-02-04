@@ -96,4 +96,26 @@ trajout WT_protein_system_c4_frame_5257.pdb pdb onlyframes 5257
 trajout WT_protein_system_c5_frame_8924.pdb pdb onlyframes 8924
 ```
 
+If you need to use the PDB made with *cpptraj* for QM/MM with TINKER, then you
+will need to recenter it.
+TINKER is written so that the center of mass is located at the origin; AMBER
+centers the mass in the periodic box.
+So, your *cpptraj* script would look like this:
+```bash
+autoimage
+
+## TINKER uses origin as COM, by default cpptraj uses box center
+## For center command, chose a mask that you'd use for cpptraj analysis
+## (probably protein, ligands, metals, and DNA/RNA)
+center :1-455 origin mass
+
+## Write out the specific PDBs identified with clustering
+trajout WT_protein_system_com_c0_frame_10.pdb pdb onlyframes 10
+trajout WT_protein_system_com_c1_frame_37.pdb pdb onlyframes 37
+trajout WT_protein_system_com_c2_frame_748.pdb pdb onlyframes 748
+trajout WT_protein_system_com_c3_frame_1234.pdb pdb onlyframes 1234
+trajout WT_protein_system_com_c4_frame_5257.pdb pdb onlyframes 5257
+trajout WT_protein_system_com_c5_frame_8924.pdb pdb onlyframes 8924
+```
+
 {% include links.html %}

@@ -305,6 +305,33 @@ This can be addressed by using TINKER's `xyzedit` on the original TINKER xyz
 and selecting the `Translate Center of Mass to the Origin` option.
 Then, reconvert the TINKER xyz to the LICHEM xyz.
 
+If you're working with an AMBER system, you can do this using the `center`
+command in *cpptraj*, before writing out the specific frames.
+The command uses and atom mask (you typically select what isn't solvent or
+counterions).
+```bash
+center :1-455 origin mass
+```
+
+You can also use MDAnalysis to translate the center of mass to the origin.
+```python
+import MDAnalysis as mda
+
+pdb = "my_system.pdb"
+out_pdb = "my_centered_system.pdb"
+
+system = mda.Universe(pdb)
+
+## Translate all the atoms to the origin
+new = system.atoms.translate(-system.select_atoms('all').center_of_mass())
+
+## Writes out the PDB with COM at origin
+new.atoms.write(out_pdb)
+```
+
+Each of these ways will vary slightly in their significant figures for the
+coordinates, and thus impact the final energies.
+Therefore, be consistent with what you use!
 
 ## Connection Through Boundary {#badbound}
 
