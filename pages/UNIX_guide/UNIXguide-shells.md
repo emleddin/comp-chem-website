@@ -69,7 +69,7 @@ export PATH
 export PATH="/anaconda3/bin:$PATH"
 ```
 
-As you can see, I use mine mostly for [aliases]](UNIXguide-aliases.html).
+As you can see, I use mine mostly for [aliases](UNIXguide-aliases.html).
 If you are using a Linux system with a `.bashrc` file, it is generally a good
 practice to save aliases under a separate `.bash_aliases` file.
 

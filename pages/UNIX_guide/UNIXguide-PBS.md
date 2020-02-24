@@ -243,7 +243,7 @@ Submitting jobs is done with the `qsub` command. To submit a jobfile named
 $ qsub jobfile
 ```
 The jobfile has a string of information for running the job, and must include
-the `\#!/bin/bash` line at the start.
+the `#!/bin/bash` line at the start.
 
 Dependent submissions, i.e. job B needs the output from job A but job A isn't
 finished and you want to submit job B right now going to sleep, can also be

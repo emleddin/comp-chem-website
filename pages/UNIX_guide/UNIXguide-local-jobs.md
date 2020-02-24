@@ -19,7 +19,7 @@ computers will have GPUs to run jobs on as well.
 
 Running AMBER locally on CPUs eliminates the need for the queue scheduler lines.
 When running these scripts, keep in mind that you will need to edit the
-`while [ \$f -lt 11]` part to run the loop for the correct number of mdin files.
+`while [ $f -lt 11]` part to run the loop for the correct number of mdin files.
 This specific script assumes that there are 10 mdin files running minimization,
 heating, and equilibration, and an 11th specifying production. Thus, the first
 10 are run on CPUs through this script.
