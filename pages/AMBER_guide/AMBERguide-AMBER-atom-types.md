@@ -12,7 +12,10 @@ AMBER has specific atom names to describe the environment
 Atom typing is not found in the PDB, but it is found in anything dealing with a
 force field (specifically prepi and frcmod files).
 The traditional AMBER force field atom types can be found
-[here](http://www.uoxray.uoregon.edu/local/manuals/biosym/discovery/General/Forcefields/AMBER.html).
+[here](http://www.uoxray.uoregon.edu/local/manuals/biosym/discovery/General/Forcefields/AMBER.html)
+and a description of the terms themselves can be found
+[on the Cerius2 site](http://www.chem.cmu.edu/courses/09-560/docs/msi/ffbsim/B_AtomTypes.html).
+<!-- Backup FF site: https://xbwang.wordpress.com/2016/07/16/amber-atom-types-standard-amber-forcefield/ -->
 The following are the atom types in GAFF, or the General AMBER Force Field,
 taken from [the AMBER website](http://ambermd.org/antechamber/gaff.html).
 

@@ -60,6 +60,13 @@ and I've outlined a few here.
 * [UNIX vi Editor Commands](https://www.ccsf.edu/Pub/Fac/vi.html)
 * [Visual Molecular Dynamics (VMD)](https://www.ks.uiuc.edu/Research/vmd/current/docs.html)
 
+### Cheat Sheets {#sheets}
+* [DevHints -- a robust cheat sheet library](https://devhints.io/)
+* [Git](https://github.github.com/training-kit/)
+* [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Python](https://ehmatthes.github.io/pcc/cheatsheets/README.html)
+* [R and R Packages](https://rstudio.com/resources/cheatsheets/)
+
 ### Search Directories {#searchable}
 
 * [Stack Overflow (aka Coding Google)](https://stackoverflow.com/)

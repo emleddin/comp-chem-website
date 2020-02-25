@@ -15,11 +15,13 @@ operating system. Many people who use R like the program RStudio, which has a
 console and interface for using R. That can be downloaded for free under an
 open source license from
 [the RStudio website](https://www.rstudio.com/products/rstudio/download/).
+A number of [cheatsheets](https://rstudio.com/resources/cheatsheets/) for
+common R packages have been created as a handy reference.
 
 ## Using R {#use-R}
 
 R can be loaded from the command line with `R`. Easy enough. If you remember,
-in Unix there is a `$` to tell you you're at the command line. 
+in Unix there is a `$` to tell you you're at the command line.
 For R's internal command line, that symbol is `>`.
 To clear the console in R or RStudio on a Windows or Linux operating system,
 use `Cntrl+L`. On a Mac, you can use either `Cntrl+L` or `Command+Option+L`.
