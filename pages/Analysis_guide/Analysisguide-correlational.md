@@ -10,19 +10,23 @@ folder: Analysis_guide
 Correlational analyses are computed through the example *cpptraj* script
 through the following lines:
 ```
-matrix correl name corrpath out WT_protein_system_matrix_correl.dat :1-476 byres
-analyze matrix corrpath out WT_protein_system_matrxcorr.dat
-diagmatrix corrpath out WT_protein_system_evecs.dat vecs 100 nmwiz \
-   nmwizvecs 100 nmwizfile WT_protein_system_100.nmd
+## For correlation matrix
+matrix out WT_protein_system_matrix_correl.dat name corr_mat \
+ byres :1-476 correl
+
+## For normal modes (evecs = eigenvectors)
+matrix out WT_protein_system_covar_mat.dat name norm_mode :1-476 covar
+diagmatrix norm_mode out WT_protein_system_evecs.out vecs 100 reduce \
+ nmwiz nmwizvecs 100 nmwizfile WT_protein_system_100.nmd nmwizmask :1-476
 ```
 
-The `matrix` line calculates the correlation matrix for the system and outputs
-that as a data file.
+The first `matrix` line calculates the correlation matrix for the system
+and outputs that as a data file.
 
-The `analyze matrix` line calculate eigenmodes for all of the vectors.
-%%Something seems off.
+The second `matrix` line builds a covariance matrix for the system.
 
-The `diagmatrix` line will calculate eigenmodes from quasiharmonic analysis.
+The `diagmatrix` line will calculate eigenmodes from quasiharmonic analysis
+using the generated covariance matrix.
 In normal human speak, that means the natural vibration of the system is
 computed through the application of fancy physics based on thermodynamics.
 One hundred vectors were specified to be calculated.

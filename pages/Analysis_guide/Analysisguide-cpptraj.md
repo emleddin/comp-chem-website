@@ -86,12 +86,14 @@ autoimage
 
 rms first out test_rms.dat :1-476 byres
 
-matrix correl name corrpath out WT_protein_system_matrix_correl.dat :1-476 byres
+## For correlation matrix
+matrix out WT_protein_system_matrix_correl.dat name corr_mat \
+ byres :1-476 correl
 
-analyze matrix corrpath out WT_protein_system_matrxcorr.dat
-
-diagmatrix corrpath out WT_protein_system_evecs.dat vecs 100 \
-   nmwiz nmwizvecs 100 nmwizfile WT_protein_system_100.nmd
+## For normal modes (evecs = eigenvectors)
+matrix out WT_protein_system_covar_mat.dat name norm_mode :1-476 covar
+diagmatrix norm_mode out WT_protein_system_evecs.out vecs 100 reduce \
+ nmwiz nmwizvecs 100 nmwizfile WT_protein_system_100.nmd nmwizmask :1-476
 
 hbond out WT_protein_system_hbond.dat dist 3.0 avgout \
    WT_protein_system_hbond_avg.dat
