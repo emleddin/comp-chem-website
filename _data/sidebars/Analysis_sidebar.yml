@@ -120,8 +120,12 @@ entries:
       url: /Analysisguide-plot-normal-modes.html
       output: web, pdf
 
-    - title: Determining Normal Modes with gnuplot
+    - title: Determining Normal Modes with Python
       url: /Analysisguide-determine-normal-modes.html
+      output: web, pdf
+
+    - title: "Fast NMA (ft. cpptraj and Python)"
+      url: /Analysisguide-cpptraj-NMA.html
       output: web, pdf
 
   - title: Energy Decomposition Analysis (EDA)

@@ -91,9 +91,9 @@ matrix out WT_protein_system_matrix_correl.dat name corr_mat \
  byres :1-476 correl
 
 ## For normal modes (evecs = eigenvectors)
-matrix out WT_protein_system_covar_mat.dat name norm_mode :1-476 covar
+matrix out WT_protein_system_covar_mat.dat name norm_mode :1-476@CA,P,C4',C2 covar
 diagmatrix norm_mode out WT_protein_system_evecs.out vecs 100 reduce \
- nmwiz nmwizvecs 100 nmwizfile WT_protein_system_100.nmd nmwizmask :1-476
+ nmwiz nmwizvecs 100 nmwizfile WT_protein_system_100.nmd nmwizmask :1-476@CA,P,C4',C2
 
 hbond out WT_protein_system_hbond.dat dist 3.0 avgout \
    WT_protein_system_hbond_avg.dat

@@ -1,5 +1,5 @@
 ---
-title: Determining Normal Modes with gnuplot
+title: Determining Normal Modes with Python
 sidebar: Analysis_sidebar
 permalink: Analysisguide-determine-normal-modes.html
 folder: Analysis_guide
@@ -42,7 +42,7 @@ plt.savefig('WT_protein_system_eigenplot.png')
 plt.gcf().clear()
 ```
 First a bunch of things were imported to let Python know it knows how to use
-Python. 
+Python.
 Then, the dataset is found, and several unhelpful lines are skipped.
 The auto-plot parameters and font sizes are reset, so the graph isn't weirdly
 smushed.

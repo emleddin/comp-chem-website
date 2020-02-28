@@ -13,11 +13,6 @@ through the following lines:
 ## For correlation matrix
 matrix out WT_protein_system_matrix_correl.dat name corr_mat \
  byres :1-476 correl
-
-## For normal modes (evecs = eigenvectors)
-matrix out WT_protein_system_covar_mat.dat name norm_mode :1-476 covar
-diagmatrix norm_mode out WT_protein_system_evecs.out vecs 100 reduce \
- nmwiz nmwizvecs 100 nmwizfile WT_protein_system_100.nmd nmwizmask :1-476
 ```
 
 The first `matrix` line calculates the correlation matrix for the system
