@@ -19,7 +19,33 @@ Sequences of these amino acids are what make up proteins.
 
 ## Figure: Codon Wheel {#codon-wheel}
 {% include image.html file="AMBERguide/codon-wheel.png"
-alt="This is alt text."
+alt="The codon wheel, with 5' in the middle and 3' on the edges. A is green,
+G is red, C is orange, and U is blue. Moving outward, the 3-letter codes are:
+Isoleucine: AUU, AUC, AUA.
+Start Methionine: AUG.
+Threonine: ACU, ACC, ACA, ACG.
+Asparagine: AAU, AAC.
+Lysine: AAA, AAG.
+Serine: AGU, AGC.
+Arginine: AGA, AGG.
+Valine: GUU, GUC, GUA, GUG.
+Alanine: GCU, GCC, GCA, GCG.
+Aspartate: GAU, GAC.
+Glutamate: GAA, GAG.
+Glycine: GGU, GGC, GGA, GGG.
+Phenylalanine: UUU, UUC.
+Leucine: UUA, UUG.
+Serine: UCU, UCC, UCA, UCG.
+Tyrosine: UAU, UAC.
+Stop: UAA, UAG.
+Cysteine: UGU, UGC.
+Stop: UGA.
+Tryptophan: UGG.
+Leucine: CUU, CUC, CUA, CUG.
+Proline: CCU, CCC, CCA, CCG.
+Histidine: CAU, CAC.
+Glutamine: CAA, CAG.
+Arginine: CGU, CGC, CGA, CGG."
 caption='Codon wheel from <a href="https://www.sigmaaldrich.com/technical-documents/articles/biology/amino-acid-codon-wheel.html">the Millipore Sigma website</a>.' %}
 
 Different mutations in DNA can propagate through to proteins.
@@ -47,8 +73,8 @@ ring. The different bases are shown below.
 
 ## Figure: DNA Bases {#DNA-bases}
 {% include image.html file="AMBERguide/DNA-Bases.png"
-alt="Top row: deoxycytidine, deoxyguanosine, cytidine, guanosine.
-Bottom row: deoxythymidine, deoxyadenosine, uridine, adenosine."
+alt="Top row: deoxycytidine (dC), deoxyguanosine (dG), cytidine (C), guanosine (G).
+Bottom row: deoxythymidine (dT), deoxyadenosine (dA), uridine (U), adenosine (A)."
 caption="The different DNA and RNA bases." %}
 
 It is also important to know how the different DNA (and RNA) residues bind to
@@ -59,7 +85,7 @@ These differences are shown in below.
 ## Figure: DNA Binding {#DNA-binding}
 {% include image.html file="AMBERguide/DNA-binding.png"
 alt="Left: traditional DNA and RNA linking scheme. Right: iso- DNA and RNA
-linking scheme."
+linking scheme. The R-group of DNA is H; for RNA the R-group is OH."
 caption="The linking scheme for both the traditional and *iso* forms of DNA
 and RNA." %}
 
@@ -102,10 +128,8 @@ AMBER naming (consistent with ff99SB and higher)." %}
 
 ## Figure: AMBER Amino Acids 2 {#AMBER-AAs2}
 {% include image.html file="AMBERguide/AA_image2.png"
-alt="LYS, MET, NME, PHE, PRO, SER, TRP, TYR, VAL, DA, DC, DG, DT, RA, RC, RG,
+alt="LYS, MET, NME, PHE, PRO, SER, THR, TRP, TYR, VAL, DA, DC, DG, DT, RA, RC, RG,
 and RU." caption="Amino acid chart with AMBER naming
 (consistent with ff99SB and higher)." %}
-
-<!-- FUTURE ME: ADD THR... -->
 
 {% include links.html %}
