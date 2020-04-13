@@ -23,7 +23,7 @@ password, since you don't get to change it." %}
 ## Nucleotide Fragment Generation
 PyRED creates parameters for nucleotides in fragments.
 
-<u> Dimethylphosphate Portion of PDB (`Mol_red1.pdb`) </u>
+<u> Dimethylphosphate Portion of PDB (<code>Mol_red1.pdb</code>) </u>
 ```
 ATOM      1  C1  DMP     1       1.100   0.000   0.000
 ATOM      2  H11 DMP     1       0.000   0.000   0.000
@@ -40,7 +40,7 @@ ATOM     12  H22 DMP     1       3.568  -3.689  -1.444
 ATOM     13  H23 DMP     1       3.401  -3.925   0.302
 ```
 
-<u> Example `Project.config` </u>
+<u> Example <code>Project.config</code> </u>
 ```bash
 # Provide informative titles
 MOLECULE1-TITLE        = Dimethylphosphate
@@ -58,9 +58,9 @@ MOLECULE-INTER-MCC1    = 0.0 | 1 2 | 10 11 12 13 | 3 4
 
 In the `Project.config` file, the lines with `MOLECULE-INTER-MCC1`
 describe where the connections need to be made between the two compounds.
-In the example, molecule 1's ` 1  2  3  4 | 1 2` refers to C1, H11, H12, H13,
-H12, and H13. Molecule 2's `| 10 11 12 13 | 3 4 ` refers to C3', H3', C4', H4',
-O3', and H3T.
+In the example, molecule 1's <code> 1  2  3  4 | 1 2</code? refers to C1, H11, 
+H12, H13, H12, and H13. Molecule 2's <code>| 10 11 12 13 | 3 4 </code> refers
+to C3', H3', C4', H4', O3', and H3T.
 
 <u> Example `System.config` </u>
 ```

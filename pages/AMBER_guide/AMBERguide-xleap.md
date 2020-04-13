@@ -94,7 +94,7 @@ An example of system set up with *xleap* is:
 > loadamberprep NonStandardA.prepi
 > loadamberparams NonStandardA.frcmod
 > check NSA
-> loadamberprep NonStandardB.prepi
+> NSB = loadmol2 NonStandardB.mol2
 > loadamberparams NonStandardB.frcmod
 > check NSB
 > list
@@ -108,5 +108,9 @@ An example of system set up with *xleap* is:
 > saveamberparm PDB wildtype-system-AB-wat.prmtop wildtype-system-AB-wat.inpcrd
 > quit
 ```
+
+{% include note.html content="If you experience issues with a `mol2` saying
+that the parameters cannot be found, make sure that the argument you loaded
+it in using (`NSB` above) matches the 3-letter code for the non-standard." %}
 
 {% include links.html %}

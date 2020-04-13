@@ -24,6 +24,9 @@ loadamberparams ZN2.frcmod
 loadamberprep NSA.prepi
 loadamberparams NSA.frcmod
 
+NSB = loadmol2 NSB.mol2
+loadamberparams NSB.mol2
+
 WTP = loadpdb WT_protein_system.pdb
 
 savepdb WTP WT_protein_system_vac.pdb
@@ -54,5 +57,9 @@ overwriting by default.
 ```bash
 $ $AMBERHOME/bin/tleap -f tleap-script.in > tleap-attempt.out
 ```
+
+{% include note.html content="If you experience issues with a `mol2` saying
+that the parameters cannot be found, make sure that the argument you loaded
+it in using (`NSB` above) matches the 3-letter code for the non-standard." %}
 
 {% include links.html %}

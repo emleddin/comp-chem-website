@@ -20,6 +20,7 @@ Command | Objective | Example | Ex. Explanation
 ------- | --------- | ------- | ---------------
 source | load in force field parameters | `source leaprc.ff14SB` | loads in the ff14SB force field
 loadpdb | load in a PDB file | `loadpdb foo system.pdb` | loads in the PDB, all future references are to `foo`
+loadmol2 | load in a mol2 file | `res = loadmol2 residue123.mol2` | loads in the topology and charge information for non-standard residue, all future references are to `res`
 loadamberprep | load in a prepi file for a non-standard residue | `loadamberprep residue234.prepi` | loads in the topology information for the non-standard residue file `residue234.prepi`
 loadamberparams | load in an frcmod file for a non-standard residue | `loadamberparams residue234.frcmod` | load in the force field information for the non-standard residue file `residue234.prepi`
 check | make sure that there aren't errors | `check foo` | checks the loaded `foo` for errors

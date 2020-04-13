@@ -9,7 +9,7 @@ folder: AMBER_guide
 
 A number of studies recently have focused on what single nucleotide
 polymorphisms (SNPs) do to a protein's function.
-Changes in a single nucleotide that are found in less than 1\% of human
+Changes in a single nucleotide that are found in less than 1% of human
 populations are SNPs. These SNPs can be missense mutations.
 PDB files generated from a crystal structure are typically in the wild type,
 meaning they do not contain the SNP.
