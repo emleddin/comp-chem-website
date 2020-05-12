@@ -58,7 +58,7 @@ MOLECULE-INTER-MCC1    = 0.0 | 1 2 | 10 11 12 13 | 3 4
 
 In the `Project.config` file, the lines with `MOLECULE-INTER-MCC1`
 describe where the connections need to be made between the two compounds.
-In the example, molecule 1's <code> 1  2  3  4 | 1 2</code? refers to C1, H11, 
+In the example, molecule 1's <code> 1  2  3  4 | 1 2</code> refers to C1, H11,
 H12, H13, H12, and H13. Molecule 2's <code>| 10 11 12 13 | 3 4 </code> refers
 to C3', H3', C4', H4', O3', and H3T.
 
@@ -66,5 +66,41 @@ to C3', H3', C4', H4', O3', and H3T.
 ```
 FFPARM = AMBERFF99SB
 ```
+
+## Using the Job Information
+After the job has completed (you should get an email), you can download the
+project folder.
+This folder will have substantially more information if the job completes
+successfully! &#x1F603;
+
+### Completed Jobs
+Inside the project folder (named P with a string of numbers), you can find the
+`mol2` file by entering the `Data-R.E.D.Server/`.
+If you ran a job split into multiple `Mol_red` files that needed to have
+intermolecular connections, then enter the `Mol_MM` folder, followed by the
+`INTER` folder.
+The important `mol2` file(s) should be in that folder.
+Check that the structure optimized as you anticipated by viewing the `mol2` in
+VMD.
+You should also check that the assigned AMBER atom types make sense.
+{% include note.html content="Chimera will open `mol2` files, but they'll
+have weird spheres that can be confusing to interpret." %}
+
+The `frcmod` files can be found from the project folder and then entering
+`Data-R.E.D.Server/Data-Default-Proj`.
+The `frcmod.known` is anything that PyRED found parameters for.
+The missing parameters are listed in `frcmod.unknown`, and it will usually
+mark if it thinks they are optional.
+You can find missing parameters in publications, or by using `parmchk`
+or `parmchk2` from AMBERTools.
+```
+$ parmchk2 -i Mol-sm_m1-c1.mol2 -f mol2 -o my_new_residue.frcmod
+```
+
+### Jobs that Errored Out
+In the project file, there should be a file that is titled similarly to
+`R.E.D.-Server-3672.master1.q4md-forcefieldtools.org.log`.
+This log should have more information on why the job failed.
+If not, the Gaussian log files should help you debug the problem.
 
 {% include links.html %}

@@ -20,8 +20,9 @@ molecular visualization. It contains information about the atom (including
     coordinates and charges), in addition to bonds and any relevant aspects
     of the structure.
 
-* `frcmod`: modified force filed parameters. These are critically important for
-non-standard residues.
+* `frcmod`: modified force field parameters. These are critically important for
+non-standard residues. More specific information is available in
+[the AMBER documentation](https://ambermd.org/FileFormats.php#frcmod).
 
 * `lib`: an OFF library file containing information about non-standard
 residues. The generation of this file is preferred for larger co-enzymes,
@@ -32,7 +33,8 @@ information is available in
 * `mdin`: input files that control simulation conditions and settings for data
 collection.
 
-* `prmtop`: the molecular topology file.
+* `prmtop`: the molecular topology file. More specific information is available
+in [the AMBER documentation](https://ambermd.org/prmtop.pdf).
 
 * `inpcrd`: coordinate files. These are preferred by *parm* and *LEaP*, but is
 almost equal to an `rst`.

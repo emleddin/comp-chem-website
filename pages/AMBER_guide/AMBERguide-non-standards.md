@@ -25,8 +25,10 @@ pure and utter joy of either using *antechamber* in AMBER yourself
 (which isn't all that bad for small organic compounds) or uploading some
 information to
 [PyRED program interfaced by RED Server Development](http://upjv.q4md-forcefieldtools.org/REDServer-Development/).
-PyRED is an interactive submission process that generates the wanted `frcmod`,
-in addition to the `mol2` required for making the `prepi` file.
+PyRED is an interactive submission process that a `mol2` (charge file) and
+the wanted `frcmod` (parameter file).
+You can then convert the `mol2` to a `prepi` file using `antechamber` if you
+would like.
 PyRED has a
 [tutorial](http://upjv.q4md-forcefieldtools.org/Tutorial/Tutorial-4.php)
 available on how to generate certain types of non-standard residues.
