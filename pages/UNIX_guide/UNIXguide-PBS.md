@@ -17,7 +17,7 @@ differently in terms of the information that you need to pass to it. Ask
 an administrator for an example *specific* to your system. The examples
 provided here are based on the system I often work on." %}
 
-# CPU Run Scripts {#CPU}
+## CPU Run Scripts {#CPU}
 Run scripts, or jobfiles, contain all the necessary information to run a job.
 An example is the `basher.sh` script (thanks, Alice!).
 ```bash
@@ -138,7 +138,7 @@ like these.
 Do *not* run Gaussian without a script unless your administrator has told
 you to do so." %}
 
-# GPU Run Script {#GPU}
+## GPU Run Script {#GPU}
 
 There are not many differences between a script to run on GPUs versus CPUs,
 other than specifying the actual location to run.
@@ -196,7 +196,52 @@ to run on, which can be verified through
 [nvidia-smi](UNIXguide-nvidia-smi.html).
 This example uses core 3 on node n11-12-13.
 
-# R Script PBS Submission {#R-PBS}
+## Parallel GPU Run Script {#Multi-GPU}
+This script makes a few changes to the above [GPU](UNIXguide-PBS.html#GPU)
+script, which allows it to use more than one GPU.
+
+```bash
+#!/bin/bash
+#PBS -q my_gpu_alloc
+#PBS -l nodes=n11-12-13
+#PBS -j oe
+#PBS -r n
+#PBS -o err.error
+#PBS -N WT_protein
+
+## Use pairs like 0,1 | 2,3 | 4,5 | 6,7
+export CUDA_VISIBLE_DEVICES=0,1
+
+cd $PBS_O_WORKDIR
+cat $PBS_NODEFILE  > $PWD/PBS_NODEFILE
+
+module load amber/18-cuda_mvapich2
+export MV2_ENABLE_AFFINITY=0
+
+e=0
+f=1
+while [ $f -lt 501 ]; do
+
+mpirun -np 2 -hostfile $PWD/PBS_NODEFILE \
+$AMBERHOME/bin/pmemd.cuda.MPI -O -i mdin.35 \
+-o WT_protein_system_wat_md$f.out \
+-p WT_protein_system_wat.prmtop \
+-c WT_protein_system_wat_md$e.rst \
+-r WT_protein_system_wat_md$f.rst \
+-x WT_protein_system_wat_md$f.mdcrd \
+-ref WT_protein_system_wat_md$e.rst
+e=$[$e+1]
+f=$[$f+1]
+done
+```
+In the script, cards 0 and 1 on node n11-12-13 are specified with
+`CUDA_VISIBLE_DEVICES=0,1`.
+The cards are linked together in pairs, which is why you cannot run on 1 and 2.
+Acceptable pairs include `0,1`, `2,3`, `4,5`, and `6,7`.
+The other changes add message passing interface (MPI) information so the GPUs
+can communicate.
+
+## R Script PBS Submission {#R-PBS}
 [R](https://www.r-project.org/) is a programming language often used for data
 processing and statistics.
 Because our simulation analysis generate text files for single runs, it can be
@@ -236,7 +281,8 @@ module load R/3.6.0
 Rscript name_of_actual_R_script.R
 ```
 
-# qsub {#qsub}
+## qsub {#qsub}
+
 Submitting jobs is done with the `qsub` command. To submit a jobfile named
 `jobfile`, the command would simply be:
 ```bash
@@ -270,7 +316,7 @@ $ qsub -I -q my_cpu_alloc
 which will allow you access a specific node. To leave interactive mode when the
 job is finished, use `exit`.
 
-# qstat {#qstat}
+## qstat {#qstat}
 
 If you want to see what jobs you have running or waiting to run (queued jobs),
 then use `qstat`.
@@ -288,7 +334,7 @@ simulation is running on.
 Thus, your command could become `qstat -u euid123 -n`.
 This is a very good command to create an [alias](UNIXguide-aliases.html) for.
 
-# qdel {#qdel}
+## qdel {#qdel}
 
 Sometimes you scream out in horror when you realize that you shouldn't have
 submitted a job yet, or it's taking too long and you'd rather just kill it.
