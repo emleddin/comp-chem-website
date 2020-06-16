@@ -3,6 +3,7 @@ title: AMBER Atom Types
 sidebar: AMBER_sidebar
 permalink: AMBERguide-AMBER-atom-types.html
 folder: AMBER_guide
+datatable: true
 ---
 
 <link rel="stylesheet" href="css/theme-orange.css">

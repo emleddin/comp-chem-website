@@ -5,4 +5,5 @@ _pdf
 .DS_Store
 .idea
 vendor/
+.vendor/
 .bundle/

@@ -42,6 +42,7 @@ and I've outlined a few here.
 
 * [UNIX/Linux Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 * [AMBER Tutorials](http://ambermd.org/tutorials/)
+* [Data Carpentry (online lessons under development -- ft. genomics!)](https://datacarpentry.org/lessons/#workshop-materials-under-development-or-consideration)
 * [Software Carpentry (online lessons)](https://software-carpentry.org/lessons/)
 * [MolSSI: Getting Started in Computational Chemistry](https://github.com/MolSSI-Education/getting-started-computational-chemistry)
 * [Overleaf: Learn LaTeX](https://www.overleaf.com/learn/latex/Tutorials)
@@ -53,6 +54,8 @@ and I've outlined a few here.
 * [Gaussian](https://gaussian.com/techsupport/)
 * [Gnuplot](http://www.gnuplot.info/documentation.html)
 * [LICHEM](https://github.com/CisnerosResearch/LICHEM/blob/master/src/manual.tex)
+* [MDAnalysis (Python package)](https://www.mdanalysis.org/docs/)
+* [MDTraj (Python package)](http://mdtraj.org/latest/#)
 * [OpenMM](http://openmm.org/documentation.html)
 * [Psi4](http://www.psicode.org/psi4manual/1.2/index.html)
 * [Tinker](https://dasher.wustl.edu/tinker/downloads/guide.pdf)
