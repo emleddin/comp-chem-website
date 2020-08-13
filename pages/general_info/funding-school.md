@@ -116,6 +116,11 @@ search--it may not be the most up-to-date eligibility criteria." %}
     * When: While enrolled (or intending to enroll) in undergraduate or graduate study
     * Must be an "out" member of the LGBTQ+ community
 
+* [NOGLSTP Out to Innovate](https://www.noglstp.org/programs-projects/scholarships/)
+    * When: after at least 2 years of post-high-school education
+    * Must be an active supporter and participant in organizations promoting
+    LGBTQ+ inclusion
+
 * [NSF Graduate Research Fellowship Program (GRFP)](https://www.nsfgrfp.org/)
     * Citizenship requirements: United States citizens, nationals, or permanent
     residents of the United States

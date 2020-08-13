@@ -47,6 +47,22 @@ and I've outlined a few here.
 * [MolSSI: Getting Started in Computational Chemistry](https://github.com/MolSSI-Education/getting-started-computational-chemistry)
 * [Overleaf: Learn LaTeX](https://www.overleaf.com/learn/latex/Tutorials)
 
+### Software/Programs
+#### Terminal Emulators
+Mac and Linux both come with a Terminal application, however, some users
+may prefer to use a different emulator instead.
+Windows users *must* use an emulator, as there is no native Terminal.
+* [MobaXTerm (Windows)](https://mobaxterm.mobatek.net/)
+* [PuTTY (Windows/Unix)](https://www.chiark.greenend.org.uk/~sgtatham/putty/)
+* [iTerm2 (Mac)](https://www.iterm2.com/)
+
+#### Free (at least for academic use)
+* [VMD](https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD)
+* [UCSF Chimera](https://www.cgl.ucsf.edu/chimera/download.html)
+* [Psi4](http://www.psicode.org/)
+* [Gnuplot](http://www.gnuplot.info/)
+* [Avogadro](https://avogadro.cc/)
+
 ### Documentation {#docs}
 
 * [AMBER](http://ambermd.org/Manuals.php)
