@@ -388,6 +388,10 @@ entries:
       url: /UNIXguide-additional-terminals.html
       output: web, pdf
 
+    - title: wget
+      url: /UNIXguide-wget.html
+      output: web, pdf
+
 # Section 12
   - title: Quick Intro to Computer Admin-ing
     output: web, pdf
