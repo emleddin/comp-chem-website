@@ -59,6 +59,10 @@ entries:
     - title: Backbone Analysis
       url: /Analysisguide-backbone.html
       output: web, pdf
+      
+    - title: Secondary Structure
+      url: /Analysisguide-secondary-structure.html
+      output: web, pdf
 
     - title: Clustering
       url: /Analysisguide-clustering.html

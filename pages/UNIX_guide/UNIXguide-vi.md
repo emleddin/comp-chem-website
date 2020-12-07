@@ -26,13 +26,16 @@ Additionally, to save without quitting, you can use `:w`.
 There are other modes, such as replace, macros, and visual, which you can
 research on your own.
 
+{% include note.html content="Most of the time, `vi` is actually `vim` but an
+alias was set so that they're the same. `vim` stands for \"Vi IMproved.\"" %}
+
 The "undo" button is not [cntrl+Z](UNIXguide-cntrl-z.html), since that has
 already been taken for suspense (ha).
 Instead, undo is `:u`.
 Practically, this is `Shift+;+u`, since colon is an uppercase symbol.
 
 Another useful feature from within the visual editor is `Shift+G`.
-[Note: The + stands for "and" here.]
+{% include note.html content="The `+` stands for \"and\" here." %}
 This will bring you to the end of the file you're viewing.
 Practically, hit escape before typing `:+Shift+G`, which will leave whatever
 mode you've entered before bringing you to the end.
@@ -52,6 +55,44 @@ They can be turned off with `:set nu!` or `:set nonumber`.
 You can turn on hidden characters with `:set list` and turn them off with
 `:set nolist`.
 
+One of the benefits to using `vi` is that you can pipe through commands.
+It also has a memory of these commands, accessed by typing `:` and using the
+up arrow key.
+For instance, you can do multiple global string replacements at once through
+something like:
+```
+:%s/These words/This sentence/g | %s/were old/is new/g | wq
+```
+A file originally consisting of
+```
+These words were old.
+These words were old.
+Bye!
+```
+becomes
+```
+This sentence is new.
+This sentence is new.
+Bye!
+```
+and is saved and closed after making those changes.
+You can thus make broad changes via the command line with something like:
+```bash
+vi file.txt -c '%s/These words/This sentence/g | %s/were old/is new/g | wq'
+```
+You can also create a file with a list of `vi` commands that then gets read
+and executed.
+That file here is `file.vim` and it contains:
+```
+%s/These words/This sentence/g
+%s/were old/is new/g
+wq
+```
+The command-line execution looks like:
+```bash
+vi -e file.txt < file.vim
+```
+
 If you're using a Linux system, there is a good chance that your system
 administrator has installed the
 [gedit text editor](https://help.gnome.org/users/gedit/stable/index.html.en),
@@ -59,5 +100,7 @@ which can be opened from the command line through `gedit filename`.
 It is a lot easier to navigate for files that need a massive overhaul, but
 there are definitely circumstances where `vi` has uses (\* *cough supercomputers
     and jobfiles cough* \*).
+Personally, I think it's worth installing the
+[atom text editor](https://atom.io/).
 
 {% include links.html %}
