@@ -5,6 +5,8 @@ permalink: /Analysisguide-cpptraj-NMA.html
 folder: Analysis_guide
 ---
 
+<link rel="stylesheet" href="css/theme-purple.css">
+
 The NMD file can be prepared for use with ProDy using *cpptraj*.
 How cool is that?
 
@@ -128,4 +130,37 @@ for filename,outfile,sys in in_out_sys_names:
     NMA_plots(filename,outfile,sys)
 ```
 
-{% include note.html content="This is a note." %}
+## Reading the `.nmd` File with Structure in VMD {#load-NMD}
+
+Reading the `.nmd` file can be done on its own with the `NMWiz` plugin, but
+that file doesn't contain structure information that you probably want for
+image making.
+
+This can be addressed through the following steps:
+1. Load in either a PDB file or both a `.prmtop` and `.rst` file into VMD.
+2. Follow <code>Extensions &rarr; Analysis &rarr; Normal Mode Wizard &rarr;
+Load NMD File</code> to load the NMD file.
+3. Open the RMSD Trajectory Tool through <code>Extensions &rarr; Analysis &rarr;
+RMSD Trajectory Tool</code>.
+4. In the Tool, match the name you used in `cpptraj` to create the command in
+the top left box (likely `name CA P "C4'" C2`).
+5. In the `Trajectory` box on the right, deselect all options.
+6. Remove the `{ default_name arrow}` option by highlighting and choosing
+`Erase selected`.
+7. Choose the `Selected` bubble under `Reference mol`.
+8. Highlight `{ default_name coordinates}` and click `RMSD`.
+9. Once the RMSD has finished, click `ALIGN`.
+
+You specifically want to highlight `{ default_name coordinates}` so that the
+arrows and "coordinates" stay in the same place and only the full structural
+coordinates move.
+Otherwise, the tube tracing and stucture will be in one place and the arrows
+will be in another.
+This transformation will not be saved in a `.vmd` visualization state file.
+
+## Using the Trajectory Tool {#cpptraj-NMD}
+{% include image.html file="Analysis/cpptraj-NMD-TrajTool"
+alt="The RMSD Trajectory Tool for VMD. The top left has the box for selections,
+the top right has the RMSD and ALIGN buttons. Below them is the Reference mol
+section, and below that trajectory options."
+caption="VMD's RMSD Trajectory Tool." %}

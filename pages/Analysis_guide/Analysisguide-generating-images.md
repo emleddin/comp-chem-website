@@ -60,5 +60,27 @@ sure that you don't also have just `protein` selected; it'd need to be like
 The reason why is because VMD cannot handle the layering in image creation,
 and your picture will look terrible (just revisit the images above).
 
+## Saving a High-Quality Image with Transparency {#VMD-pov}
+
+You can also save higher-quality images in VMD (with transparency!) using
+[POVRay](http://www.povray.org/).
+It needs to be installed separately.
+
+The ray-tracers work well with the AO-type and diffuse materials.
+Select `POV-Ray` in the render window.
+The number version (likely 3.6) is the earliest version you can use.
+For the render command, you need the `+UA` option to make it transparent.
+The image renders using the width and height of the on-screen window.
+Because you want a higher quality image, you can add a `0` after the height
+and width.
+It will take a bit more time (almost a full minute for a 450 residue protein),
+but it looks much better than 300 DPI.
+
+When you specify the file command, you may wish to leave off the `.pov`
+extension.
+That way, when it renders, the final image file isn't named like `.pov.tga`.
+
+- For TGA output: `povray +W%w0 +H%h0 -I%s -O%s.tga +X +A +FT +UA`
+- For PNG output: `povray +W%w0 +H%h0 -I%s -O%s.png +X +A +FN +UA`
 
 {% include links.html %}
