@@ -76,6 +76,20 @@ This sentence is new.
 Bye!
 ```
 and is saved and closed after making those changes.
+
+One issue that's really common when copying between systems, is that
+whitespace characters get added.
+Many programs and scripts will crash with these extra characters, but
+they can go unnoticed (or, honestly, just be annoying to fix).
+You can get rid of them pretty easily:
+```
+:%s/\s\+$//e
+```
+which searches for white space (`\s`), allows for multiple occurrences
+(`\+`), and goes until the end of the line (`$`).
+The `e` at the end means it won't print an error if no trailing whitespace
+is found.
+
 You can thus make broad changes via the command line with something like:
 ```bash
 vi file.txt -c '%s/These words/This sentence/g | %s/were old/is new/g | wq'

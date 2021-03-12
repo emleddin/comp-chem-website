@@ -49,6 +49,7 @@ permalink: /grad-prof-app-resources.html
     * 2 FREE practice tests!
 * GRE<sup>&reg;</sup> analytical writing question pools [Issue Task](https://www.ets.org/gre/revised_general/prepare/analytical_writing/issue/pool) [Argument Task](https://www.ets.org/gre/revised_general/prepare/analytical_writing/argument/pool)
 * Magoosh Vocabulary Builder app (free; great for GRE<sup>&reg;</sup>!) [(iOS)](https://itunes.apple.com/us/app/vocabulary-builder-by-magoosh/id890252250?mt=8) [(Android)](https://play.google.com/store/apps/details?id=com.magoosh.gre.quiz.vocabulary&hl=en_US)
+* [Magoosh GRE Study Plans and Guides](https://magoosh.com/gre/gre-study-plans-and-guides/)
 * [GRE<sup>&reg;</sup> High Frequency Words](https://www.vocabulary.com/lists/194479)
 * [MCAT Question of the Day](http://www.mcatquestion.com/)
 * [MCAT Examkrackers books (~$275; only company to completely redesign for MCAT15)](https://examkrackers.com/product/examkrackers-10th-edition-mcat-complete-study-package-free-ek-exam-4-included/)
