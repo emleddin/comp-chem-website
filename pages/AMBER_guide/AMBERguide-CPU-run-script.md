@@ -14,7 +14,7 @@ An example is the `mineq.sh` script (thanks, Alice!). Doubly-commented parts
 To use this with as little modification as possible, copy your
 `whatever-random-name.inpcrd` as `whatever-random-name_init0.rst`, and then
 modify this script to change the `#PBS -N` line and change the
-`WT_protein_system_wat` prefix to match `whatever-random-name.prmtop`.
+`WT_protein_system_wat` prefix in `sys` to match `whatever-random-name`.
 ```bash
 #!/bin/bash                        ## Tell the script to run in a bash shell
 #PBS -q my_cpu_alloc               ## Use CPUs to run the job
@@ -25,11 +25,16 @@ modify this script to change the `#PBS -N` line and change the
 #PBS -o err.error            ## Write printed errors to a file titled err.error
 #PBS -N WT_protein           ## Name of the job to appear in queue
 
+## Copy inpcrd to file named like WT_protein_system_wat_init0.rst7
+sys=WT_protein_system_wat
+prm=${sys}.prmtop
+
 ## Access the directory you submitted from
 cd $PBS_O_WORKDIR
 
 ## Make a nodefile for all of the CPUs to communicate from
 cat $PBS_NODEFILE  > $PWD/PBS_NODEFILE
+
 ## Load the Amber module
 module load amber/19-mvapich2
 
@@ -46,13 +51,14 @@ while [ $f -lt 4 ]; do
 ## -o is your outfile, -p is your topology (prmtop)
 ## -c is your last save restart file, -r is the restart file written to
 ## -x is the velocity file written to, -ref is the reference (last restart file)
-mpirun -np 20 -hostfile $PWD/PBS_NODEFILE $AMBERHOME/bin/pmemd.MPI -O -i mdin.$f \
--o WT_protein_system_wat_init$f.out \
--p WT_protein_system_wat.prmtop \
--c WT_protein_system_wat_init$e.rst \
--r WT_protein_system_wat_init$f.rst \
--x WT_protein_system_wat_init$f.mdcrd \
--ref WT_protein_system_wat_init$e.rst
+mpirun -np 20 -hostfile $PWD/PBS_NODEFILE $AMBERHOME/bin/pmemd.MPI -O \
+-i mdin.$f \
+-p ${prm} \
+-c ${sys}_init$e.rst7 \
+-ref ${sys}_init$e.rst7
+-o ${sys}_init$f.out \
+-r ${sys}_init$f.rst7 \
+-x ${sys}_init$f.nc
 
 ## Update counters for loop
 e=$[$e+1]

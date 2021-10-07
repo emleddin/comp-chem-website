@@ -12,7 +12,7 @@ other than specifying the actual location to run. The following is an example
 of the `dyanamicsgpu.sh` AMBER script to run on GPUs (thanks again, Alice!).
 Doubly-commented parts (`##`) are included here for explanation purposes.
 
-```
+```bash
 #!/bin/bash                  ## Tell the script to run in a bash shell
 #PBS -q my_gpu_alloc         ## Queue allocation
 #PBS -l n11-12-13            ## Specify this GPU node to run on
@@ -20,6 +20,10 @@ Doubly-commented parts (`##`) are included here for explanation purposes.
 #PBS -r n                    ## Says the job is not rerunnable
 #PBS -o err.error            ## Write printed errors to a file titled err.error
 #PBS -N WT_protein_GPU       ## Name of the job to appear in queue
+
+## Copy final _init*.rst7 as _md0.rst7
+sys=WT_protein_system_wat
+prm=${sys}.prmtop
 
 ## Specify which specific GPU card to run on
 export CUDA_VISIBLE_DEVICES=3
@@ -42,13 +46,14 @@ while [ $f -lt 101 ]; do
 ## -o is your outfile, -p is your topology (prmtop)
 ## -c is your last save restart file, -r is the restart file written to
 ## -x is the velocity file written to, -ref is the reference (last restart file)
-$AMBERHOME/bin/pmemd.cuda -O -i mdin.4 \
--o WT_protein_system_wat_md$f.out \
--p WT_protein_system_wat.prmtop \
--c WT_protein_system_wat_md$e.rst \
--r WT_protein_system_wat_md$f.rst \
--x WT_protein_system_wat_md$f.mdcrd \
--ref WT_protein_system_wat_md$e.rst
+$AMBERHOME/bin/pmemd.cuda -O \
+-i mdin.4 \
+-p ${prm} \
+-c ${sys}_md$e.rst7 \
+-ref ${sys}_md$e.rst7 \
+-o ${sys}_md$f.out \
+-r ${sys}_md$f.rst7 \
+-x ${sys}_md$f.nc
 
 ## Update counters for loop
 e=$[$e+1]
