@@ -59,7 +59,7 @@ entries:
     - title: Backbone Analysis
       url: /Analysisguide-backbone.html
       output: web, pdf
-      
+
     - title: Secondary Structure
       url: /Analysisguide-secondary-structure.html
       output: web, pdf
@@ -130,6 +130,10 @@ entries:
 
     - title: "Fast NMA (ft. cpptraj and Python)"
       url: /Analysisguide-cpptraj-NMA.html
+      output: web, pdf
+
+    - title: "Normal Mode Images in VMD"
+      url: /Analysisguide-NMA-VMD-images.html
       output: web, pdf
 
   - title: Energy Decomposition Analysis (EDA)

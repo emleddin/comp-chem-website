@@ -4,10 +4,12 @@
 topnav:
 - title: Topnav
   items:
+    - title: EML Home
+      external_url: https://emleddin.github.io/
     - title: GitHub
       external_url: https://github.com/emleddin
-    - title: News
-      url: /news
+##    - title: News
+##      url: /news
 
 #Topnav dropdowns
 topnav_dropdowns:

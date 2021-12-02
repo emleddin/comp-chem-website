@@ -143,7 +143,7 @@ Load NMD File</code> to load the NMD file.
 3. Open the RMSD Trajectory Tool through <code>Extensions &rarr; Analysis &rarr;
 RMSD Trajectory Tool</code>.
 4. In the Tool, match the name you used in `cpptraj` to create the command in
-the top left box (likely `name CA P "C4'" C2`).
+the top left box (likely `name CA P "C4'" C2` or `name CA`).
 5. In the `Trajectory` box on the right, deselect all options.
 6. Remove the `{ default_name arrow}` option by highlighting and choosing
 `Erase selected`.
@@ -154,12 +154,12 @@ the top left box (likely `name CA P "C4'" C2`).
 You specifically want to highlight `{ default_name coordinates}` so that the
 arrows and "coordinates" stay in the same place and only the full structural
 coordinates move.
-Otherwise, the tube tracing and stucture will be in one place and the arrows
+Otherwise, the tube tracing and structure will be in one place and the arrows
 will be in another.
 This transformation will not be saved in a `.vmd` visualization state file.
 
 ## Using the Trajectory Tool {#cpptraj-NMD}
-{% include image.html file="Analysis/cpptraj-NMD-TrajTool"
+{% include image.html file="Analysis/cpptraj-NMD-TrajTool.png"
 alt="The RMSD Trajectory Tool for VMD. The top left has the box for selections,
 the top right has the RMSD and ALIGN buttons. Below them is the Reference mol
 section, and below that trajectory options."

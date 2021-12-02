@@ -23,6 +23,11 @@ password, since you don't get to change it." %}
 ## Nucleotide Fragment Generation
 PyRED creates parameters for nucleotides in fragments.
 
+For monophosphates, you'll build in two fragments: the capped phosphate with
+an O5', and the nucleotide out to O5' with a hydrogen cap.
+PyRED will build these two structures together, with the specified connectivity
+information in `Project.config`.
+
 <u> Dimethylphosphate Portion of PDB (<code>Mol_red1.pdb</code>) </u>
 ```
 ATOM      1  C1  DMP     1       1.100   0.000   0.000
