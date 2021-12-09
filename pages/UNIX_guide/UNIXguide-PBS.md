@@ -138,6 +138,29 @@ like these.
 Do *not* run Gaussian without a script unless your administrator has told
 you to do so." %}
 
+The following is an example of an R script.
+```bash
+#!/bin/bash
+#PBS -N R-test                  ## name of job for queue
+#PBS -q my_cpu_alloc            ## name of job for queue
+#PBS -l nodes=1:ppn=1,mem=20GB  ## 20 processors
+#PBS -j oe                      ## same output and error file
+#PBS -r n                       ## Job not re-runnable
+#PBS -o R.error                 ## name of error file
+
+## Go to the place you submit the job from
+cd $PBS_O_WORKDIR
+
+## Path to R packages
+export R_LIBS=/share/apps/R/3.6.0/pkgs
+
+## Load the module
+module load R/3.6.0
+
+## Run the R script
+Rscript name_of_actual_R_script.R
+```
+
 ## GPU Run Script {#GPU}
 
 There are not many differences between a script to run on GPUs versus CPUs,
@@ -345,5 +368,18 @@ $ qdel 1323523
 ```
 where `1323523` is the job number that was given when the job was submitted.
 
+## qalter {#qalter}
+
+The `qalter` command lets you modify some attributes of a submission without
+outright cancelling it.
+This can be really helpful if you want to modify the name of the job that
+appears in the queue after submitting it.
+For example, if you copied a script but wanted to change the replicate number
+for the queue, you could use:
+```bash
+$ qalter 1323523 -N WT.Prot.R2
+```
+where `1323523` is the job number that was given when the job was submitted and
+the `-N` flag specifies that the name argument should be modified.
 
 {% include links.html %}

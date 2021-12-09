@@ -13,7 +13,7 @@ If this quick guide doesn't provide enough detail, there is more information
 available on [UNT's HPC website](https://hpc.unt.edu/slurm) or the
 [Slurm website](https://slurm.schedmd.com/sbatch.html).
 
-# CPU Run Scripts {#CPU}
+## CPU Run Scripts {#CPU}
 
 Run scripts, or jobfiles, contain all the necessary information to run a job.
 An example is the `run-R.job` script.
@@ -87,7 +87,7 @@ cp -r $GAUSS_SCRDIR/$input.chk $SLURM_SUBMIT_DIR
 exit 0
 ```
 
-# GPU Run Scripts {#GPU}
+## GPU Run Scripts {#GPU}
 
 The following is an example script to run GPU AMBER jobs on Talon3.
 ```bash
@@ -122,7 +122,7 @@ f=$[$f+1]
 done
 ```
 
-# sbatch {#sbatch}
+## sbatch {#sbatch}
 Submitting jobs is done with the `sbatch` command.
 To submit a jobfile named `jobfile`, the command would simply be:
 ```bash
@@ -141,7 +141,7 @@ where `12345` is the job ID of `job A` and `jobfile` is the jobfile of `job B`.
 The job ID is given when `job A` is submitted, but it can also be checked in
 the queue with [squeue](UNIXguide-SLURM.html#squeue).
 
-# squeue {#squeue}
+## squeue {#squeue}
 
 If you want to see what jobs you have running or waiting to run (queued jobs),
 then use `squeue`.
@@ -155,13 +155,25 @@ where `1323523` is the job number that was given when the job was submitted.
 Alternatively, to show just what you, a specific user, are running, use
 `squeue -u`.
 
-# scancel {#scancel}
+## scancel {#scancel}
 Sometimes you scream out in horror when you realize that you shouldn't have
 submitted a job yet, or it's taking too long and you'd rather just kill it.
 On SLURM systems, this can be done with `scancel`.
 Again, the job number will need to be added, so that it's practically look like:
 ```bash
 $ scancel 1323523
+```
+where `1323523` is the job number that was given when the job was submitted.
+
+## scontrol {#scontrol}
+The `scontrol` command lets you modify some attributes of a submission without
+outright cancelling it.
+This can be really helpful if you want to modify the name of the job that
+appears in the queue after submitting it.
+For example, if you copied a script but wanted to change the replicate number
+for the queue, you could use:
+```bash
+$ scontrol 1323523 name=WT.Prot.R2
 ```
 where `1323523` is the job number that was given when the job was submitted.
 
